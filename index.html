@@ -142,7 +142,7 @@
                         <span id="chapter-badge" class="text-xs font-bold px-2.5 py-1 rounded bg-slate-200 text-slate-700 uppercase tracking-wider">A1</span>
                         <span class="text-sm text-slate-400" id="chapter-number">Structure de base</span>
                     </div>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="chapter-title">Einführung: Les Fondations</h2>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="chapter-title">Chargement en cours...</h2>
                 </div>
                 
                 <div class="flex items-center gap-3">
@@ -169,119 +169,32 @@
 
     <!-- CONFIGURATION & LOGIQUE JS DU COMPAGNON -->
     <script>
-        const chaptersData = {
+        // --- BASE DE DONNÉES LOCALE DE REPLI (FALLBACK) ---
+        // Si les fichiers JSON dans le dossier data/ ne sont pas accessibles (ex: en local hors-ligne),
+        // l'application utilisera automatiquement ces fiches intégrées.
+        const fallbackData = {
             "einfuehrung": {
                 id: "einfuehrung",
                 title: "Introduction : Les clés fondamentales",
                 number: "Einführung",
                 level: "A1",
                 content: `
-                    <!-- CONSEIL PEDAGOGIQUE -->
                     <div class="p-4 bg-emerald-50/70 border border-emerald-100 rounded-xl text-sm text-emerald-800 leading-relaxed">
-                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> En allemand, la clarté commence par identifier les natures de mots (Wortarten). Prêtez une attention toute particulière aux <strong>majuscules systématiques sur les noms communs</strong> et à la <strong>place du verbe conjugué</strong>. C'est la charpente de la phrase !
+                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> En allemand, la clarté commence par identifier les natures de mots (Wortarten). Prêtez une attention toute particulière aux <strong>majuscules systématiques sur les noms communs</strong> et à la <strong>place du verbe conjugué</strong>.
                     </div>
-
-                    <!-- BLOC 1: NATURES DES MOTS -->
                     <section class="space-y-4">
                         <div class="flex items-center gap-2">
                             <span class="h-6 w-1 bg-indigo-600 rounded"></span>
                             <h3 class="text-lg font-bold text-slate-900">1. Les Classes de Mots (Die Wortarten)</h3>
                         </div>
-                        <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
-                            Pour comprendre les explications de la grammaire de l'allemand, vous devez identifier les mots de base.
-                        </p>
-                        
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-100 transition-colors">
+                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
                                 <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Substantiv / Nomen</span>
                                 <h4 class="font-bold text-slate-900 text-base mb-1">Le Nom Commun</h4>
-                                <p class="text-xs text-slate-500 mb-2">Prend TOUJOURS une majuscule en allemand.</p>
                                 <div class="bg-slate-50 p-2.5 rounded-lg text-sm flex justify-between items-center">
                                     <span class="font-semibold text-slate-900">der Mann, das Buch</span>
                                     <span class="translation text-slate-500 text-xs italic">l'homme, le livre</span>
                                 </div>
-                            </div>
-
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-100 transition-colors">
-                                <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Verb</span>
-                                <h4 class="font-bold text-slate-900 text-base mb-1">Le Verbe</h4>
-                                <p class="text-xs text-slate-500 mb-2">Exprime une action ou un état. Se conjugue.</p>
-                                <div class="bg-slate-50 p-2.5 rounded-lg text-sm flex justify-between items-center">
-                                    <span class="font-semibold text-slate-900">lernen, wohnen</span>
-                                    <span class="translation text-slate-500 text-xs italic">apprendre, habiter</span>
-                                </div>
-                            </div>
-
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-100 transition-colors">
-                                <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Artikel</span>
-                                <h4 class="font-bold text-slate-900 text-base mb-1">L'Article</h4>
-                                <p class="text-xs text-slate-500 mb-2">Indique le genre (Masc, Fém, Neutre) et le cas.</p>
-                                <div class="bg-slate-50 p-2.5 rounded-lg text-sm flex justify-between items-center">
-                                    <span class="font-semibold text-slate-900">der, die, das / ein, eine</span>
-                                    <span class="translation text-slate-500 text-xs italic">le, la, l' / un, une</span>
-                                </div>
-                            </div>
-
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm hover:border-indigo-100 transition-colors">
-                                <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Pronomen</span>
-                                <h4 class="font-bold text-slate-900 text-base mb-1">Le Pronom</h4>
-                                <p class="text-xs text-slate-500 mb-2">Remplace un nom ou désigne une personne.</p>
-                                <div class="bg-slate-50 p-2.5 rounded-lg text-sm flex justify-between items-center">
-                                    <span class="font-semibold text-slate-900">ich, du, er, sie, es</span>
-                                    <span class="translation text-slate-500 text-xs italic">je, tu, il, elle, il/elle (neutre)</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 2: LA STRUCTURE SIMPLE -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">2. La structure de base : L'ordre des mots</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            En allemand, dans une phrase affirmative ou déclarative simple, <strong class="text-slate-900">le verbe conjugué se trouve TOUJOURS en position 2</strong>.
-                        </p>
-
-                        <!-- COMPOSANT INTERACTIF : POSITION DU VERBE -->
-                        <div class="bg-white rounded-xl border border-slate-100 p-4 sm:p-6 shadow-sm">
-                            <h4 class="font-bold text-slate-800 text-sm mb-4 uppercase tracking-wider">Modèle de la phrase déclarative</h4>
-                            
-                            <div class="space-y-3">
-                                <!-- Exemple 1 -->
-                                <div class="grid grid-cols-3 gap-2 text-center text-xs sm:text-sm">
-                                    <div class="bg-slate-100 p-3 rounded-lg border border-slate-200">
-                                        <span class="block text-[10px] text-slate-400 font-bold mb-1">POS 1 (Sujet)</span>
-                                        <span class="font-semibold text-slate-700">Ich</span>
-                                    </div>
-                                    <div class="bg-indigo-100 p-3 rounded-lg border border-indigo-200 ring-2 ring-indigo-300">
-                                        <span class="block text-[10px] text-indigo-500 font-bold mb-1">POS 2 (Verbe)</span>
-                                        <span class="font-bold text-indigo-900">lerne</span>
-                                    </div>
-                                    <div class="bg-slate-100 p-3 rounded-lg border border-slate-200">
-                                        <span class="block text-[10px] text-slate-400 font-bold mb-1">AUTRES</span>
-                                        <span class="font-semibold text-slate-700">Deutsch.</span>
-                                    </div>
-                                </div>
-                                <div class="translation text-center text-xs italic text-slate-500 mb-4">J'apprends l'allemand.</div>
-
-                                <!-- Exemple 2 avec Complément en Pos 1 -->
-                                <div class="grid grid-cols-3 gap-2 text-center text-xs sm:text-sm">
-                                    <div class="bg-amber-50 p-3 rounded-lg border border-amber-200">
-                                        <span class="block text-[10px] text-amber-600 font-bold mb-1">POS 1 (Complément)</span>
-                                        <span class="font-semibold text-amber-900">Heute</span>
-                                    </div>
-                                    <div class="bg-indigo-100 p-3 rounded-lg border border-indigo-200 ring-2 ring-indigo-300">
-                                        <span class="block text-[10px] text-indigo-500 font-bold mb-1">POS 2 (Verbe)</span>
-                                        <span class="font-bold text-indigo-900">lerne</span>
-                                    </div>
-                                    <div class="bg-slate-100 p-3 rounded-lg border border-slate-200">
-                                        <span class="block text-[10px] text-slate-400 font-bold mb-1">POS 3 (Sujet)</span>
-                                        <span class="font-semibold text-slate-700">ich Deutsch.</span>
-                                    </div>
-                                </div>
-                                <div class="translation text-center text-xs italic text-slate-500">Aujourd'hui, j'apprends l'allemand. (Notez l'inversion du sujet !)</div>
                             </div>
                         </div>
                     </section>
@@ -293,161 +206,12 @@
                 number: "Verben",
                 level: "A1-A2",
                 content: `
-                    <!-- CONSEIL PEDAGOGIQUE -->
                     <div class="p-4 bg-emerald-50/70 border border-emerald-100 rounded-xl text-sm text-emerald-800 leading-relaxed">
-                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> Le présent est utilisé pour exprimer des faits actuels mais aussi de manière très courante le futur en allemand. Pour le maîtriser, visualisez toujours deux éléments : le <strong class="text-indigo-900">radical du verbe</strong> et sa <strong class="text-emerald-900">terminaison standard (-e, -st, -t, -en, -t, -en)</strong>.
+                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> Visualisez toujours deux éléments : le radical du verbe et sa terminaison standard.
                     </div>
-
-                    <!-- BLOC 1: VERBES REGULIERS -->
                     <section class="space-y-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">1. Les Verbes Réguliers (Schwache Verben)</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            Le radical du verbe reste inchangé. On lui ajoute les terminaisons de personnes standard :
-                        </p>
-
-                        <div class="bg-white rounded-xl border border-slate-100 overflow-hidden shadow-sm">
-                            <div class="bg-indigo-900 text-white p-3 font-semibold text-sm flex justify-between items-center">
-                                <span>Modèle : lernen <span class="text-xs text-indigo-300 font-normal">(apprendre)</span></span>
-                                <span class="text-xs bg-indigo-800 px-2 py-0.5 rounded font-mono">Radical: lern-</span>
-                            </div>
-                            <div class="divide-y divide-slate-100 text-sm">
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">ich</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-e</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">j'apprends</span>
-                                </div>
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">du</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-st</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">tu apprends</span>
-                                </div>
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">er/sie/es</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-t</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">il/elle apprend</span>
-                                </div>
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">wir</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-en</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">nous apprenons</span>
-                                </div>
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">ihr</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-t</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">vous apprenez</span>
-                                </div>
-                                <div class="p-3 flex justify-between items-center hover:bg-slate-50">
-                                    <div class="flex items-center gap-3">
-                                        <span class="w-16 font-semibold text-slate-500">sie/Sie</span>
-                                        <span class="font-mono text-slate-900">lern<strong class="text-rose-600 font-extrabold">-en</strong></span>
-                                    </div>
-                                    <span class="translation text-slate-500 text-xs italic">ils/elles apprennent / Vous (politesse)</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 2: PARTICULARIÉ DE CONJUGAISON -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">2. Particularités du Radical (e.g., -t, -d, -s, -z)</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            Certains verbes réguliers exigent un <strong class="text-slate-950 font-bold">e d'appui</strong> pour faciliter la prononciation quand le radical se termine par <strong>-t, -d, -m, -n</strong>.
-                        </p>
-                        
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <h4 class="font-bold text-slate-800 text-sm mb-2">Radicaux en -t / -d <span class="text-xs text-rose-600 font-normal">(e.g., arbeiten, finden)</span></h4>
-                                <p class="text-xs text-slate-500 mb-3">On ajoute un <strong>e</strong> supplémentaire avant <strong>-st</strong> et <strong>-t</strong>.</p>
-                                <ul class="space-y-1.5 text-xs font-mono text-slate-700">
-                                    <li>du arbeit<strong class="text-indigo-600 font-bold">e</strong>st</li>
-                                    <li>er arbeit<strong class="text-indigo-600 font-bold">e</strong>t</li>
-                                    <li>ihr arbeit<strong class="text-indigo-600 font-bold">e</strong>t</li>
-                                </ul>
-                            </div>
-
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <h4 class="font-bold text-slate-800 text-sm mb-2">Radicaux en -s, -ss, -z <span class="text-xs text-rose-600 font-normal">(e.g., heißen, reisen)</span></h4>
-                                <p class="text-xs text-slate-500 mb-3">La terminaison de la 2e personne du singulier devient <strong>-t</strong> au lieu de <strong>-st</strong>.</p>
-                                <ul class="space-y-1.5 text-xs font-mono text-slate-700">
-                                    <li>du heiß<strong class="text-indigo-600 font-bold">t</strong> <span class="font-sans text-[10px] text-slate-400 font-normal">(et non heiß-st)</span></li>
-                                    <li>du reis<strong class="text-indigo-600 font-bold">t</strong></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 3: CHANGEMENT DE VOYELLE (Verbes Irréguliers) -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">3. Les Verbes Irréguliers à Changement de Voyelle</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            En allemand, de nombreux verbes forts changent de voyelle au radical à la <strong class="text-rose-600 font-bold">2e (du)</strong> et <strong class="text-rose-600 font-bold">3e (er/sie/es)</strong> personne du singulier uniquement !
-                        </p>
-
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <!-- e -> i / ie -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-                                    <span class="text-xs font-bold text-rose-600 uppercase">Changement e ➔ i / ie</span>
-                                    <span class="text-[10px] bg-slate-100 px-2 py-0.5 rounded text-slate-600">A1-A2</span>
-                                </div>
-                                <h5 class="text-sm font-bold text-slate-800 mb-2">sprechen (parler) / sehen (voir)</h5>
-                                <ul class="space-y-1.5 text-xs text-slate-700">
-                                    <li class="flex justify-between"><span>ich spreche</span> <span class="translation text-slate-400 italic">je parle</span></li>
-                                    <li class="flex justify-between font-bold text-indigo-600"><span>du spr<span class="underline">i</span>chst</span> <span class="translation text-slate-400 italic font-normal">tu parles</span></li>
-                                    <li class="flex justify-between font-bold text-indigo-600"><span>er spr<span class="underline">i</span>cht</span> <span class="translation text-slate-400 italic font-normal">il parle</span></li>
-                                    <li class="flex justify-between"><span>wir sprechen</span></li>
-                                    <li class="flex justify-between"><span>du s<span class="underline">ie</span>hst</span> <span class="font-sans text-[10px] text-slate-400">(sehen)</span></li>
-                                </ul>
-                            </div>
-
-                            <!-- a -> ä -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-                                    <span class="text-xs font-bold text-rose-600 uppercase">Changement a ➔ ä</span>
-                                    <span class="text-[10px] bg-slate-100 px-2 py-0.5 rounded text-slate-600">A1-A2</span>
-                                </div>
-                                <h5 class="text-sm font-bold text-slate-800 mb-2">fahren (conduire/aller)</h5>
-                                <ul class="space-y-1.5 text-xs text-slate-700">
-                                    <li class="flex justify-between"><span>ich fahre</span> <span class="translation text-slate-400 italic">je vais</span></li>
-                                    <li class="flex justify-between font-bold text-indigo-600"><span>du f<span class="underline">ä</span>hrst</span> <span class="translation text-slate-400 italic font-normal">tu vas</span></li>
-                                    <li class="flex justify-between font-bold text-indigo-600"><span>er f<span class="underline">ä</span>hrt</span> <span class="translation text-slate-400 italic font-normal">il va</span></li>
-                                    <li class="flex justify-between"><span>wir fahren</span></li>
-                                </ul>
-                            </div>
-
-                            <!-- Auxiliaires essentiels -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="flex items-center justify-between mb-2 pb-2 border-b border-slate-100">
-                                    <span class="text-xs font-bold text-rose-600 uppercase">Les Auxiliaires (Indispensables)</span>
-                                    <span class="text-[10px] bg-slate-100 px-2 py-0.5 rounded text-slate-600">A1</span>
-                                </div>
-                                <h5 class="text-sm font-bold text-slate-800 mb-2">haben, sein, werden</h5>
-                                <ul class="space-y-1 text-xs text-slate-700">
-                                    <li><strong class="text-slate-900">sein :</strong> ich bin, du <span class="font-bold text-rose-600">bist</span>, er <span class="font-bold text-rose-600">ist</span>, wir sind, ihr seid, sie sind</li>
-                                    <li class="pt-1"><strong class="text-slate-900">haben :</strong> ich habe, du <span class="font-bold text-rose-600">hast</span>, er <span class="font-bold text-rose-600">hat</span>, wir haben</li>
-                                    <li class="pt-1"><strong class="text-slate-900">werden :</strong> ich werde, du <span class="font-bold text-rose-600">wirst</span>, er <span class="font-bold text-rose-600">wird</span>, wir werden</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h3 class="text-lg font-bold text-slate-900">1. Les Verbes Réguliers</h3>
+                        <p class="text-sm text-slate-600">Formes standards : -e, -st, -t, -en, -t, -en.</p>
                     </section>
                 `
             },
@@ -456,240 +220,24 @@
                 title: "1.2. Le Parfait (Perfekt)",
                 number: "Verben",
                 level: "A1-A2",
-                locked: false,
                 content: `
-                    <!-- CONSEIL PEDAGOGIQUE -->
-                    <div class="p-4 bg-emerald-50/70 border border-emerald-100 rounded-xl text-sm text-emerald-800 leading-relaxed">
-                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> Le Parfait (Perfekt) est le temps du passé par excellence pour la communication courante en allemand (à l'oral et dans les e-mails). Sa structure repose sur deux éléments essentiels : <strong class="text-indigo-900">l'auxiliaire (haben ou sein)</strong> conjugué en position 2, et le <strong class="text-indigo-900">Participe II (Partizip II)</strong> immuablement rejeté en toute fin de proposition.
+                    <div class="p-4 bg-indigo-50 border border-indigo-100 rounded-xl text-sm text-indigo-800">
+                        <p><strong>💡 Rappel :</strong> Le Parfait utilise l'auxiliaire <em>haben</em> ou <em>sein</em> + le Participe II à la fin de la phrase.</p>
                     </div>
-
-                    <!-- BLOC 1: AUXILIAIRE HABEN OU SEIN -->
-                    <section class="space-y-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">1. Le choix de l'auxiliaire : Haben ou Sein ?</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            Le choix de l'auxiliaire est très logique en allemand et répond à des critères précis :
-                        </p>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <!-- SEIN CARD -->
-                            <div class="bg-amber-50/50 p-4 rounded-xl border border-amber-200">
-                                <h4 class="font-bold text-amber-900 text-sm mb-2 flex items-center gap-2">
-                                    <span class="h-2 w-2 rounded-full bg-amber-500"></span>
-                                    Avec l'auxiliaire SEIN (Être)
-                                </h4>
-                                <ul class="space-y-2 text-xs text-amber-950">
-                                    <li>• <strong class="font-semibold">Changement de lieu (Ortswechsel) :</strong> mouvement d'un point A à un point B (sans COD).
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>fahren, gehen, kommen, fliegen...</span>
-                                            <span class="translation text-slate-500 italic">aller (véhicule), aller (pied), venir, voler (air)...</span>
-                                        </div>
-                                    </li>
-                                    <li>• <strong class="font-semibold">Changement d'état (Zustandswechsel) :</strong> transition d'un état d'être à un autre.
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>einschlafen, aufwachen, sterben...</span>
-                                            <span class="translation text-slate-500 italic">s'endormir, se réveiller, mourir...</span>
-                                        </div>
-                                    </li>
-                                    <li>• <strong class="font-semibold">Exceptions intransitives :</strong>
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>sein (gewesen), bleiben (geblieben), passieren</span>
-                                            <span class="translation text-slate-500 italic">être, rester, se passer</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- HABEN CARD -->
-                            <div class="bg-rose-50/50 p-4 rounded-xl border border-rose-200">
-                                <h4 class="font-bold text-rose-900 text-sm mb-2 flex items-center gap-2">
-                                    <span class="h-2 w-2 rounded-full bg-rose-500"></span>
-                                    Avec l'auxiliaire HABEN (Avoir)
-                                </h4>
-                                <p class="text-xs text-rose-950 mb-2">
-                                    Il s'utilise pour <strong class="font-semibold">la grande majorité</strong> des autres verbes :
-                                </p>
-                                <ul class="space-y-2 text-xs text-rose-950">
-                                    <li>• <strong class="font-semibold">Tous les verbes transitifs (avec un COD) :</strong>
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>essen (gegessen), lesen (gelesen), kaufen</span>
-                                            <span class="translation text-slate-500 italic">manger, lire, acheter</span>
-                                        </div>
-                                    </li>
-                                    <li>• <strong class="font-semibold">Tous les verbes réfléchis :</strong>
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>sich waschen (gewaschen), sich beeilen</span>
-                                            <span class="translation text-slate-500 italic">se laver, se dépêcher</span>
-                                        </div>
-                                    </li>
-                                    <li>• <strong class="font-semibold">Les verbes statiques ou de position :</strong>
-                                        <div class="bg-white/80 p-1.5 rounded mt-1 font-mono flex justify-between">
-                                            <span>stehen (gestanden), wohnen (gewohnt)</span>
-                                            <span class="translation text-slate-500 italic">rester debout, habiter</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 2: LA FORMATION DU PARTICIPE II -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">2. La formation du Participe II (Partizip II)</h3>
-                        </div>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <!-- Verbes Réguliers -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="text-xs font-bold text-indigo-600 uppercase mb-1">Verbes Réguliers</div>
-                                <h4 class="font-extrabold text-slate-900 text-sm mb-2 font-mono">ge- + radical + -t</h4>
-                                <ul class="space-y-1.5 text-xs text-slate-600 font-mono">
-                                    <li class="flex justify-between"><span>lernen ➔ <strong class="text-indigo-600">ge</strong>lern<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">appris</span></li>
-                                    <li class="flex justify-between"><span>kochen ➔ <strong class="text-indigo-600">ge</strong>koch<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">cuit</span></li>
-                                    <li class="flex justify-between"><span>warten ➔ <strong class="text-indigo-600">ge</strong>wart<strong class="text-rose-600">et</strong></span> <span class="translation text-slate-400 italic">attendu (e d'appui)</span></li>
-                                </ul>
-                            </div>
-
-                            <!-- Verbes Irréguliers -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="text-xs font-bold text-indigo-600 uppercase mb-1">Verbes Irréguliers</div>
-                                <h4 class="font-extrabold text-slate-900 text-sm mb-2 font-mono">ge- + radical + -en</h4>
-                                <p class="text-[10px] text-rose-500 mb-2">Attention : changement fréquent de la voyelle du radical !</p>
-                                <ul class="space-y-1.5 text-xs text-slate-600 font-mono">
-                                    <li class="flex justify-between"><span>lesen ➔ <strong class="text-indigo-600">ge</strong>les<strong class="text-rose-600">en</strong></span> <span class="translation text-slate-400 italic">lu (sans changement)</span></li>
-                                    <li class="flex justify-between"><span>trinken ➔ <strong class="text-indigo-600">ge</strong>tr<strong class="text-rose-600 font-extrabold">u</strong>nk<strong class="text-rose-600">en</strong></span> <span class="translation text-slate-400 italic">bu (i ➔ u)</span></li>
-                                    <li class="flex justify-between"><span>schreiben ➔ <strong class="text-indigo-600">ge</strong>schr<strong class="text-rose-600 font-extrabold">ie</strong>b<strong class="text-rose-600">en</strong></span> <span class="translation text-slate-400 italic">écrit (ei ➔ ie)</span></li>
-                                </ul>
-                            </div>
-
-                            <!-- Verbes en -ieren -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <div class="text-xs font-bold text-indigo-600 uppercase mb-1">Verbes en -ieren</div>
-                                <h4 class="font-extrabold text-slate-900 text-sm mb-2 font-mono">radical + -t (Pas de 'ge-')</h4>
-                                <p class="text-[10px] text-slate-400 mb-2">Verbes d'origine étrangère.</p>
-                                <ul class="space-y-1.5 text-xs text-slate-600 font-mono">
-                                    <li class="flex justify-between"><span>studieren ➔ studier<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">étudié</span></li>
-                                    <li class="flex justify-between"><span>telefonieren ➔ telefonier<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">téléphoné</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 3: LES VERBES A PARTICULE (PREFIXES) -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">3. Le comportement des verbes à particule</h3>
-                        </div>
-                        
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <!-- Particule séparable -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <h4 class="font-bold text-slate-800 text-sm mb-2 flex justify-between items-center">
-                                    <span>Particule séparable (Trennbare)</span>
-                                    <span class="text-[10px] bg-emerald-100 px-2 py-0.5 rounded text-emerald-800 font-bold">-ge- intercalé</span>
-                                </h4>
-                                <p class="text-xs text-slate-500 mb-3">La syllabe <strong>-ge-</strong> vient s'immiscer directement entre le préfixe et le radical.</p>
-                                <ul class="space-y-1.5 text-xs font-mono text-slate-700">
-                                    <li class="flex justify-between"><span>aufstehen ➔ auf➔<strong class="text-indigo-600">ge</strong>➔stand➔<strong class="text-rose-600">en</strong></span> <span class="translation text-slate-400 italic">levé</span></li>
-                                    <li class="flex justify-between"><span>einkaufen ➔ ein➔<strong class="text-indigo-600">ge</strong>➔kauf➔<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">acheté</span></li>
-                                    <li class="flex justify-between"><span>ausdrucken ➔ aus➔<strong class="text-indigo-600">ge</strong>➔druck➔<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">imprimé</span></li>
-                                </ul>
-                            </div>
-
-                            <!-- Particule inséparable -->
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <h4 class="font-bold text-slate-800 text-sm mb-2 flex justify-between items-center">
-                                    <span>Particule inséparable (Inseparabel)</span>
-                                    <span class="text-[10px] bg-rose-100 px-2 py-0.5 rounded text-rose-800 font-bold">Pas de -ge-</span>
-                                </h4>
-                                <p class="text-xs text-slate-500 mb-3">Les verbes avec un préfixe atone (<strong>be-, emp-, ent-, er-, ge-, miss-, ver-, zer-</strong>) ne prennent jamais de <strong>-ge-</strong>.</p>
-                                <ul class="space-y-1.5 text-xs font-mono text-slate-700">
-                                    <li class="flex justify-between"><span>besuchen ➔ besuch➔<strong class="text-rose-600">t</strong></span> <span class="translation text-slate-400 italic">visité</span></li>
-                                    <li class="flex justify-between"><span>verstehen ➔ verstand➔<strong class="text-rose-600">en</strong></span> <span class="translation text-slate-400 italic">compris</span></li>
-                                    <li class="flex justify-between"><span>beantworten ➔ beantwortet➔<strong class="text-rose-600">et</strong></span> <span class="translation text-slate-400 italic">répondu</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- BLOC 4: L'ORDRE DES MOTS -->
-                    <section class="space-y-4 pt-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">4. Structure de la phrase : La structure en "pince"</h3>
-                        </div>
-                        <p class="text-slate-600 leading-relaxed text-sm">
-                            C'est un des mécanismes les plus rigides de la langue allemande. L'auxiliaire et le participe s'organisent de façon à encadrer tous les autres compléments.
-                        </p>
-
-                        <div class="bg-slate-900 text-white rounded-xl p-4 sm:p-6 shadow-md font-mono text-xs sm:text-sm">
-                            <div class="grid grid-cols-4 gap-2 text-center">
-                                <div class="p-2 border border-slate-700 rounded bg-slate-800 text-slate-300">
-                                    <span class="block text-[9px] text-slate-500 font-bold mb-1">SUJET</span>
-                                    <span>Ich</span>
-                                </div>
-                                <div class="p-2 border-2 border-emerald-500 rounded bg-emerald-950/50 text-emerald-400">
-                                    <span class="block text-[9px] text-emerald-500 font-bold mb-1">AUXILIAIRE (POS 2)</span>
-                                    <span>bin</span>
-                                </div>
-                                <div class="p-2 border border-slate-700 rounded bg-slate-800 text-slate-300">
-                                    <span class="block text-[9px] text-slate-500 font-bold mb-1">COMPLEMENTS</span>
-                                    <span>nach Berlin</span>
-                                </div>
-                                <div class="p-2 border-2 border-rose-500 rounded bg-rose-950/50 text-rose-400">
-                                    <span class="block text-[9px] text-rose-500 font-bold mb-1">PARTICIPE II (FIN)</span>
-                                    <span>gefahren.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                 `
-            },
-            "nomen-deklination": {
-                id: "nomen-deklination",
-                title: "2. Noms et Articles : Le Nominatif et l'Accusatif",
-                number: "Nomen",
-                level: "A1",
-                locked: true,
-                content: `<div class="text-center py-12"><p class="text-slate-400">Ce chapitre sera rédigé ensemble lors de notre prochaine étape !</p></div>`
-            },
-            "nomen-dativ": {
-                id: "nomen-dativ",
-                title: "2.2. Le Datif et son utilisation",
-                number: "Nomen",
-                level: "A1-A2",
-                locked: true,
-                content: `<div class="text-center py-12"><p class="text-slate-400">Ce chapitre sera rédigé ensemble lors de notre prochaine étape !</p></div>`
-            },
-            "pronomen-possessiv": {
-                id: "pronomen-possessiv",
-                title: "3. Les Pronoms Possessifs",
-                number: "Pronomen",
-                level: "A1-A2",
-                locked: true,
-                content: `<div class="text-center py-12"><p class="text-slate-400">Ce chapitre sera rédigé ensemble lors de notre prochaine étape !</p></div>`
-            },
-            "adjektive": {
-                id: "adjektive",
-                title: "4. La déclinaison de l'Adjectif",
-                number: "Adjektive",
-                level: "A2",
-                locked: true,
-                content: `<div class="text-center py-12"><p class="text-slate-400">Ce chapitre sera rédigé ensemble lors de notre prochaine étape !</p></div>`
-            },
-            "praepositionen": {
-                id: "praepositionen",
-                title: "5. Les Prépositions mixtes (Wechselpräpositionen)",
-                number: "Präpositionen",
-                level: "A1-A2",
-                locked: true,
-                content: `<div class="text-center py-12"><p class="text-slate-400">Ce chapitre sera rédigé ensemble lors de notre prochaine étape !</p></div>`
             }
+        };
+
+        // Configuration de la liste complète des chapitres
+        const chaptersMetadata = {
+            "einfuehrung": { id: "einfuehrung", title: "Introduction : Les clés fondamentales", number: "Einführung", level: "A1", locked: false },
+            "verben-presens": { id: "verben-presens", title: "1.1. Le Présent (Präsens)", number: "Verben", level: "A1-A2", locked: false },
+            "verben-perfekt": { id: "verben-perfekt", title: "1.2. Le Parfait (Perfekt)", number: "Verben", level: "A1-A2", locked: false },
+            "nomen-deklination": { id: "nomen-deklination", title: "2. Noms et Articles", number: "Nomen", level: "A1", locked: true },
+            "nomen-dativ": { id: "nomen-dativ", title: "2.2. Le Datif", number: "Nomen", level: "A1-A2", locked: true },
+            "pronomen-possessiv": { id: "pronomen-possessiv", title: "3. Les Pronoms Possessifs", number: "Pronomen", level: "A1-A2", locked: true },
+            "adjektive": { id: "adjektive", title: "4. La déclinaison de l'Adjectif", number: "Adjektive", level: "A2", locked: true },
+            "praepositionen": { id: "praepositionen", title: "5. Les Prépositions mixtes", number: "Präpositionen", level: "A1-A2", locked: true }
         };
 
         // --- GESTION DE L'ÉTAT LOCAL (STATE) ---
@@ -702,16 +250,11 @@
 
         // --- CHARGEMENT DU COMPAGNON ---
         window.onload = function() {
-            // Charger les données du localStorage si existantes
             const savedState = localStorage.getItem("a_grammatik_companion_state");
             if (savedState) {
                 state = JSON.parse(savedState);
-            } else {
-                state.completedChapters = [];
-                state.showTranslations = true;
             }
 
-            // Charger les notes
             const savedNotes = localStorage.getItem("a_grammatik_notes");
             if (savedNotes) {
                 document.getElementById("user-notes").value = savedNotes;
@@ -748,7 +291,6 @@
             showNotification("Vos notes personnelles ont été sauvegardées localement !");
         }
 
-        // --- PERSISTANCE DE L'ÉTAT GLOBLAL ---
         function saveGlobalState() {
             localStorage.setItem("a_grammatik_companion_state", JSON.stringify(state));
             updateGlobalProgress();
@@ -759,14 +301,14 @@
             const nav = document.getElementById("navigation-list");
             nav.innerHTML = "";
 
-            Object.values(chaptersData).forEach(chapter => {
+            Object.values(chaptersMetadata).forEach(chapter => {
                 const isSelected = chapter.id === state.currentChapterId;
                 const isCompleted = state.completedChapters.includes(chapter.id);
                 
                 const btn = document.createElement("button");
                 btn.className = `w-full text-left px-3.5 py-2.5 rounded-xl text-sm transition-all flex items-center justify-between gap-2 border ${
                     isSelected 
-                    ? "bg-indigo-600 text-white font-semibold shadow-md shadow-indigo-100 border-indigo-600" 
+                    ? "bg-indigo-600 text-white font-semibold shadow-md border-indigo-600" 
                     : chapter.locked 
                         ? "bg-slate-50/50 text-slate-400 border-transparent cursor-not-allowed" 
                         : "bg-white hover:bg-slate-50 text-slate-700 border-slate-100 hover:border-slate-200"
@@ -783,7 +325,6 @@
                     };
                 }
 
-                // Construction du label interne
                 const labelDiv = document.createElement("div");
                 labelDiv.className = "flex flex-col gap-0.5";
                 
@@ -799,7 +340,6 @@
                 labelDiv.appendChild(subMeta);
                 btn.appendChild(labelDiv);
 
-                // Indicateurs (Cadenas / Validé / Flèche)
                 const indicatorDiv = document.createElement("div");
                 indicatorDiv.className = "shrink-0 flex items-center";
 
@@ -811,18 +351,14 @@
                     `;
                 } else if (isCompleted) {
                     indicatorDiv.innerHTML = `
-                        <span class="h-5 w-5 bg-emerald-500 rounded-full flex items-center justify-center text-[10px] text-white font-bold">
-                            ✓
-                        </span>
+                        <span class="h-5 w-5 bg-emerald-500 rounded-full flex items-center justify-center text-[10px] text-white font-bold">✓</span>
                     `;
-                } else {
-                    if (isSelected) {
-                        indicatorDiv.innerHTML = `
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                            </svg>
-                        `;
-                    }
+                } else if (isSelected) {
+                    indicatorDiv.innerHTML = `
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                        </svg>
+                    `;
                 }
 
                 btn.appendChild(indicatorDiv);
@@ -830,30 +366,50 @@
             });
         }
 
-        // --- CHARGER UN CHAPITRE SPECIFIQUE ---
-        function loadChapter(chapterId) {
-            const chapter = chaptersData[chapterId];
-            if (!chapter) return;
+        // --- SYSTEME DE CHARGEMENT DYNAMIQUE AVEC REPLI ---
+        async function loadChapter(chapterId) {
+            const metadata = chaptersMetadata[chapterId];
+            if (!metadata) return;
 
-            // Mettre à jour l'en-tête de la page de cours
-            document.getElementById("chapter-badge").innerText = chapter.level;
-            document.getElementById("chapter-number").innerText = chapter.number;
-            document.getElementById("chapter-title").innerText = chapter.title;
+            // En-tête par défaut
+            document.getElementById("chapter-badge").innerText = metadata.level;
+            document.getElementById("chapter-number").innerText = metadata.number;
+            document.getElementById("chapter-title").innerText = metadata.title;
+            document.getElementById("content-container").innerHTML = `<p class="text-sm text-slate-400 italic">Chargement du contenu...</p>`;
 
-            // Injecter le contenu HTML de cours
-            document.getElementById("content-container").innerHTML = chapter.content;
+            let loadedContent = "";
 
-            // Mettre à jour le bouton d'acquisition
+            try {
+                // Tenter de charger le fichier JSON externe
+                const response = await fetch(`data/${chapterId}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    loadedContent = data.content;
+                    if (data.title) document.getElementById("chapter-title").innerText = data.title;
+                    if (data.level) document.getElementById("chapter-badge").innerText = data.level;
+                    if (data.number) document.getElementById("chapter-number").innerText = data.number;
+                    console.log(`[Compagnon] Fiche "${chapterId}" chargée depuis le serveur.`);
+                } else {
+                    throw new Error("Fichier JSON non trouvé");
+                }
+            } catch (error) {
+                // Repli sur la base de données intégrée si échec (local ou CORS)
+                console.warn(`[Compagnon] Impossible de joindre "data/${chapterId}.json" (${error.message}). Utilisation de la version locale.`);
+                const fallback = fallbackData[chapterId];
+                loadedContent = fallback ? fallback.content : `<div class="text-center py-12"><p class="text-slate-400">Cette fiche n'est pas encore rédigée.</p></div>`;
+            }
+
+            // Injection du contenu
+            document.getElementById("content-container").innerHTML = loadedContent;
+
+            // Mise à jour de l'interactivité
             updateCompleteButtonState(chapterId);
-
-            // Appliquer l'état de traduction (Masqué / Affiché)
             applyTranslationState();
         }
 
-        // --- GESTION DU BOUTON D'ACQUISITION DU CHAPITRE ---
+        // --- BOUTON D'ACQUISITION ---
         function updateCompleteButtonState(chapterId) {
             const btn = document.getElementById("btn-complete");
-            const btnTxt = document.getElementById("btn-complete-text");
             const isCompleted = state.completedChapters.includes(chapterId);
 
             if (isCompleted) {
@@ -894,9 +450,8 @@
 
         // --- CALCUL DE LA PROGRESSION GLOBALE ---
         function updateGlobalProgress() {
-            // Nombre de chapitres réels non verrouillés
-            const activeChapters = Object.values(chaptersData).filter(c => !c.locked).length;
-            const completedCount = state.completedChapters.filter(cid => !chaptersData[cid].locked).length;
+            const activeChapters = Object.values(chaptersMetadata).filter(c => !c.locked).length;
+            const completedCount = state.completedChapters.filter(cid => !chaptersMetadata[cid].locked).length;
             
             const percentage = activeChapters > 0 ? Math.round((completedCount / activeChapters) * 100) : 0;
             
@@ -904,7 +459,7 @@
             document.getElementById("global-progress-bar").style.width = `${percentage}%`;
         }
 
-        // --- CHANGER LA VISIBILITÉ DES TRADUCTIONS (PÉDAGOGIE ACTIVE) ---
+        // --- MASQUER/AFFICHER LES TRADUCTIONS ---
         function toggleTranslations() {
             state.showTranslations = !state.showTranslations;
             saveGlobalState();
