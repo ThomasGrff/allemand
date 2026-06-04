@@ -1,0 +1,146 @@
+{
+  "id": "a-verben-perfekt",
+  "title": "1.2. Le Parfait (Perfekt)",
+  "category": "Verben",
+  "level": "A1-A2",
+  "pedagogicTip": "Le Parfait est le temps principal du passé à l'oral. Il fonctionne avec une structure en pince : l'auxiliaire conjugué est en position 2, tandis que le participe II (Partizip II) est rejeté tout à la fin de la phrase !",
+  "sections": [
+    {
+      "title": "1. La Structure de la Phrase (Satzbau)",
+      "type": "table",
+      "explanation": "L'auxiliaire (haben ou sein) est conjugué en position 2, et le participe II ferme la phrase.",
+      "tableData": {
+        "headers": [
+          "Sujet",
+          "Auxiliaire (Pos 2)",
+          "Milieu de phrase",
+          "Participe II (Fin)"
+        ],
+        "rows": [
+          [
+            "Wir",
+            "haben",
+            "gestern Deutsch",
+            "gelernt. (Nous avons appris l'allemand hier.)"
+          ],
+          [
+            "Er",
+            "ist",
+            "um 8 Uhr nach Berlin",
+            "gefahren. (Il est parti à Berlin à 8h.)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Choix de l'auxiliaire : haben ou sein ?",
+      "type": "grid",
+      "explanation": "La plupart des verbes utilisent 'haben', mais 'sein' est requis pour les verbes de déplacement et de changement d'état.",
+      "examples": [
+        {
+          "german": "Ich habe gegessen / Ich habe geschlafen",
+          "french": "J'ai mangé / J'ai dormi (haben : verbes transitifs et d'état)",
+          "highlight": "haben"
+        },
+        {
+          "german": "Ich bin gegangen / Ich bin gefahren",
+          "french": "Je suis allé / Je suis parti en voiture (sein : déplacement d'un point A à un point B)",
+          "highlight": "bin"
+        },
+        {
+          "german": "Er ist aufgewacht / Das Kind ist gewachsen",
+          "french": "Il s'est réveillé / L'enfant a grandi (sein : changement d'état)",
+          "highlight": "ist"
+        },
+        {
+          "german": "Ich bin geblieben / Was ist passiert?",
+          "french": "Je suis resté / Qu'est-ce qui s'est passé ? (sein : exceptions courantes)",
+          "highlight": "bin, ist"
+        }
+      ]
+    },
+    {
+      "title": "3. Formation du Participe II",
+      "type": "table",
+      "explanation": "Selon que le verbe est faible (régulier) ou fort (irrégulier), la terminaison varie.",
+      "tableData": {
+        "headers": [
+          "Type de Verbe",
+          "Formule",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Verbes réguliers (faibles)",
+            "ge- + radical + -t",
+            "lernen ➔ gelernt | machen ➔ gemacht"
+          ],
+          [
+            "Verbes irréguliers (forts)",
+            "ge- + radical (modifié) + -en",
+            "singen ➔ gesungen | lesen ➔ gelesen"
+          ],
+          [
+            "Verbes à particule séparable",
+            "particule + -ge- + radical + -t/-en",
+            "einkaufen ➔ eingekauft | aufstehen ➔ aufgestanden"
+          ],
+          [
+            "Verbes à particule inséparable",
+            "pas de ge- + radical + -t/-en",
+            "besuchen ➔ besucht | verstehen ➔ verstanden"
+          ],
+          [
+            "Verbes en -ieren",
+            "radical + -t (pas de ge-)",
+            "studieren ➔ studiert | reservieren ➔ reserviert"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "4. Emplois du Parfait (Perfekt)",
+      "type": "grid",
+      "explanation": "Le Parfait exprime des événements passés, principalement à l'oral ou dans un style de communication moderne et informel :",
+      "examples": [
+        {
+          "german": "Ich habe meine Hausaufgaben gemacht.",
+          "french": "Action passée accomplie : Fait entièrement achevé au moment de la parole (J'ai fait mes devoirs).",
+          "highlight": "habe, gemacht"
+        },
+        {
+          "german": "Gestern sind wir im Restaurant gewesen.",
+          "french": "Langue parlée et informelle : Privilégié dans les conversations quotidiennes et la correspondance informelle pour raconter le passé (Hier, nous avons été au restaurant).",
+          "highlight": "sind, gewesen"
+        },
+        {
+          "german": "Wenn du kommst, habe ich das Essen fertig gekocht.",
+          "french": "Futur antérieur : Exprime une action future qui sera déjà accomplie à un moment précis de l'avenir (Quand tu arriveras, j'aurai fini de faire à manger).",
+          "highlight": "habe, gekocht"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel auxiliaire utilise-t-on pour le verbe 'bleiben' (rester) au parfait ?",
+      "options": [
+        "haben",
+        "sein",
+        "werden"
+      ],
+      "answer": "sein",
+      "explanation": "Bien que 'bleiben' exprime l'immobilité, il fait partie des exceptions qui prennent toujours l'auxiliaire 'sein' au parfait (ich bin geblieben)."
+    },
+    {
+      "question": "Quel est le Participe II correct du verbe 'besuchen' ?",
+      "options": [
+        "gebesucht",
+        "besucht",
+        "besuchen"
+      ],
+      "answer": "besucht",
+      "explanation": "Le préfixe 'be-' est inséparable. Les verbes à particule inséparable ne prennent pas le préfixe '-ge-' au Participe II."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "a-verben-imperativ",
+  "title": "1.6. L'Impératif (Imperativ)",
+  "category": "Verben",
+  "level": "A1-A2",
+  "pedagogicTip": "L'impératif sert à donner des ordres, des conseils ou faire des requêtes. Il n'existe que pour 4 formes : du, ihr, wir et la politesse Sie. Notez que pour 'du', on enlève le pronom personnel ET la terminaison '-st' !",
+  "sections": [
+    {
+      "title": "1. Construction de l'Impératif",
+      "type": "table",
+      "explanation": "Comparez la conjugaison normale au présent et la forme correspondante à l'impératif.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "Présent de l'indicatif",
+          "Impératif",
+          "Règle de formation"
+        ],
+        "rows": [
+          [
+            "du (singulier familier)",
+            "du lernst / du arbeitest",
+            "Lern! / Arbeite! (avec e d'appui)",
+            "Enlever 'du' et '-st'. S'il y a un Umlaut (a➔ä), on le retire (du fährst ➔ Fahr!)."
+          ],
+          [
+            "ihr (pluriel familier)",
+            "ihr lernt",
+            "Lernt!",
+            "Enlever le pronom 'ihr' uniquement. Garder la terminaison '-t'."
+          ],
+          [
+            "Sie (politesse)",
+            "Sie lernen",
+            "Lernen Sie!",
+            "Inverser le verbe et le pronom 'Sie'. Garder les deux."
+          ],
+          [
+            "wir (suggestion)",
+            "wir lernen",
+            "Lernen wir!",
+            "Inverser le verbe et le pronom 'wir' (ex: Allons-y ! ➔ Gehen wir!)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Les Formes Irrégulières Clés (sein, haben, werden)",
+      "type": "table",
+      "explanation": "Ces verbes ont des formes impératives particulières à apprendre.",
+      "tableData": {
+        "headers": [
+          "Verbe",
+          "Forme 'du'",
+          "Forme 'ihr'",
+          "Forme 'Sie'"
+        ],
+        "rows": [
+          [
+            "sein (être)",
+            "Sei! (Sei leise!)",
+            "Seid! (Seid leise!)",
+            "Seien Sie! (Seien Sie geduldig!)"
+          ],
+          [
+            "haben (avoir)",
+            "Hab! (Hab keine Angst!)",
+            "Habt!",
+            "Haben Sie!"
+          ],
+          [
+            "werden (devenir)",
+            "Werde!",
+            "Werdet!",
+            "Werden Sie!"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel est l'impératif correct du verbe 'helfen' pour 'du' ?",
+      "options": [
+        "Helf!",
+        "Hilf!",
+        "Helfst!"
+      ],
+      "answer": "Hilf!",
+      "explanation": "Pour les verbes forts qui font un changement e➔i/ie (du hilfst), on conserve le changement de voyelle à l'impératif, mais on retire le '-st' et le pronom 'du', ce qui donne 'Hilf!'."
+    },
+    {
+      "question": "Comment traduit-on : 'Soyez prudents !' (adresse polie à un inconnu)",
+      "options": [
+        "Seid vorsichtig!",
+        "Seien Sie vorsichtig!",
+        "Sei vorsichtig!"
+      ],
+      "answer": "Seien Sie vorsichtig!",
+      "explanation": "La forme de politesse 'Sie' utilise l'inversion et la forme irrégulière 'Seien Sie'."
+    }
+  ]
+}

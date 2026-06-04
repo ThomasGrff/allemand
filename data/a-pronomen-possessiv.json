@@ -1,0 +1,117 @@
+{
+  "id": "a-pronomen-possessiv",
+  "title": "3.2. Les Pronoms Possessifs",
+  "category": "Pronomen",
+  "level": "A1-A2",
+  "pedagogicTip": "Les pronoms possessifs (déterminants) s'accordent en genre et en cas avec l'objet possédé, et dépendent du possesseur pour leur radical (ex: mein, dein, sein, ihr).",
+  "sections": [
+    {
+      "title": "1. Le radical du possessif selon le possesseur",
+      "type": "table",
+      "explanation": "Le possesseur détermine le radical du pronom possessif.",
+      "tableData": {
+        "headers": [
+          "Possesseur",
+          "Pronom Possessif",
+          "Exemple (sujet masculin)"
+        ],
+        "rows": [
+          [
+            "ich (je)",
+            "mein",
+            "mein Vater"
+          ],
+          [
+            "du (tu)",
+            "dein",
+            "dein Vater"
+          ],
+          [
+            "er / es (il / neutre)",
+            "sein",
+            "sein Vater / sein Buch"
+          ],
+          [
+            "sie (elle)",
+            "ihr",
+            "ihr Vater"
+          ],
+          [
+            "wir (nous)",
+            "unser",
+            "unser Vater"
+          ],
+          [
+            "ihr (vous)",
+            "euer (eure au fém)",
+            "euer Vater"
+          ],
+          [
+            "sie / Sie (ils / Vous poli)",
+            "ihr / Ihr",
+            "ihr / Ihr Vater"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Déclinaison des possessifs (Modèle 'mein')",
+      "type": "table",
+      "explanation": "Les possessifs se déclinent exactement comme l'article indéfini 'ein'.",
+      "tableData": {
+        "headers": [
+          "Cas",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Nominatif",
+            "mein Hund",
+            "meine Katze",
+            "mein Auto",
+            "meine Hunde"
+          ],
+          [
+            "Accusatif",
+            "meinen Hund",
+            "meine Katze",
+            "mein Auto",
+            "meine Hunde"
+          ],
+          [
+            "Datif",
+            "meinem Hund",
+            "meiner Katze",
+            "meinem Auto",
+            "meinen Hunden"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Peter sucht ___ Tasche. (Féminin, Accusatif)",
+      "options": [
+        "seine",
+        "seinen",
+        "ihre"
+      ],
+      "answer": "seine",
+      "explanation": "Le possesseur est Peter (masculin ➔ radical 'sein'). L'objet est 'Tasche' (féminin ➔ terminaison '-e' à l'accusatif), ce qui donne 'seine'."
+    },
+    {
+      "question": "Quel est le radical possessif de 'wir' (nous) ?",
+      "options": [
+        "euer",
+        "unser",
+        "ihr"
+      ],
+      "answer": "unser",
+      "explanation": "Le possessif correspondant à 'wir' est 'unser' (notre/nos)."
+    }
+  ]
+}

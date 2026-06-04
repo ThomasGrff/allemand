@@ -1,0 +1,97 @@
+{
+  "id": "b-verben-konjunktiv",
+  "title": "1.4. Le Konjunktiv I & II",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "Le Konjunktiv II exprime l'irréel (souhaits, hypothèses) ou la politesse atténuée. Le Konjunktiv I est principalement réservé au discours indirect (Indirekte Rede) dans les rapports de presse ou textes journalistiques.",
+  "sections": [
+    {
+      "title": "1. Le Subjonctif II (Konjunktiv II)",
+      "type": "table",
+      "explanation": "S'exprime au présent par 'würde + Infinitif' ou via les formes spécifiques de 'wäre', 'hätte' et les modaux. Au passé, on utilise 'wäre / hätte + Participe II'.",
+      "tableData": {
+        "headers": [
+          "Temps",
+          "Formule / Verbe",
+          "Exemple",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "Présent (général)",
+            "würde + Infinitif",
+            "Ich würde ein Haus kaufen.",
+            "J'achèterais une maison."
+          ],
+          [
+            "Présent (sein / haben)",
+            "wäre / hätte",
+            "Wenn ich reich wäre, hätte ich Zeit.",
+            "Si j'étais riche, j'aurais du temps."
+          ],
+          [
+            "Passé (irréel passé)",
+            "wäre / hätte + Part. II",
+            "Wenn ich gelernt hätte, wäre ich gekommen.",
+            "Si j'avais appris, je serais venu (regret passé)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Subjonctif I (Konjunktiv I - Discours indirect)",
+      "type": "table",
+      "explanation": "Formule : Radical du verbe + terminaisons (-e, -est, -e, -en, -et, -en). Si la forme est identique au présent de l'indicatif, on la remplace par le Konjunktiv II.",
+      "tableData": {
+        "headers": [
+          "Verbe",
+          "Présent de l'Indicatif",
+          "Konjunktiv I",
+          "Exemple au discours indirect"
+        ],
+        "rows": [
+          [
+            "haben",
+            "er hat",
+            "er habe",
+            "Der Minister sagte, er habe keine Zeit."
+          ],
+          [
+            "sein (irrégulier)",
+            "er ist",
+            "er sei",
+            "Der Zeuge behauptet, er sei unschuldig."
+          ],
+          [
+            "gehen",
+            "er geht",
+            "er gehe",
+            "Sie sagte, sie gehe nach Hause."
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Traduisez au passé irréel : 'Si j'avais eu le temps, je serais venu.'",
+      "options": [
+        "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+        "Wenn ich Zeit hätte, würde ich kommen.",
+        "Wenn ich Zeit gehabt habe, bin ich gekommen."
+      ],
+      "answer": "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+      "explanation": "L'irréel du passé se forme avec l'auxiliaire au Konjunktiv II passé ('hätte' pour haben, 'wäre' pour kommen) associé au Participe II."
+    },
+    {
+      "question": "Quand emploie-t-on préférentiellement le Konjunktiv I en allemand ?",
+      "options": [
+        "Pour formuler une demande très polie",
+        "Pour rapporter des propos de presse (discours indirect)",
+        "Pour exprimer un regret"
+      ],
+      "answer": "Pour rapporter des propos de presse (discours indirect)",
+      "explanation": "Le Konjunktiv I est le mode de la neutralité journalistique pour rapporter le discours indirect dans les médias."
+    }
+  ]
+}

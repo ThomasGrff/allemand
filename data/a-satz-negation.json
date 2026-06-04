@@ -1,0 +1,103 @@
+{
+  "id": "a-satz-negation",
+  "title": "7.3. La Négation (nicht vs kein)",
+  "category": "Satzstruktur",
+  "level": "A1-A2",
+  "pedagogicTip": "Règle d'or : utilisez 'kein' pour nier un nom précédé d'un article indéfini ou sans article. Utilisez 'nicht' pour nier un verbe, un adjectif, un adverbe, un pronom ou un nom précédé d'un article défini !",
+  "sections": [
+    {
+      "title": "1. Quand utiliser 'kein' ou 'nicht' ?",
+      "type": "table",
+      "explanation": "Règles claires de répartition.",
+      "tableData": {
+        "headers": [
+          "Négation",
+          "S'applique à",
+          "Exemple affirmatif",
+          "Exemple négatif"
+        ],
+        "rows": [
+          [
+            "kein",
+            "Nom avec article indéfini",
+            "Ich habe ein Auto.",
+            "Ich habe kein Auto."
+          ],
+          [
+            "kein",
+            "Nom sans article (quantité indéterminée)",
+            "Ich trinke Milch.",
+            "Ich trinke keine Milch."
+          ],
+          [
+            "nicht",
+            "Le verbe (action)",
+            "Ich koche.",
+            "Ich koche nicht."
+          ],
+          [
+            "nicht",
+            "Un adjectif ou adverbe",
+            "Das Auto ist teuer.",
+            "Das Auto ist nicht teuer."
+          ],
+          [
+            "nicht",
+            "Nom avec article défini / possessif",
+            "Das ist mein Buch.",
+            "Das ist nicht mein Buch."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. La place de 'nicht' dans la phrase",
+      "type": "grid",
+      "explanation": "'nicht' se place généralement le plus loin possible dans la phrase, mais avant certains éléments.",
+      "examples": [
+        {
+          "german": "À la toute fin (négation du verbe simple)",
+          "french": "Ich komme heute nicht. (Je ne viens pas aujourd'hui.)",
+          "highlight": "nicht"
+        },
+        {
+          "german": "Avant le verbe à l'infinitif ou le participe passé",
+          "french": "Ich kann heute nicht kommen. / Ich habe nicht geschlafen.",
+          "highlight": "nicht"
+        },
+        {
+          "german": "Juste avant un adjectif ou un adverbe",
+          "french": "Das ist nicht gut. / Er läuft nicht schnell.",
+          "highlight": "nicht"
+        },
+        {
+          "german": "Juste avant un groupe prépositionnel",
+          "french": "Er wohnt nicht in Berlin. (Il n'habite pas à Berlin.)",
+          "highlight": "nicht"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Comment dit-on : 'Je ne bois pas de bière.' ? (das Bier - général)",
+      "options": [
+        "Ich trinke nicht Bier.",
+        "Ich trinke kein Bier.",
+        "Ich trinke keinen Bier."
+      ],
+      "answer": "Ich trinke kein Bier.",
+      "explanation": "Comme 'Bier' est un nom commun sans article dans la phrase affirmative ('Ich trinke Bier'), on doit utiliser 'kein'. 'Bier' étant neutre, la forme est 'kein'."
+    },
+    {
+      "question": "Où place-t-on 'nicht' par rapport à un adjectif attribut ?",
+      "options": [
+        "Après l'adjectif",
+        "Avant l'adjectif",
+        "N'importe où"
+      ],
+      "answer": "Avant l'adjectif",
+      "explanation": "'nicht' se place toujours immédiatement avant l'adjectif ou l'adverbe qu'il modifie (ex: 'nicht schön', 'nicht kalt')."
+    }
+  ]
+}

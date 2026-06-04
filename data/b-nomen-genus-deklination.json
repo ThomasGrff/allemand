@@ -1,0 +1,89 @@
+{
+  "id": "b-nomen-genus-deklination",
+  "title": "2.1. Déclinaison & Pluriel",
+  "category": "Nomen",
+  "level": "B1-B2",
+  "pedagogicTip": "À ce niveau, maîtrisez les genres complexes (ex: terminaisons typiques comme -ismus, -ung) et assurez-vous de connaître les noms masculins faibles de la N-Déclinaison !",
+  "sections": [
+    {
+      "title": "1. Indices sur les Genres",
+      "type": "table",
+      "explanation": "Certaines terminaisons de noms indiquent à coup sûr leur genre.",
+      "tableData": {
+        "headers": [
+          "Genre",
+          "Terminaisons typiques",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Masculin (der)",
+            "-ismus, -ist, -or, -ling",
+            "der Optimismus, der Polizist, der Motor, der Frühling"
+          ],
+          [
+            "Féminin (die)",
+            "-ung, -heit, -keit, -schaft, -tät, -ion",
+            "die Zeitung, die Freiheit, die Freundschaft, die Universität"
+          ],
+          [
+            "Neutre (das)",
+            "-tum, -ment, -um, -chen / -lein",
+            "das Eigentum, das Dokument, das Museum, das Mädchen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. La N-Déclinaison masculine (n-Deklination)",
+      "type": "table",
+      "explanation": "Ces noms masculins prennent un -(e)n à tous les cas (Acc, Dat, Gen) sauf au Nominatif singulier.",
+      "tableData": {
+        "headers": [
+          "Cas",
+          "der Kollege",
+          "der Student",
+          "der Mensch"
+        ],
+        "rows": [
+          [
+            "Nominatif",
+            "der Kollege",
+            "der Student",
+            "der Mensch"
+          ],
+          [
+            "Accusatif",
+            "den Kollegen",
+            "den Studenten",
+            "den Menschen"
+          ],
+          [
+            "Datif",
+            "dem Kollegen",
+            "dem Studenten",
+            "dem Menschen"
+          ],
+          [
+            "Génitif",
+            "des Kollegen",
+            "des Studenten",
+            "des Menschen"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich spreche mit dem ___.' (der Nachbar - n-deklination)",
+      "options": [
+        "Nachbar",
+        "Nachbarn",
+        "Nachbare"
+      ],
+      "answer": "Nachbarn",
+      "explanation": "'Nachbar' appartient à la n-déclinaison. Au datif singulier (après mit dem), il prend la marque '-n', ce qui donne 'Nachbarn'."
+    }
+  ]
+}

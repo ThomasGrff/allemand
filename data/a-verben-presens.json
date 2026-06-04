@@ -1,0 +1,209 @@
+{
+  "id": "a-verben-presens",
+  "title": "1.1. Le Présent (Präsens)",
+  "category": "Verben",
+  "level": "A1-A2",
+  "pedagogicTip": "Le présent sert pour le présent mais s'emploie aussi très souvent pour le futur simple si une indication temporelle est donnée (ex: morgen). Pensez au radical et ajoutez les terminaisons régulières !",
+  "sections": [
+    {
+      "title": "1. Terminaisons régulières",
+      "type": "table",
+      "explanation": "Le radical ne change pas. On y accole : -e, -st, -t, -en, -t, -en.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "lernen (apprendre)",
+          "arbeiten (travailler - e d'appui)",
+          "heißen (s'appeler - radical en -ß)"
+        ],
+        "rows": [
+          [
+            "ich",
+            "lerne",
+            "arbeite",
+            "heiße"
+          ],
+          [
+            "du",
+            "lernst",
+            "arbeitest",
+            "heißt"
+          ],
+          [
+            "er/sie/es",
+            "lernt",
+            "arbeitet",
+            "heißt"
+          ],
+          [
+            "wir",
+            "lernen",
+            "arbeiten",
+            "heißen"
+          ],
+          [
+            "ihr",
+            "lernt",
+            "arbeitet",
+            "heißt"
+          ],
+          [
+            "sie / Sie",
+            "lernen",
+            "arbeiten",
+            "heißen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes forts avec changement de voyelle",
+      "type": "table",
+      "explanation": "Ils changent de voyelle uniquement à la 2e (du) et 3e (er/sie/es) personne du singulier.",
+      "tableData": {
+        "headers": [
+          "Changement",
+          "Verbe modèle",
+          "ich",
+          "du",
+          "er/sie/es",
+          "wir"
+        ],
+        "rows": [
+          [
+            "e ➔ i",
+            "sprechen (parler)",
+            "spreche",
+            "sprichst",
+            "spricht",
+            "sprechen"
+          ],
+          [
+            "e ➔ ie",
+            "sehen (voir)",
+            "sehe",
+            "siehst",
+            "sieht",
+            "sehen"
+          ],
+          [
+            "a ➔ ä",
+            "fahren (aller en voiture)",
+            "fahre",
+            "fährst",
+            "fährt",
+            "fahren"
+          ],
+          [
+            "au ➔ äu",
+            "laufen (courir)",
+            "laufe",
+            "läufst",
+            "läuft",
+            "laufen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Auxiliaires (sein, haben, werden)",
+      "type": "table",
+      "explanation": "Leur conjugaison est irrégulière et doit être apprise par cœur.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "sein (être)",
+          "haben (avoir)",
+          "werden (devenir / futur)"
+        ],
+        "rows": [
+          [
+            "ich",
+            "bin",
+            "habe",
+            "werde"
+          ],
+          [
+            "du",
+            "bist",
+            "hast",
+            "wirst"
+          ],
+          [
+            "er/sie/es",
+            "ist",
+            "hat",
+            "wird"
+          ],
+          [
+            "wir",
+            "sind",
+            "haben",
+            "werden"
+          ],
+          [
+            "ihr",
+            "seid",
+            "habt",
+            "werdet"
+          ],
+          [
+            "sie / Sie",
+            "sind",
+            "haben",
+            "werden"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "4. Emplois du Présent (Präsens)",
+      "type": "grid",
+      "explanation": "Le présent est le temps le plus fréquemment utilisé en allemand. Voici ses emplois principaux :",
+      "examples": [
+        {
+          "german": "Ich wohne in Berlin.",
+          "french": "Action présente : Fait actuel ou situation présente (J'habite à Berlin).",
+          "highlight": "wohne"
+        },
+        {
+          "german": "Die Erde dreht sich um die Sonne.",
+          "french": "Vérité générale : Fait intemporel, scientifique ou permanent (La Terre tourne autour du soleil).",
+          "highlight": "dreht sich"
+        },
+        {
+          "german": "Morgen fliege ich nach Paris.",
+          "french": "Futur programmé : Action future certaine, accompagnée d'un indicateur de temps précis (Demain, je pars pour Paris).",
+          "highlight": "fliege"
+        },
+        {
+          "german": "Seit zwei Jahren lerne ich Deutsch.",
+          "french": "Action commencée dans le passé qui continue : Souvent introduite par la préposition 'seit' + Datif (J'apprends l'allemand depuis deux ans).",
+          "highlight": "lerne"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Comment conjugue-t-on 'du' avec le verbe 'fahren' au présent ?",
+      "options": [
+        "du fahrst",
+        "du fährst",
+        "du fahrt"
+      ],
+      "answer": "du fährst",
+      "explanation": "Le verbe fort fahren fait un changement de voyelle 'a' vers 'ä' aux 2e (du fährst) et 3e (er fährt) personnes du singulier."
+    },
+    {
+      "question": "Quelle est la forme correcte de 'ihr' avec le verbe 'sein' ?",
+      "options": [
+        "ihr sind",
+        "ihr seid",
+        "ihr seist"
+      ],
+      "answer": "ihr seid",
+      "explanation": "La conjugaison de sein à la 2e personne du pluriel est 'ihr seid'."
+    }
+  ]
+}

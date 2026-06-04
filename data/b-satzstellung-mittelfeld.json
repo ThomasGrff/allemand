@@ -1,0 +1,87 @@
+{
+  "id": "b-satzstellung-mittelfeld",
+  "title": "7. Phrase simple & Mittelfeld",
+  "category": "Satzstruktur",
+  "level": "B1-B2",
+  "pedagogicTip": "Dans le 'Mittelfeld' (le milieu de la phrase entre le verbe conjugué et le verbe final), l'ordre des éléments obéit à des règles strictes. Mémorisez l'ordre des cas (Dative avant Accusatif sauf si ce sont des pronoms) et l'acronyme temporel/spatial TeKaMoLo !",
+  "sections": [
+    {
+      "title": "1. Ordre des compléments d'objet (Noms vs Pronoms)",
+      "type": "table",
+      "explanation": "L'ordre change selon que les compléments sont des noms ou des pronoms.",
+      "tableData": {
+        "headers": [
+          "Règle",
+          "Structure",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "Deux noms communs",
+            "Datif + Akkusativ",
+            "Ich schenke dem Kind einen Ball.",
+            "Je donne un ballon à l'enfant."
+          ],
+          [
+            "Deux pronoms",
+            "Akkusativ + Datif (Inversion)",
+            "Ich schenke ihn ihm.",
+            "Je le lui offre."
+          ],
+          [
+            "Un pronom + un nom",
+            "Le Pronom en premier",
+            "Ich schenke ihn dem Kind. / Ich schenke ihm einen Ball.",
+            "Je le donne à l'enfant."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. L'ordre TeKaMoLo pour les compléments circonstanciels",
+      "type": "table",
+      "explanation": "Si plusieurs compléments sont présents, respectez l'ordre suivant : Temps (Te), Cause (Ka), Manière (Mo), Lieu (Lo).",
+      "tableData": {
+        "headers": [
+          "Te (Temporal)",
+          "Ka (Kausal)",
+          "Mo (Modal)",
+          "Lo (Lokal)"
+        ],
+        "rows": [
+          [
+            "wann? (quand)",
+            "warum? (pourquoi)",
+            "wie? (comment)",
+            "wo / wohin? (où)"
+          ],
+          [
+            "heute",
+            "aus Liebe",
+            "mit dem Auto",
+            "nach Berlin"
+          ],
+          [
+            "am Wochenende",
+            "wegen des Regens",
+            "schnell",
+            "nach Hause"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Mettez dans le bon ordre : 'Ich fahre (nach Berlin / morgen / mit der Bahn)'",
+      "options": [
+        "Ich fahre nach Berlin morgen mit der Bahn.",
+        "Ich fahre morgen mit der Bahn nach Berlin.",
+        "Ich fahre mit der Bahn morgen nach Berlin."
+      ],
+      "answer": "Ich fahre morgen mit der Bahn nach Berlin.",
+      "explanation": "En suivant la règle TeKaMoLo : Temps (morgen) puis Moyen/Manière (mit der Bahn) puis Lieu (nach Berlin)."
+    }
+  ]
+}

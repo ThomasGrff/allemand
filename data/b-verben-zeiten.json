@@ -1,0 +1,89 @@
+{
+  "id": "b-verben-zeiten",
+  "title": "1.1. Le Passé (Prét./Perf./Plusq.)",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "À un niveau B1-B2, maîtrisez le Plus-que-parfait (Plusquamperfekt) pour marquer l'antériorité avec 'nachdem', ainsi que la concordance des temps au prétérit et au parfait.",
+  "sections": [
+    {
+      "title": "1. Le Plus-que-parfait (Plusquamperfekt)",
+      "type": "table",
+      "explanation": "Formule : Auxiliaire au prétérit (hatte/war) + Participe II. S'utilise surtout avec la conjonction 'nachdem' (concordance avec le prétérit).",
+      "tableData": {
+        "headers": [
+          "Structure",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "haben au prétérit + Part. II",
+            "Er hatte seine Arbeit beendet.",
+            "Il avait terminé son travail."
+          ],
+          [
+            "sein au prétérit + Part. II",
+            "Wir waren früh aufgestanden.",
+            "Nous nous étions levés tôt."
+          ],
+          [
+            "Concordance avec nachdem",
+            "Nachdem er gegessen hatte, ging er spazieren.",
+            "Après avoir mangé, il est allé se promener."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Prétérit vs Parfait",
+      "type": "grid",
+      "explanation": "Rappel de style : à l'oral et dans les e-mails informels, on privilégie le Parfait. Le Prétérit s'impose à l'écrit soutenu (littérature, journaux) et pour 'haben', 'sein' et les verbes modaux.",
+      "examples": [
+        {
+          "german": "Gestern bin ich spät nach Hause gekommen. (Parfait - oral)",
+          "french": "Hier, je suis rentré tard chez moi.",
+          "highlight": "bin, gekommen"
+        },
+        {
+          "german": "Der Minister erklärte das neue Gesetz. (Prétérit - écrit journal)",
+          "french": "Le ministre expliqua la nouvelle loi.",
+          "highlight": "erklärte"
+        }
+      ]
+    },
+    {
+      "title": "3. Synthèse des emplois des temps du passé et Concordance",
+      "type": "grid",
+      "explanation": "En allemand, la répartition des temps du passé obéit à des distinctions claires de registre et de chronologie :",
+      "examples": [
+        {
+          "german": "Als ich ein Kind war, hatte ich einen Hund.",
+          "french": "Prétérit (Registre écrit / Auxiliaires & Modaux) : Quand j'étais enfant, j'avais un chien. (Récit formel, ou emploi parlé courant pour les auxiliaires/modaux).",
+          "highlight": "war, hatte"
+        },
+        {
+          "german": "Ich habe meinen Schlüssel verloren.",
+          "french": "Parfait (Registre parlé courant / Impact sur le présent) : J'ai perdu ma clé. (C'est le temps oral standard pour raconter le passé ; l'état en découle dans le présent).",
+          "highlight": "habe, verloren"
+        },
+        {
+          "german": "Nachdem er das Fenster geschlossen hatte, ging er ins Bett.",
+          "french": "Plus-que-parfait (Antériorité avec concordance) : Après avoir fermé la fenêtre, il alla se coucher. (L'action de fermer est antérieure au prétérit 'ging').",
+          "highlight": "geschlossen hatte, ging"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle phrase montre une antériorité correcte avec 'nachdem' ?",
+      "options": [
+        "Nachdem er gegessen hatte, geht er nach Hause.",
+        "Nachdem er gegessen hatte, ging er nach Hause.",
+        "Nachdem er isst, ging er nach Hause."
+      ],
+      "answer": "Nachdem er gegessen hatte, ging er nach Hause.",
+      "explanation": "La règle de concordance de 'nachdem' veut que si la phrase principale est au prétérit (ging), la subordonnée doit être au plus-que-parfait (gegessen hatte)."
+    }
+  ]
+}

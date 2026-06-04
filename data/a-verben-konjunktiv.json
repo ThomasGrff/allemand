@@ -1,0 +1,87 @@
+{
+  "id": "a-verben-konjunktiv",
+  "title": "1.7. Le Konjunktiv II (base)",
+  "category": "Verben",
+  "level": "A2",
+  "pedagogicTip": "Au niveau A2, le Konjunktiv II est surtout utilisé pour exprimer des souhaits (hätte gern...), des rêves ou formuler des demandes polies (würdest du / könntest du). Ne confondez pas 'hätte' (j'aurais) et 'wäre' (je serais) !",
+  "sections": [
+    {
+      "title": "1. Les Formes Fondamentales (hätte, wäre, würde)",
+      "type": "table",
+      "explanation": "Les trois formes les plus courantes pour 'ich' et 'er/sie/es' au Konjunktiv II.",
+      "tableData": {
+        "headers": [
+          "Verbe de base",
+          "Forme Konjunktiv II (ich / er)",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "haben (avoir)",
+            "hätte",
+            "Ich hätte gern eine Cola.",
+            "Je voudrais / j'aimerais (avoir) un Coca."
+          ],
+          [
+            "sein (être)",
+            "wäre",
+            "Ich wäre gern am Strand.",
+            "Je serais volontiers à la plage."
+          ],
+          [
+            "können (pouvoir)",
+            "könnte",
+            "Könnten Sie mir helfen?",
+            "Pourriez-vous m'aider ? (politesse)"
+          ],
+          [
+            "Autres verbes",
+            "würde + Infinitif",
+            "Ich würde gern nach Deutschland reisen.",
+            "J'aimerais voyager en Allemagne (souhait)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Formuler la Politesse",
+      "type": "grid",
+      "explanation": "L'allemand utilise le Konjunktiv II de 'können' ou 'werden' pour adoucir une question.",
+      "examples": [
+        {
+          "german": "Könntest du das Fenster schließen?",
+          "french": "Pourrais-tu fermer la fenêtre ? (plus poli que 'Kannst du...')",
+          "highlight": "Könntest"
+        },
+        {
+          "german": "Würden Sie bitte leise sein?",
+          "french": "Voudriez-vous s'il vous plaît faire moins de bruit ?",
+          "highlight": "Würden"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Comment dit-on poliment 'Je voudrais une tasse de café' ?",
+      "options": [
+        "Ich habe gern eine Tasse Kaffee.",
+        "Ich hätte gern eine Tasse Kaffee.",
+        "Ich wäre gern eine Tasse Kaffee."
+      ],
+      "answer": "Ich hätte gern eine Tasse Kaffee.",
+      "explanation": "'Ich hätte gern...' est la formule de politesse standard en allemand pour exprimer un souhait de possession ou de commande (littéralement : 'j'aurais volontiers')."
+    },
+    {
+      "question": "Traduisez : 'Je serais volontiers en vacances.'",
+      "options": [
+        "Ich würde gern im Urlaub.",
+        "Ich hätte gern Urlaub.",
+        "Ich wäre gern im Urlaub."
+      ],
+      "answer": "Ich wäre gern im Urlaub.",
+      "explanation": "Le verbe être 'sein' devient 'wäre' au Konjunktiv II (Ich wäre gern = je serais volontiers)."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "a-praepositionen",
+  "title": "5. Les Prépositions mixtes",
+  "category": "Präpositionen",
+  "level": "A1-A2",
+  "pedagogicTip": "Les prépositions gouvernent le cas du nom qui suit. Les prépositions mixtes (Wechselpräpositionen) prennent le DATIF pour situer sans mouvement (Wo? - Où?) et l'ACCUSATIF pour exprimer un déplacement (Wohin? - Vers où?) !",
+  "sections": [
+    {
+      "title": "1. Prépositions régissant toujours l'Accusatif ou le Datif",
+      "type": "table",
+      "explanation": "Ces prépositions imposent systématiquement leur cas.",
+      "tableData": {
+        "headers": [
+          "Cas exigé",
+          "Prépositions clés",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Accusatif",
+            "bis, durch, für, gegen, ohne, um",
+            "Ich koche für meine Gäste. (Akk) | Er geht ohne seinen Hund. (Akk)"
+          ],
+          [
+            "Datif",
+            "aus, bei, mit, nach, seit, von, zu",
+            "Ich fahre mit dem Zug. (Dat) | Er wohnt bei seinen Eltern. (Dat)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Les 9 Prépositions mixtes (Wechselpräpositionen)",
+      "type": "grid",
+      "explanation": "an, auf, hinter, in, neben, über, unter, vor, zwischen. Elles changent de cas selon la question posée.",
+      "examples": [
+        {
+          "german": "Wo? + Datif (Position fixe / état)",
+          "french": "Das Buch liegt auf dem Tisch. (Le livre est sur la table.)",
+          "highlight": "auf, dem"
+        },
+        {
+          "german": "Wohin? + Accusatif (Mouvement / changement de lieu)",
+          "french": "Ich lege das Buch auf den Tisch. (Je pose le livre sur la table.)",
+          "highlight": "auf, den"
+        },
+        {
+          "german": "in dem ➔ im | in das ➔ ins",
+          "french": "Contractions courantes préposition + article.",
+          "highlight": "im, ins"
+        },
+        {
+          "german": "an dem ➔ am | an das ➔ ans",
+          "french": "Contractions courantes.",
+          "highlight": "am, ans"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Wir gehen ins (in das) Kino.' Quel est le cas utilisé ici ?",
+      "options": [
+        "Le nominatif",
+        "L'accusatif",
+        "Le datif"
+      ],
+      "answer": "L'accusatif",
+      "explanation": "Il y a déplacement d'un lieu vers un autre (Wohin? - Vers où allons-nous ?). 'in das' (ins) est à l'accusatif neutre."
+    },
+    {
+      "question": "Complétez : 'Er sitzt vor ___ Fernseher.' (der Fernseher - état / position)",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": "dem",
+      "explanation": "Le verbe 'sitzen' indique une position statique (Wo? - Où est-il assis ?). La préposition mixte 'vor' exige donc le datif. 'Fernseher' est masculin (der), ce qui donne 'dem'."
+    }
+  ]
+}

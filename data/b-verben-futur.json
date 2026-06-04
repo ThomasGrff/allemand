@@ -1,0 +1,106 @@
+{
+  "id": "b-verben-futur",
+  "title": "1.2. Le Futur I & II",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "Le Futur I s'utilise pour des projets ou des suppositions actuelles. Le Futur II sert à formuler une conjecture sur une action supposée achevée (soit dans le futur, soit dans le passé avec un adverbe comme 'probablement') !",
+  "sections": [
+    {
+      "title": "1. Formation et usages du Futur I",
+      "type": "table",
+      "explanation": "Formule : werden (au présent) + infinitif à la fin.",
+      "tableData": {
+        "headers": [
+          "Usage",
+          "Exemple",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "Intention future",
+            "Ich werde nächstes Jahr nach Berlin ziehen.",
+            "J'ai l'intention de déménager à Berlin l'an prochain."
+          ],
+          [
+            "Supposition sur le présent",
+            "Er ist nicht da. Er wird wohl zu Hause sein.",
+            "Il n'est pas là. Il doit probablement être à la maison."
+          ],
+          [
+            "Prédiction / Promesse",
+            "Das Wetter wird morgen besser werden.",
+            "La météo va s'améliorer demain."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Futur II (Conjecture accomplie)",
+      "type": "table",
+      "explanation": "Formule : werden (au présent) + Participe II + haben / sein à la toute fin.",
+      "tableData": {
+        "headers": [
+          "Usage",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "Action achevée dans le futur",
+            "Bis morgen werde ich die Hausaufgaben gemacht haben.",
+            "D'ici demain, j'aurai fait mes devoirs."
+          ],
+          [
+            "Conjecture sur le passé",
+            "Er hat rote Augen. Er wird nicht geschlafen haben.",
+            "Il a les yeux rouges. Il n'aura sûrement pas dormi (probabilité)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Les Nuances d'Emploi du Futur I et II (Supposition, Intention, Promesse)",
+      "type": "grid",
+      "explanation": "Les formes de futur en allemand ne servent pas uniquement à exprimer l'avenir, elles véhiculent aussi de fortes nuances modales :",
+      "examples": [
+        {
+          "german": "Ich werde ab morgen fleißiger lernen.",
+          "french": "Futur I (Intention / Projet) : J'étudierai / je vais étudier plus sérieusement à partir de demain.",
+          "highlight": "werde, lernen"
+        },
+        {
+          "german": "Sie arbeitet nicht. Sie wird wohl krank sein.",
+          "french": "Futur I (Supposition sur le présent) : Elle ne travaille pas. Elle doit probablement être malade.",
+          "highlight": "wird, sein"
+        },
+        {
+          "german": "Du wirst jetzt sofort deine Hausaufgaben machen!",
+          "french": "Futur I (Ordre ou injonction polie) : Tu vas faire tes devoirs tout de suite !",
+          "highlight": "wirst, machen"
+        },
+        {
+          "german": "Er ist nicht gekommen. Er wird den Termin vergessen haben.",
+          "french": "Futur II (Conjecture sur le passé) : Il n'est pas venu. Il aura sûrement / probablement oublié le rendez-vous.",
+          "highlight": "wird, vergessen haben"
+        },
+        {
+          "german": "Bis zum Jahresende werde ich das Projekt abgeschlossen haben.",
+          "french": "Futur II (Action future achevée) : D'ici la fin de l'année, j'aurai terminé le projet.",
+          "highlight": "werde, abgeschlossen haben"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Traduisez : 'Il a probablement raté le train.' en utilisant le Futur II (conjecture passée).",
+      "options": [
+        "Er wird den Zug verpasst haben.",
+        "Er hat den Zug verpasst.",
+        "Er wird den Zug verpassen."
+      ],
+      "answer": "Er wird den Zug verpasst haben.",
+      "explanation": "Le Futur II ('werden' + Participe II + 'haben') exprime ici une supposition sur un événement passé : 'Er wird den Zug verpasst haben' (Il a probablement/sûrement raté le train)."
+    }
+  ]
+}

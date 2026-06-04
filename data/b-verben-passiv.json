@@ -1,0 +1,99 @@
+{
+  "id": "b-verben-passiv",
+  "title": "1.6. Le Passif & Alternatives",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "Le passif met l'accent sur l'action plutôt que sur l'auteur. Maîtrisez la différence entre le passif d'action (Vorgangspassiv - werden) et le passif d'état (Zustandspassiv - sein). Apprenez également les alternatives passives fréquentes au B2 comme 'sich lassen' !",
+  "sections": [
+    {
+      "title": "1. Vorgangspassiv vs Zustandspassiv",
+      "type": "table",
+      "explanation": "Le passif d'action montre le processus; le passif d'état montre le résultat final.",
+      "tableData": {
+        "headers": [
+          "Type de passif",
+          "Formule",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "Passif d'action (Vorgangspassiv)",
+            "werden (conjugué) + Participe II",
+            "Das Auto wird repariert.",
+            "La voiture est en cours de réparation (action)."
+          ],
+          [
+            "Passif d'état (Zustandspassiv)",
+            "sein (conjugué) + Participe II",
+            "Das Auto ist repariert.",
+            "La voiture est réparée (résultat fini)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Passif aux différents temps et avec Modaux",
+      "type": "table",
+      "explanation": "Règles de construction temporelle de la voix passive.",
+      "tableData": {
+        "headers": [
+          "Temps",
+          "Formule",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Prétérit",
+            "wurde + Participe II",
+            "Das Haus wurde gebaut. (La maison a été bâtie.)"
+          ],
+          [
+            "Parfait",
+            "sein + Participe II + worden",
+            "Das Haus ist gebaut worden. (La maison a été bâtie.)"
+          ],
+          [
+            "Avec verbe modal (Présent)",
+            "Modal conjugué + Part. II + werden",
+            "Das Auto muss repariert werden. (La voiture doit être réparée.)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Les Alternatives au Passif (B2)",
+      "type": "grid",
+      "explanation": "Structures actives qui ont un sens passif, très fréquentes à l'écrit.",
+      "examples": [
+        {
+          "german": "sich lassen + Infinitif (possibilité)",
+          "french": "Das Problem lässt sich leicht lösen. (= Das Problem kann leicht gelöst werden.)",
+          "highlight": "lässt, sich"
+        },
+        {
+          "german": "sein + zu + Infinitif (possibilité ou obligation)",
+          "french": "Die Aufgaben sind zu machen. (= Die Aufgaben müssen gemacht werden.)",
+          "highlight": "sind, zu"
+        },
+        {
+          "german": "Adjectifs en -bar / -lich",
+          "french": "Das Wasser ist trinkbar. (= Das Wasser kann getrunken werden.)",
+          "highlight": "trinkbar"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la forme correcte de 'Das Haus wurde gebaut' au parfait du passif ?",
+      "options": [
+        "Das Haus hat gebaut worden.",
+        "Das Haus ist gebaut geworden.",
+        "Das Haus ist gebaut worden."
+      ],
+      "answer": "Das Haus ist gebaut worden.",
+      "explanation": "Au parfait, le passif d'action utilise l'auxiliaire 'sein' conjugué et remplace 'geworden' par 'worden' à la fin (ist + Part. II + worden)."
+    }
+  ]
+}

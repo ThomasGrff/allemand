@@ -1,0 +1,121 @@
+{
+  "id": "a-nomen-deklination",
+  "title": "2.1. Noms & Articles (Nom/Akk)",
+  "category": "Nomen",
+  "level": "A1",
+  "pedagogicTip": "L'allemand possède trois genres (masculin, féminin, neutre) et quatre cas. Au niveau A1, maîtrisez le Nominatif (sujet) et l'Accusatif (COD). Notez que seul le masculin change à l'accusatif !",
+  "sections": [
+    {
+      "title": "1. Le système des genres et des articles",
+      "type": "table",
+      "explanation": "Les articles définis, indéfinis et négatifs au Nominatif (sujet) et à l'Accusatif (complément d'objet direct).",
+      "tableData": {
+        "headers": [
+          "Cas / Genre",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Nominatif - Défini",
+            "der Mann",
+            "die Frau",
+            "das Kind",
+            "die Kinder"
+          ],
+          [
+            "Nominatif - Indéfini",
+            "ein Mann",
+            "eine Frau",
+            "ein Kind",
+            "- Kinder"
+          ],
+          [
+            "Nominatif - Négatif",
+            "kein Mann",
+            "keine Frau",
+            "kein Kind",
+            "keine Kinder"
+          ],
+          [
+            "Accusatif - Défini",
+            "den Mann",
+            "die Frau",
+            "das Kind",
+            "die Kinder"
+          ],
+          [
+            "Accusatif - Indéfini",
+            "einen Mann",
+            "eine Frau",
+            "ein Kind",
+            "- Kinder"
+          ],
+          [
+            "Accusatif - Négatif",
+            "keinen Mann",
+            "keine Frau",
+            "kein Kind",
+            "keine Kinder"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Pluriel des Noms",
+      "type": "grid",
+      "explanation": "Il y a 5 formes principales de pluriel en allemand. Il est fortement recommandé d'apprendre le pluriel en même temps que le nom.",
+      "examples": [
+        {
+          "german": "Suffixe -e (+ Umlaut)",
+          "french": "der Baum ➔ die Bäume | der Tag ➔ die Tage",
+          "highlight": "Bäume, Tage"
+        },
+        {
+          "german": "Suffixe -er (+ Umlaut)",
+          "french": "das Buch ➔ die Bücher | das Kind ➔ die Kinder",
+          "highlight": "Bücher, Kinder"
+        },
+        {
+          "german": "Suffixe -n / -en",
+          "french": "die Frau ➔ die Frauen | die Tasche ➔ die Taschen",
+          "highlight": "Frauen, Taschen"
+        },
+        {
+          "german": "Suffixe -s (mots étrangers)",
+          "french": "das Auto ➔ die Autos | das Hotel ➔ die Hotels",
+          "highlight": "Autos, Hotels"
+        },
+        {
+          "german": "Sans suffixe / Umlaut seul",
+          "french": "der Apfel ➔ die Äpfel | der Lehrer ➔ die Lehrer",
+          "highlight": "Äpfel, Lehrer"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich trinke ___ Kaffee.' (masculin, accusatif, article négatif)",
+      "options": [
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "answer": "keinen",
+      "explanation": "'Kaffee' est masculin (der). À l'accusatif COD, l'article masculin 'kein' devient 'keinen'."
+    },
+    {
+      "question": "Quel genre n'a pas de changement d'article entre le Nominatif et l'Accusatif ?",
+      "options": [
+        "Le masculin",
+        "Le féminin et le neutre",
+        "Aucun genre"
+      ],
+      "answer": "Le féminin et le neutre",
+      "explanation": "Seul le masculin change de forme à l'accusatif (der/ein/kein ➔ den/einen/keinen). Le féminin (die/eine), le neutre (das/ein) et le pluriel (die) restent identiques."
+    }
+  ]
+}

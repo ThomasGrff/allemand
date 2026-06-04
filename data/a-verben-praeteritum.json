@@ -1,0 +1,147 @@
+{
+  "id": "a-verben-praeteritum",
+  "title": "1.3. Le Prétérit (Präteritum)",
+  "category": "Verben",
+  "level": "A1-A2",
+  "pedagogicTip": "Le prétérit est principalement utilisé à l'écrit (récits, journaux). Cependant, pour les auxiliaires (haben, sein, werden) et les verbes modaux, il est très couramment utilisé même à l'oral à la place du parfait !",
+  "sections": [
+    {
+      "title": "1. Auxiliaires et 'wissen' au Prétérit",
+      "type": "table",
+      "explanation": "Les formes de base de 'sein', 'haben' et 'werden' au prétérit.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "sein (war...)",
+          "haben (hatte...)",
+          "werden (wurde...)",
+          "wissen (wusste...)"
+        ],
+        "rows": [
+          [
+            "ich",
+            "war",
+            "hatte",
+            "wurde",
+            "wusste"
+          ],
+          [
+            "du",
+            "warst",
+            "hattest",
+            "wurdest",
+            "wusstest"
+          ],
+          [
+            "er/sie/es",
+            "war",
+            "hatte",
+            "wurde",
+            "wusste"
+          ],
+          [
+            "wir",
+            "waren",
+            "hatten",
+            "wurden",
+            "wussten"
+          ],
+          [
+            "ihr",
+            "wart",
+            "hattet",
+            "wurdet",
+            "wusstet"
+          ],
+          [
+            "sie / Sie",
+            "waren",
+            "hatten",
+            "wurden",
+            "wussten"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes Réguliers vs Verbes Irréguliers",
+      "type": "table",
+      "explanation": "Les verbes réguliers insèrent un -t- entre le radical et la terminaison. Les verbes irréguliers changent de voyelle au radical.",
+      "tableData": {
+        "headers": [
+          "Type",
+          "Forme générale",
+          "ich",
+          "du",
+          "er/sie/es",
+          "wir"
+        ],
+        "rows": [
+          [
+            "Régulier (lernen)",
+            "Radical + -te(st)",
+            "lernte",
+            "lerntest",
+            "lernte",
+            "lernten"
+          ],
+          [
+            "Irrégulier (gehen)",
+            "Radical modifié",
+            "ging",
+            "gingst",
+            "ging",
+            "gingen"
+          ],
+          [
+            "Irrégulier (kommen)",
+            "Radical modifié",
+            "kam",
+            "kamst",
+            "kam",
+            "kamen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Emplois du Prétérit (Präteritum)",
+      "type": "grid",
+      "explanation": "Le Prétérit est le temps du récit par excellence. Son usage se distingue nettement du Parfait :",
+      "examples": [
+        {
+          "german": "Es war einmal eine kleine Hexe.",
+          "french": "Langue écrite et récits : Récits littéraires, contes, romans, journaux et documents officiels (Il était une fois une petite sorcière).",
+          "highlight": "war"
+        },
+        {
+          "german": "Gestern hatte ich keine Zeit. / Ich war müde.",
+          "french": "Auxiliaires et modaux : À l'oral, on utilise presque exclusivement le prétérit pour 'haben', 'sein', 'werden', 'wissen' et les verbes modaux, car les formes au parfait seraient trop lourdes (Hier, je n'avais pas le temps / j'étais fatigué).",
+          "highlight": "hatte, war"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la forme correcte de 'ich' au prétérit du verbe 'haben' ?",
+      "options": [
+        "ich habe",
+        "ich hatte",
+        "ich wusste"
+      ],
+      "answer": "ich hatte",
+      "explanation": "Le prétérit de haben pour 'ich' et 'er/sie/es' est 'hatte'."
+    },
+    {
+      "question": "Quelle phrase est au prétérit ?",
+      "options": [
+        "Ich war gestern krank.",
+        "Ich bin gestern krank gewesen.",
+        "Ich werde krank."
+      ],
+      "answer": "Ich war gestern krank.",
+      "explanation": "'War' est le prétérit de 'sein'. 'Bin gewesen' est le parfait, et 'werde' est le présent."
+    }
+  ]
+}

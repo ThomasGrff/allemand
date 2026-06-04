@@ -1,0 +1,71 @@
+{
+  "id": "b-nomen-wortbildung",
+  "title": "2.2. Formation des Noms",
+  "category": "Nomen",
+  "level": "B1-B2",
+  "pedagogicTip": "L'allemand adore assembler les mots pour créer des concepts précis. Retenez que le genre du nom composé final est TOUJOURS déterminé par le tout dernier nom commun de la combinaison !",
+  "sections": [
+    {
+      "title": "1. Les Noms Composés (Komposita)",
+      "type": "grid",
+      "explanation": "La formation par empilement de noms. Le dernier mot donne son article.",
+      "examples": [
+        {
+          "german": "der Wein (masc) + die Flasche (fém) ➔ die Weinflasche (fém)",
+          "french": "La bouteille de vin (l'article final est fém)",
+          "highlight": "die, Weinflasche"
+        },
+        {
+          "german": "das Auto (neut) + der Schlüssel (masc) ➔ der Autoschlüssel (masc)",
+          "french": "La clé de voiture (l'article final est masc)",
+          "highlight": "der, Autoschlüssel"
+        }
+      ]
+    },
+    {
+      "title": "2. Dérivation à partir de verbes ou d'adjectifs",
+      "type": "table",
+      "explanation": "Des suffixes permettent de transformer un verbe ou adjectif en nom commun.",
+      "tableData": {
+        "headers": [
+          "Base",
+          "Suffixe",
+          "Nom obtenu",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "schreiben (verbe)",
+            "-ung",
+            "die Schreibung / Beschreibung",
+            "l'orthographe / la description"
+          ],
+          [
+            "frei (adjectif)",
+            "-heit",
+            "die Freiheit",
+            "la liberté"
+          ],
+          [
+            "heilen (verbe)",
+            "-ung / -mittel",
+            "die Heilung / das Heilmittel",
+            "la guérison / le remède"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel est l'article correct de 'Haustür' (das Haus + die Tür) ?",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Dans un nom composé, c'est le dernier composant qui détermine le genre de l'ensemble. 'Tür' est féminin (die Tür), donc 'die Haustür'."
+    }
+  ]
+}

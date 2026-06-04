@@ -1,0 +1,115 @@
+{
+  "id": "a-adjektive",
+  "title": "4. La déclinaison de l'Adjectif",
+  "category": "Adjektive",
+  "level": "A2",
+  "pedagogicTip": "L'adjectif épithète (devant un nom) prend une terminaison dépendante du déterminant qui le précède. Retenez les trois déclinaisons : Faible (après article défini), Mixte (après indéfini/possessif), Forte (sans article). L'adjectif attribut (après le verbe) ne se décline JAMAIS !",
+  "sections": [
+    {
+      "title": "1. Les Trois Déclinaisons (Nominatif & Accusatif)",
+      "type": "table",
+      "explanation": "Terminaisons de l'adjectif selon le type d'article qui le précède.",
+      "tableData": {
+        "headers": [
+          "Déterminant / Genre",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Défini (Faible) - Nom.",
+            "der gute Mann (-e)",
+            "die gute Frau (-e)",
+            "das gute Kind (-e)",
+            "die guten Kinder (-en)"
+          ],
+          [
+            "Défini (Faible) - Akk.",
+            "den guten Mann (-en)",
+            "die gute Frau (-e)",
+            "das gute Kind (-e)",
+            "die guten Kinder (-en)"
+          ],
+          [
+            "Indéfini (Mixte) - Nom.",
+            "ein guter Mann (-er)",
+            "eine gute Frau (-e)",
+            "ein gutes Kind (-es)",
+            "meine guten Kinder (-en)"
+          ],
+          [
+            "Indéfini (Mixte) - Akk.",
+            "einen guten Mann (-en)",
+            "eine gute Frau (-e)",
+            "ein gutes Kind (-es)",
+            "meine guten Kinder (-en)"
+          ],
+          [
+            "Sans article (Forte) - Nom.",
+            "guter Wein (-er)",
+            "gute Milch (-e)",
+            "gutes Bier (-es)",
+            "gute Freunde (-e)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Comparatif et le Superlatif (Komparation)",
+      "type": "table",
+      "explanation": "Pour comparer des qualités. Le comparatif prend -er, le superlatif prend 'am ... -sten' ou 'der/die/das ...-ste'.",
+      "tableData": {
+        "headers": [
+          "Type",
+          "schnell (rapide)",
+          "alt (vieux - avec umlaut)",
+          "gut (irrégulier)"
+        ],
+        "rows": [
+          [
+            "Positif (normal)",
+            "schnell",
+            "alt",
+            "gut"
+          ],
+          [
+            "Comparatif (supériorité)",
+            "schneller",
+            "älter",
+            "besser"
+          ],
+          [
+            "Superlatif (le plus)",
+            "am schnellsten",
+            "am ältesten",
+            "am besten"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Das ist ein ___ Auto.' (neu / ein-Neuter Nominativ)",
+      "options": [
+        "neues",
+        "neue",
+        "neuer"
+      ],
+      "answer": "neues",
+      "explanation": "Après l'article indéfini 'ein' au neutre nominatif (déclinaison mixte), l'adjectif prend la marque du genre neutre '-es' (ein neues Auto)."
+    },
+    {
+      "question": "Quel est le comparatif correct de 'gut' ?",
+      "options": [
+        "guter",
+        "besser",
+        "am besten"
+      ],
+      "answer": "besser",
+      "explanation": "Le comparatif de 'gut' est irrégulier : 'besser'. 'Am besten' est le superlatif."
+    }
+  ]
+}

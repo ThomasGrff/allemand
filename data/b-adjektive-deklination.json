@@ -1,0 +1,58 @@
+{
+  "id": "b-adjektive-deklination",
+  "title": "4.1. Déclinaison de l'Adjectif",
+  "category": "Adjektive",
+  "level": "B1-B2",
+  "pedagogicTip": "Revoyez la déclinaison au Génitif et au Datif. Pensez que dès qu'un adjectif est précédé d'un article décliné au datif ou génitif, sa terminaison est systématiquement '-en' !",
+  "sections": [
+    {
+      "title": "1. Déclinaisons de l'Adjectif au Datif et Génitif",
+      "type": "table",
+      "explanation": "Comparez le comportement de l'adjectif dans les cas indirects.",
+      "tableData": {
+        "headers": [
+          "Type",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Déclinaison Faible - Datif",
+            "mit dem netten Mann",
+            "mit der netten Frau",
+            "mit dem netten Kind",
+            "mit den netten Kindern"
+          ],
+          [
+            "Déclinaison Mixte - Datif",
+            "mit einem netten Mann",
+            "mit einer netten Frau",
+            "mit einem netten Kind",
+            "mit meinen netten Kindern"
+          ],
+          [
+            "Déclinaison Forte (sans article) - Dat.",
+            "mit nettem Mann",
+            "mit netter Frau",
+            "mit nettem Kind",
+            "mit netten Kindern"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Er wohnt in einem ___ (alt) Haus.' (neutre, Datif)",
+      "options": [
+        "altes",
+        "alten",
+        "altem"
+      ],
+      "answer": "alten",
+      "explanation": "Après l'article indéfini décliné 'einem' (neutre datif), l'adjectif prend la terminaison faible '-en' (alten)."
+    }
+  ]
+}

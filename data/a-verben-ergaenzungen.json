@@ -1,0 +1,91 @@
+{
+  "id": "a-verben-ergaenzungen",
+  "title": "1.9. Verbes et Compléments (Cas/Prép)",
+  "category": "Verben",
+  "level": "A2",
+  "pedagogicTip": "En allemand, chaque verbe s'accompagne de compléments spécifiques (Ergänzungen). Apprenez si le verbe demande un COD (Accusatif), un COI (Datif), ou un complément introduit par une préposition fixe !",
+  "sections": [
+    {
+      "title": "1. Verbes régissant un cas direct",
+      "type": "table",
+      "explanation": "Certains verbes imposent un cas précis à leur complément direct sans préposition.",
+      "tableData": {
+        "headers": [
+          "Cas requis",
+          "Verbes fréquents",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "Accusatif (COD)",
+            "haben, brauchen, essen, lieben, suchen",
+            "Ich brauche einen Stift.",
+            "J'ai besoin d'un stylo."
+          ],
+          [
+            "Datif (COI)",
+            "helfen, danken, gehören, antworten, gratulieren",
+            "Ich danke dir.",
+            "Je te remercie."
+          ],
+          [
+            "Double cas (Dat + Akk)",
+            "geben, zeigen, schenken, bringen, erklären",
+            "Er gibt dem Kind ein Buch.",
+            "Il donne un livre à l'enfant (COI + COD)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes avec prépositions fixes (Präpositionalobjekt)",
+      "type": "grid",
+      "explanation": "Ces verbes demandent une préposition spécifique suivie d'un cas précis. C'est l'une des plus grandes difficultés du niveau A2.",
+      "examples": [
+        {
+          "german": "warten auf + Accusatif (attendre quelqu'un/qqch)",
+          "french": "Ich warte auf den Bus (den = accusatif). (J'attends le bus.)",
+          "highlight": "warte, auf"
+        },
+        {
+          "german": "denken an + Accusatif (penser à)",
+          "french": "Ich denke an meine Familie. (Je pense à ma famille.)",
+          "highlight": "denke, an"
+        },
+        {
+          "german": "träumen von + Datif (rêver de)",
+          "french": "Ich träume von einem großen Haus (einem = datif). (Je rêve d'une grande maison.)",
+          "highlight": "träume, von"
+        },
+        {
+          "german": "sprechen mit (Dat) / über (Akk)",
+          "french": "Ich spreche mit dem Chef über das Projekt. (Je parle avec le chef du projet.)",
+          "highlight": "mit, über"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich freue mich ___ das Wochenende.' (se réjouir à l'avance de)",
+      "options": [
+        "auf",
+        "über",
+        "an"
+      ],
+      "answer": "auf",
+      "explanation": "Le verbe 'sich freuen auf + Accusatif' signifie se réjouir de quelque chose de futur (le week-end à venir). 'sich freuen über + Acc' s'utilise pour quelque chose de présent ou passé."
+    },
+    {
+      "question": "Quel cas suit la préposition dans 'träumen von' ?",
+      "options": [
+        "L'accusatif",
+        "Le datif",
+        "Le génitif"
+      ],
+      "answer": "Le datif",
+      "explanation": "La préposition 'von' régit toujours le datif. Par conséquent, 'träumen von' est toujours suivi du datif."
+    }
+  ]
+}

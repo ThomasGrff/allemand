@@ -1,0 +1,116 @@
+{
+  "id": "b-satzstruktur-infinitiv",
+  "title": "8. Infinitives & Relatives complexes",
+  "category": "Satzstruktur",
+  "level": "B1-B2",
+  "pedagogicTip": "Les propositions infinitives n'ont pas de sujet propre et utilisent la structure '... zu + Infinitif' tout à la fin. Pour exprimer un but, employez 'um... zu' (pour/afin de). Pour les relatives, faites attention à l'accord du pronom relatif !",
+  "sections": [
+    {
+      "title": "1. Propositions Infinitives avec 'zu'",
+      "type": "table",
+      "explanation": "Le 'zu' est placé directement devant l'infinitif en fin de phrase, ou s'insère au milieu pour les verbes séparables.",
+      "tableData": {
+        "headers": [
+          "Structure",
+          "Exemple",
+          "Remarque"
+        ],
+        "rows": [
+          [
+            "Verbe simple",
+            "Es ist gesund, Sport zu treiben.",
+            "zu + verbe"
+          ],
+          [
+            "Verbe séparable",
+            "Ich habe vor, morgen aufzustehen.",
+            "-zu- au milieu : auf-zu-stehen"
+          ],
+          [
+            "Sans zu",
+            "Ich kann Deutsch sprechen.",
+            "Pas de zu après les modaux et certains verbes"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Infinitives de but et de restriction (um / ohne / anstatt)",
+      "type": "grid",
+      "explanation": "Elles introduisent des compléments de but ou de manière.",
+      "examples": [
+        {
+          "german": "um ... zu (pour / afin de)",
+          "french": "Er lernt Deutsch, um in Deutschland zu arbeiten. (Il apprend l'allemand pour travailler en Allemagne.)",
+          "highlight": "um, zu"
+        },
+        {
+          "german": "ohne ... zu (sans ... + infinitif)",
+          "french": "Er ging weg, ohne ein Wort zu sagen. (Il est parti sans dire un mot.)",
+          "highlight": "ohne, zu"
+        },
+        {
+          "german": "anstatt ... zu (au lieu de ... + infinitif)",
+          "french": "Er lernt, anstatt fernzusehen. (Il étudie au lieu de regarder la télé.)",
+          "highlight": "anstatt, zu"
+        }
+      ]
+    },
+    {
+      "title": "3. Propositions Relatives complexes",
+      "type": "table",
+      "explanation": "Le pronom relatif dépend en genre et nombre du nom qualifié, et son cas dépend de sa fonction dans la relative. Si la relative contient une préposition, elle se place devant le pronom.",
+      "tableData": {
+        "headers": [
+          "Cas / Genre",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Nominatif",
+            "der Mann, der ...",
+            "die Frau, die ...",
+            "das Kind, das ...",
+            "die Kinder, die ..."
+          ],
+          [
+            "Accusatif",
+            "der Mann, den ...",
+            "die Frau, die ...",
+            "das Kind, das ...",
+            "die Kinder, die ..."
+          ],
+          [
+            "Datif",
+            "der Mann, dem ...",
+            "die Frau, der ...",
+            "das Kind, dem ...",
+            "die Kinder, denen ..."
+          ],
+          [
+            "Génitif",
+            "der Mann, dessen ...",
+            "die Frau, deren ...",
+            "das Kind, dessen ...",
+            "die Kinder, deren ..."
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Das ist der Schüler, ___ ich geholfen habe.' (helfen + datif)",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": "dem",
+      "explanation": "Le verbe 'helfen' régit le datif. L'antécédent 'Schüler' est masculin singulier, le pronom relatif dative masculin est donc 'dem'."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "b-verben-konjunktiv-eins",
+  "title": "1.8. Le Konjunktiv I",
+  "category": "Verben",
+  "level": "B2",
+  "pedagogicTip": "Le Konjunktiv I sert essentiellement au discours indirect (indirekte Rede) dans la presse écrite et parlée. Il permet au journaliste de rapporter des propos de manière neutre sans en garantir la véracité.",
+  "sections": [
+    {
+      "title": "1. Formation du Konjunktiv I",
+      "type": "table",
+      "explanation": "Formule : Radical du présent de l'indicatif + terminaisons du subjonctif : -e, -est, -e, -en, -et, -en. Si la forme obtenue est identique à l'indicatif, on la remplace par celle du Konjunktiv II.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "haben (K I)",
+          "sein (K I - irrégulier)",
+          "kommen (K I)"
+        ],
+        "rows": [
+          [
+            "ich",
+            "habe (remplacé par hätte)",
+            "sei",
+            "komme (remplacé par würde kommen)"
+          ],
+          [
+            "du",
+            "habest",
+            "seiest",
+            "kommest"
+          ],
+          [
+            "er/sie/es",
+            "habe",
+            "sei",
+            "komme"
+          ],
+          [
+            "wir",
+            "haben (remplacé par hätten)",
+            "seien",
+            "kommen (remplacé par würden kommen)"
+          ],
+          [
+            "ihr",
+            "habet",
+            "seiet",
+            "kommet"
+          ],
+          [
+            "sie / Sie",
+            "haben (remplacé par hätten)",
+            "seien",
+            "kommen (remplacé par würden kommen)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Exemples de discours indirect",
+      "type": "grid",
+      "explanation": "Exemples montrant l'application dans des rapports de presse :",
+      "examples": [
+        {
+          "german": "Der Minister sagte, er sei optimistisch. (Indicatif : 'Ich bin optimistisch.')",
+          "french": "Le ministre a dit qu'il était optimiste.",
+          "highlight": "sei"
+        },
+        {
+          "german": "Sie behauptete, sie habe kein Geld. (Indicatif : 'Ich habe kein Geld.')",
+          "french": "Elle a prétendu qu'elle n'avait pas d'argent.",
+          "highlight": "habe"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la forme du Konjunktiv I de 'sein' à la 3e personne du singulier ?",
+      "options": [
+        "ist",
+        "sei",
+        "wäre"
+      ],
+      "answer": "sei",
+      "explanation": "Le verbe 'sein' au Konjunktiv I est irrégulier et donne : 'er sei'."
+    }
+  ]
+}

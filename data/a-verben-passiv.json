@@ -1,0 +1,81 @@
+{
+  "id": "a-verben-passiv",
+  "title": "1.8. Le Passif de base",
+  "category": "Verben",
+  "level": "A2",
+  "pedagogicTip": "Le passif met l'accent sur l'action elle-même sans forcément désigner l'auteur. Formule de base au présent : werden (conjugué en Pos 2) + Participe II (à la toute fin) !",
+  "sections": [
+    {
+      "title": "1. Construction du Passif Présent et Prétérit",
+      "type": "table",
+      "explanation": "Exemples simples de transformation de la voix active à la voix passive.",
+      "tableData": {
+        "headers": [
+          "Voix / Temps",
+          "Exemple",
+          "Traduction",
+          "Structure"
+        ],
+        "rows": [
+          [
+            "Actif",
+            "Der Arzt untersucht den Patienten.",
+            "Le médecin examine le patient.",
+            "Sujet + Verbe + COD"
+          ],
+          [
+            "Passif Présent",
+            "Der Patient wird (vom Arzt) untersucht.",
+            "Le patient est examiné (par le médecin).",
+            "Sujet + werden + ... + Partizip II"
+          ],
+          [
+            "Passif Prétérit",
+            "Der Patient wurde (vom Arzt) untersucht.",
+            "Le patient a été examiné.",
+            "Sujet + wurde + ... + Partizip II"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. L'introduction du complément d'agent (Par qui ?)",
+      "type": "grid",
+      "explanation": "Si l'on souhaite préciser qui fait l'action au passif, on utilise une préposition.",
+      "examples": [
+        {
+          "german": "von + Datif (personnes, acteurs directs)",
+          "french": "Das Buch wird von dem Lehrer gelesen. (Le livre est lu par le professeur.)",
+          "highlight": "von, dem"
+        },
+        {
+          "german": "durch + Accusatif (moyens, causes indirectes)",
+          "french": "Die Stadt wurde durch ein Feuer zerstört. (La ville a été détruite par un incendie.)",
+          "highlight": "durch"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la structure correcte pour 'Le pain est mangé' au présent ?",
+      "options": [
+        "Das Brot ist gegessen.",
+        "Das Brot wird gegessen.",
+        "Das Brot werde gegessen."
+      ],
+      "answer": "Das Brot wird gegessen.",
+      "explanation": "Le passif d'action (Vorgangspassiv) au présent utilise l'auxiliaire 'werden' conjugué (wird) + le Participe II à la fin (gegessen)."
+    },
+    {
+      "question": "Quel cas régit la préposition 'von' indiquant le complément d'agent ?",
+      "options": [
+        "L'accusatif",
+        "Le datif",
+        "Le génitif"
+      ],
+      "answer": "Le datif",
+      "explanation": "La préposition 'von' régit toujours le datif (ex: von meinem Vater, von der Kollegin)."
+    }
+  ]
+}

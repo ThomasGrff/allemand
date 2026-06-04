@@ -1,0 +1,66 @@
+{
+  "id": "b-adverbien-partikeln",
+  "title": "6. Adverbes & Particules",
+  "category": "Adverbien",
+  "level": "B1-B2",
+  "pedagogicTip": "À un niveau avancé B2, apprenez à structurer votre discours à l'aide d'adverbes logiques (deshalb, trotzdem, sonst) et appropriez-vous les nuances des particules modales de niveau B2 comme 'ja', 'denn', 'doch' et 'wohl' (probabilité) !",
+  "sections": [
+    {
+      "title": "1. Adverbes de transition logique",
+      "type": "table",
+      "explanation": "Ils connectent deux phrases et provoquent l'inversion sujet-verbe (le verbe se place juste après l'adverbe).",
+      "tableData": {
+        "headers": [
+          "Adverbe",
+          "Sens",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "deshalb / darum",
+            "c'est pourquoi",
+            "Ich war krank, deshalb blieb ich da.",
+            "J'étais malade, c'est pourquoi je suis resté."
+          ],
+          [
+            "trotzdem",
+            "pourtant / malgré cela",
+            "Er lernte viel, trotzdem bestand er nicht.",
+            "Il a beaucoup étudié, pourtant il n'a pas réussi."
+          ],
+          [
+            "sonst",
+            "sinon / autrement",
+            "Lern viel, sonst fällst du durch.",
+            "Étudie beaucoup, sinon tu vas échouer."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. La particule modale 'wohl' (supposition)",
+      "type": "grid",
+      "explanation": "Indique que l'affirmation n'est pas certaine mais très probable.",
+      "examples": [
+        {
+          "german": "Er wird wohl krank sein.",
+          "french": "Il doit probablement être malade. (supposition forte)",
+          "highlight": "wohl"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quel effet syntaxique ont les adverbes de liaison comme 'deshalb' ou 'trotzdem' ?",
+      "options": [
+        "Le verbe se place à la toute fin de la phrase",
+        "Le verbe se place immédiatement après eux (inversion sujet-verbe)",
+        "Ils n'ont aucun effet sur l'ordre des mots"
+      ],
+      "answer": "Le verbe se place immédiatement après eux (inversion sujet-verbe)",
+      "explanation": "Ces adverbes occupent la position 1 de la phrase. Le verbe conjugué se place en position 2, entraînant l'inversion du sujet (ex: 'deshalb blieb ich' et non 'deshalb ich blieb')."
+    }
+  ]
+}

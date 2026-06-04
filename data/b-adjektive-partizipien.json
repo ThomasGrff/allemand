@@ -1,0 +1,77 @@
+{
+  "id": "b-adjektive-partizipien",
+  "title": "4.2. Participes & Adj. à régime",
+  "category": "Adjektive",
+  "level": "B1-B2",
+  "pedagogicTip": "Les participes (I & II) déclinés devant un nom permettent de condenser des informations. Sachez aussi que de nombreux adjectifs demandent une préposition fixe (ex: stolz auf + Acc) !",
+  "sections": [
+    {
+      "title": "1. Participes présents et passés adjectivés",
+      "type": "grid",
+      "explanation": "Ils se substituent à des propositions relatives.",
+      "examples": [
+        {
+          "german": "der einfahrende Zug",
+          "french": "= der Zug, der gerade einfährt (le train qui entre en gare - simultané/actif)",
+          "highlight": "einfahrende"
+        },
+        {
+          "german": "der eingestellte Mitarbeiter",
+          "french": "= der Mitarbeiter, der eingestellt wurde (le collaborateur recruté - passif/accompli)",
+          "highlight": "eingestellte"
+        }
+      ]
+    },
+    {
+      "title": "2. Adjectifs avec prépositions obligatoires",
+      "type": "table",
+      "explanation": "Liste d'adjectifs clés à connaître avec leur préposition attitrée.",
+      "tableData": {
+        "headers": [
+          "Adjectif",
+          "Préposition + Cas",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "stolz",
+            "auf + Acc.",
+            "Ich bin stolz auf dich.",
+            "Je suis fier de toi."
+          ],
+          [
+            "zufrieden",
+            "mit + Dat.",
+            "Er ist mit der Arbeit zufrieden.",
+            "Il est satisfait du travail."
+          ],
+          [
+            "interessiert",
+            "an + Dat.",
+            "Sie ist an dem Projekt interessiert.",
+            "Elle est intéressée par le projet."
+          ],
+          [
+            "abhängig",
+            "von + Dat.",
+            "Wir sind vom Wetter abhängig.",
+            "Nous dépendons de la météo."
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle préposition et quel cas suivent l'adjectif 'stolz' (fier) ?",
+      "options": [
+        "mit + Datif",
+        "auf + Accusatif",
+        "über + Accusatif"
+      ],
+      "answer": "auf + Accusatif",
+      "explanation": "L'adjectif 'stolz' est toujours suivi de 'auf + Accusatif' (ex: 'stolz auf meinen Sohn')."
+    }
+  ]
+}

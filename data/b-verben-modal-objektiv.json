@@ -1,0 +1,118 @@
+{
+  "id": "b-verben-modal-objektiv",
+  "title": "1.3. Modaux en Sens Objectif",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "Les verbes modaux expriment la capacité (können), l'obligation (müssen), le devoir moral (soll), l'autorisation (dürfen). Le niveau B1-B2 demande de maîtriser également les verbes semi-modaux comme 'lassen', 'sehen' ou 'hören' qui se comportent de manière analogue !",
+  "sections": [
+    {
+      "title": "1. Le verbe semi-modal 'lassen'",
+      "type": "table",
+      "explanation": "Lassen s'utilise comme un verbe modal. Il exprime le fait de faire faire quelque chose ou de laisser faire.",
+      "tableData": {
+        "headers": [
+          "Sens",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "Faire faire (déléguer)",
+            "Ich lasse mein Auto reparieren.",
+            "Je fais réparer ma voiture (par un mécanicien)."
+          ],
+          [
+            "Laisser / Autoriser",
+            "Ich lasse die Kinder spielen.",
+            "Je laisse jouer les enfants."
+          ],
+          [
+            "Tournure réflexive (possibilité)",
+            "Das lässt sich machen.",
+            "Cela peut se faire / c'est faisable."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes de perception (sehen, hören, spüren)",
+      "type": "grid",
+      "explanation": "Ils se construisent également avec un double infinitif au parfait et sans 'zu' au présent.",
+      "examples": [
+        {
+          "german": "Présent (sans zu)",
+          "french": "Ich höre ihn singen. (Je l'entends chanter.)",
+          "highlight": "höre, singen"
+        },
+        {
+          "german": "Parfait (double infinitif)",
+          "french": "Ich habe ihn singen hören. (et non 'gehört') (Je l'ai entendu chanter.)",
+          "highlight": "haben, hören"
+        }
+      ]
+    },
+    {
+      "title": "3. Synthèse approfondie des emplois objectifs des verbes modaux",
+      "type": "table",
+      "explanation": "Voici un récapitulatif détaillé des nuances objectives des verbes modaux au niveau B1-B2 :",
+      "tableData": {
+        "headers": [
+          "Verbe",
+          "Nuance objective principale",
+          "Exemple en allemand",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "können",
+            "Capacité acquise / Possibilité matérielle / Alternative",
+            "Er kann gut Klavier spielen. / Wir können morgen reisen.",
+            "Il sait bien jouer du piano. / Nous pouvons voyager demain."
+          ],
+          [
+            "dürfen",
+            "Permission légale ou morale / Interdiction (avec nicht) / Souhait poli (KII)",
+            "Hier darf man parken. / Hier darf man nicht rauchen. / Dürfte ich Sie bitten...",
+            "Ici on peut se garer. / Ici il est interdit de fumer. / Puis-je vous demander..."
+          ],
+          [
+            "müssen",
+            "Obligation inéluctable / Devoir absolu / Contrainte physique",
+            "Alle Menschen müssen sterben. / Ich muss pünktlich sein.",
+            "Tous les hommes doivent mourir. / Je dois être à l'heure."
+          ],
+          [
+            "sollen",
+            "Ordre/consigne d'un tiers / Devoir moral / Conseil (au KII)",
+            "Ich soll den Chef anrufen. / Du sollst nicht töten. / Du solltest schlafen.",
+            "Je dois appeler le chef (il me l'a demandé). / Tu ne tueras point. / Tu devrais dormir."
+          ],
+          [
+            "wollen",
+            "Intention volontaire / Projet ferme / Refus catégorique (avec nicht)",
+            "Ich will Deutsch lernen. / Er will das Auto nicht verkaufen.",
+            "Je veux apprendre l'allemand. / Il refuse de vendre la voiture."
+          ],
+          [
+            "mögen",
+            "Goût ou inclination / Formule de souhait poli (möchte)",
+            "Ich mag keinen Kaffee. / Ich möchte ein Bier bestellen.",
+            "Je n'aime pas le café. / Je voudrais commander une bière."
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Traduisez : 'Je me fais couper les cheveux.'",
+      "options": [
+        "Ich schneide meine Haare.",
+        "Ich lasse meine Haare schneiden.",
+        "Ich muss meine Haare schneiden."
+      ],
+      "answer": "Ich lasse meine Haare schneiden.",
+      "explanation": "On utilise 'lassen' + infinitif à la fin de la phrase pour exprimer le fait de confier une action à quelqu'un d'autre ('faire faire')."
+    }
+  ]
+}

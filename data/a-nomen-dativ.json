@@ -1,0 +1,95 @@
+{
+  "id": "a-nomen-dativ",
+  "title": "2.2. Le Datif (Dativ)",
+  "category": "Nomen",
+  "level": "A1-A2",
+  "pedagogicTip": "Le Datif correspond généralement au complément d'objet indirect (attribution) ou est exigé par certaines prépositions et verbes. Astuce : en dative pluriel, ajoutez un -n à la fin du nom commun s'il n'en a pas déjà un (ex: den Kindern) !",
+  "sections": [
+    {
+      "title": "1. Déclinaison des articles au Datif",
+      "type": "table",
+      "explanation": "Les articles définis, indéfinis et négatifs au Datif.",
+      "tableData": {
+        "headers": [
+          "Type",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Défini",
+            "dem Mann",
+            "der Frau",
+            "dem Kind",
+            "den Kindern (n d'appui)"
+          ],
+          [
+            "Indéfini",
+            "einem Mann",
+            "einer Frau",
+            "einem Kind",
+            "- Kindern"
+          ],
+          [
+            "Négatif",
+            "keinem Mann",
+            "keiner Frau",
+            "keinem Kind",
+            "keinen Kindern"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes courants exigeant le Datif",
+      "type": "grid",
+      "explanation": "Ces verbes allemands prennent un complément au datif, contrairement au français qui utilise souvent un COD ou une autre structure.",
+      "examples": [
+        {
+          "german": "helfen (aider)",
+          "french": "Ich helfe dem Vater. (J'aide le père.)",
+          "highlight": "helfe, dem"
+        },
+        {
+          "german": "danken (remercier)",
+          "french": "Ich danke dir. (Je te remercie.)",
+          "highlight": "danke, dir"
+        },
+        {
+          "german": "gefallen (plaire)",
+          "french": "Das Auto gefällt mir. (La voiture me plaît.)",
+          "highlight": "gefällt, mir"
+        },
+        {
+          "german": "gehören (appartenir à)",
+          "french": "Das Buch gehört dem Schüler. (Le livre appartient à l'élève.)",
+          "highlight": "gehört, dem"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich antworte ___ Lehrerin.' (die Lehrerin)",
+      "options": [
+        "die",
+        "der",
+        "dem"
+      ],
+      "answer": "der",
+      "explanation": "Le verbe 'antworten' régit le datif. 'Lehrerin' est féminin, l'article féminin au datif devient 'der'."
+    },
+    {
+      "question": "Quelle est la règle spéciale pour les noms au datif pluriel ?",
+      "options": [
+        "On ajoute un -s",
+        "On ajoute un -n",
+        "Le nom reste inchangé"
+      ],
+      "answer": "On ajoute un -n",
+      "explanation": "Au datif pluriel, on ajoute un -n de soutien à la fin du nom (ex: den Kindern, den Freunden), sauf si le nom finit déjà par -n ou -s."
+    }
+  ]
+}

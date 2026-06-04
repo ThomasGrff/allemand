@@ -1,0 +1,119 @@
+{
+  "id": "b-verben-konjunktiv-zwei",
+  "title": "1.7. Le Konjunktiv II",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "Le Konjunktiv II est le mode de l'irréel, du regret et du souhait. En B1-B2, maîtrisez la distinction entre le Konjunktiv II présent (würde + Inf, ou formes fortes) et passé (hätte/wäre + Participe II) !",
+  "sections": [
+    {
+      "title": "1. Le Konjunktiv II du présent",
+      "type": "table",
+      "explanation": "Formes régulières (würde + Inf) et verbes forts qui prennent un Umlaut sur le radical du prétérit (ex: gab ➔ gäbe).",
+      "tableData": {
+        "headers": [
+          "Verbe",
+          "Prétérit",
+          "Konjunktiv II Présent",
+          "Exemple en phrase"
+        ],
+        "rows": [
+          [
+            "haben",
+            "hatte",
+            "hätte",
+            "Wenn ich Zeit hätte, käme ich."
+          ],
+          [
+            "sein",
+            "war",
+            "wäre",
+            "Wenn ich reich wäre, würde ich reisen."
+          ],
+          [
+            "kommen",
+            "kam",
+            "käme",
+            "Käme er doch bald ! (S'il pouvait venir bientôt !)"
+          ],
+          [
+            "Verbes réguliers",
+            "lernte",
+            "würde lernen",
+            "Ich würde gern Deutsch lernen."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Le Konjunktiv II du passé (Irréel du passé)",
+      "type": "table",
+      "explanation": "Pour exprimer des regrets sur le passé. Formule : hätte / wäre (au KII) + Participe II.",
+      "tableData": {
+        "headers": [
+          "Type",
+          "Formule",
+          "Exemple",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "Avec haben",
+            "hätte + Participe II",
+            "Ich hätte dich angerufen.",
+            "Je t'aurais appelé (mais je ne l'ai pas fait)."
+          ],
+          [
+            "Avec sein",
+            "wäre + Participe II",
+            "Ich wäre nach Berlin gefahren.",
+            "Je serais allé à Berlin (mais impossible)."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Les principaux emplois du Konjunktiv II",
+      "type": "grid",
+      "explanation": "Le Konjunktiv II est le mode de l'imaginaire, du potentiel et du virtuel. On l'utilise principalement pour :",
+      "examples": [
+        {
+          "german": "Wenn ich reich wäre, würde ich eine Weltreise machen.",
+          "french": "Condition irréelle (Konditionalsatz) : Si j'étais riche, je ferais un tour du monde (au présent).",
+          "highlight": "wäre, würde"
+        },
+        {
+          "german": "Wenn er doch nur hier wäre! / Wäre er doch nur hier!",
+          "french": "Souhait irréel (Wunschsatz) : S'il était seulement là ! (souvent avec doch ou nur).",
+          "highlight": "wäre"
+        },
+        {
+          "german": "Er tut so, als ob er alles wüsste.",
+          "french": "Comparaison irréelle (Vergleichssatz) : Il fait comme s'il savait tout (avec als ob).",
+          "highlight": "als ob, wüsste"
+        },
+        {
+          "german": "Du solltest weniger Kaffee trinken.",
+          "french": "Conseil poli (Ratschlag) : Tu devrais boire moins de café (souvent avec sollte).",
+          "highlight": "solltest"
+        },
+        {
+          "german": "Könnte ich bitte das Salz haben?",
+          "french": "Atténuation de politesse : Pourrais-je avoir le sel, s'il vous plaît ?",
+          "highlight": "Könnte"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Traduisez : 'Si j'avais eu le temps, je serais venu.'",
+      "options": [
+        "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+        "Wenn ich Zeit hätte, würde ich kommen.",
+        "Wenn ich Zeit gehabt habe, bin ich gekommen."
+      ],
+      "answer": "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+      "explanation": "L'irréel du passé se forme avec l'auxiliaire au Konjunktiv II passé ('hätte' pour haben, 'wäre' pour kommen) associé au Participe II."
+    }
+  ]
+}

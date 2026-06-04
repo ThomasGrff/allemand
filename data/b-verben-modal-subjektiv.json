@@ -1,0 +1,104 @@
+{
+  "id": "b-verben-modal-subjektiv",
+  "title": "1.4. Modaux en Sens Subjectif",
+  "category": "Verben",
+  "level": "B2",
+  "pedagogicTip": "En sens subjectif, le locuteur évalue la vérité d'une information. Sollen exprime la rumeur ('on dit que'), wollen l'assertion non vérifiée du sujet ('prétend que'), et müssen/dürfen/können des conjectures de probabilités décroissantes.",
+  "sections": [
+    {
+      "title": "1. Degrés de probabilité et conjectures",
+      "type": "table",
+      "explanation": "Comment exprimer le doute ou la certitude d'une affirmation.",
+      "tableData": {
+        "headers": [
+          "Verbe modal",
+          "Degré de certitude",
+          "Exemple",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "müssen",
+            "90-100% (Presque sûr)",
+            "Er muss im Büro sein.",
+            "Je suis quasiment sûr qu'il y est."
+          ],
+          [
+            "müsste (KII)",
+            "70-80% (Très probable)",
+            "Er müsste im Büro sein.",
+            "C'est normal/logique s'il y est."
+          ],
+          [
+            "können / dürfte",
+            "50% (Possible / probable)",
+            "Er dürfte im Büro sein.",
+            "Il y a de bonnes chances."
+          ],
+          [
+            "könnte (KII)",
+            "30% (Incertain)",
+            "Er könnte im Büro sein.",
+            "C'est une simple possibilité."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Rumeurs et assertions",
+      "type": "grid",
+      "explanation": "Les verbes 'sollen' et 'wollen' permettent de se distancier des propos rapportés.",
+      "examples": [
+        {
+          "german": "sollen (on dit que, il paraît que)",
+          "french": "Der Minister soll zurücktreten. (Il paraît que le ministre va démissionner.)",
+          "highlight": "soll"
+        },
+        {
+          "german": "wollen (prétendre, affirmer sans preuve)",
+          "french": "Er will den Dieb gesehen haben. (Il prétend avoir vu le voleur.)",
+          "highlight": "will"
+        }
+      ]
+    },
+    {
+      "title": "3. Les modaux subjectifs au passé (Structure avec Infinitif II)",
+      "type": "grid",
+      "explanation": "Pour exprimer une conjecture, une rumeur ou une affirmation sur un événement passé, on utilise le verbe modal au présent suivi d'un infinitif passé (Participe II + haben / sein) :",
+      "examples": [
+        {
+          "german": "müssen + Infinitif II (Quasi-certitude passée)",
+          "french": "Er ist gestern nicht gekommen. Er muss krank gewesen sein. (Il n'est pas venu hier. Il a dû être malade / Il était très probablement malade).",
+          "highlight": "muss, gewesen sein"
+        },
+        {
+          "german": "könnte + Infinitif II (Possibilité passée incertaine)",
+          "french": "Er könnte den Schlüssel verloren haben. (Il se peut qu'il ait perdu sa clé / Il a peut-être perdu sa clé).",
+          "highlight": "könnte, verloren haben"
+        },
+        {
+          "german": "sollen + Infinitif II (Rumeur sur le passé)",
+          "french": "Der Täter soll geflohen sein. (Le coupable s'est, dit-on, enfui / Il paraît que le coupable s'est enfui).",
+          "highlight": "soll, geflohen sein"
+        },
+        {
+          "german": "wollen + Infinitif II (Affirmation non prouvée du sujet sur son propre passé)",
+          "french": "Er will das Geld nicht genommen haben. (Il prétend ne pas avoir pris l'argent).",
+          "highlight": "will, genommen haben"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Que signifie la phrase : 'Herr Müller soll sehr reich sein.' ?",
+      "options": [
+        "Monsieur Müller a le devoir d'être riche.",
+        "Monsieur Müller prétend être très riche.",
+        "Il paraît / on dit que Monsieur Müller est très riche."
+      ],
+      "answer": "Il paraît / on dit que Monsieur Müller est très riche.",
+      "explanation": "'sollen' employé de façon subjective exprime une information de seconde main ou une rumeur ('on dit que', 'il paraît que')."
+    }
+  ]
+}

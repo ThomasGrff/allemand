@@ -1,0 +1,127 @@
+{
+  "id": "a-pronomen-personal",
+  "title": "3.1. Les Pronoms Personnels",
+  "category": "Pronomen",
+  "level": "A1-A2",
+  "pedagogicTip": "Les pronoms personnels remplacent des personnes ou des choses et se déclinent selon le cas (rôle dans la phrase : Nominatif pour le sujet, Accusatif pour le COD, Datif pour le COI) !",
+  "sections": [
+    {
+      "title": "1. Tableau de déclinaison des pronoms personnels",
+      "type": "table",
+      "explanation": "Voici les trois cas principaux des pronoms personnels en allemand.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "Nominatif (Sujet)",
+          "Accusatif (COD)",
+          "Datif (COI)"
+        ],
+        "rows": [
+          [
+            "1re sg. (je)",
+            "ich",
+            "mich",
+            "mir"
+          ],
+          [
+            "2e sg. (tu)",
+            "du",
+            "dich",
+            "dir"
+          ],
+          [
+            "3e sg. masc. (il)",
+            "er",
+            "ihn",
+            "ihm"
+          ],
+          [
+            "3e sg. fém. (elle)",
+            "sie",
+            "sie",
+            "ihr"
+          ],
+          [
+            "3e sg. neut. (il/elle)",
+            "es",
+            "es",
+            "ihm"
+          ],
+          [
+            "1re pl. (nous)",
+            "wir",
+            "uns",
+            "uns"
+          ],
+          [
+            "2e pl. (vous)",
+            "ihr",
+            "euch",
+            "euch"
+          ],
+          [
+            "3e pl. (ils/elles)",
+            "sie",
+            "sie",
+            "ihnen"
+          ],
+          [
+            "Politesse sg/pl",
+            "Sie",
+            "Sie",
+            "Ihnen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Exemples d'application",
+      "type": "grid",
+      "explanation": "Observez le cas du pronom selon le verbe ou la préposition.",
+      "examples": [
+        {
+          "german": "Liebst du mich?",
+          "french": "M'aimes-tu ? (mich = accusatif car COD de lieben)",
+          "highlight": "mich"
+        },
+        {
+          "german": "Wie geht es dir?",
+          "french": "Comment vas-tu ? (dir = datif car complément de la tournure impersonnelle)",
+          "highlight": "dir"
+        },
+        {
+          "german": "Das Buch ist für ihn.",
+          "french": "Le livre est pour lui. (ihn = accusatif après la préposition für)",
+          "highlight": "ihn"
+        },
+        {
+          "german": "Wir helfen Ihnen.",
+          "french": "Nous vous aidons (forme polie). (Ihnen = datif régi par helfen)",
+          "highlight": "Ihnen"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich schenke ___ (du) ein Buch.'",
+      "options": [
+        "dich",
+        "dir",
+        "du"
+      ],
+      "answer": "dir",
+      "explanation": "Le verbe 'schenken' demande un complément d'attribution au datif (offrir à quelqu'un). Le pronom de 'du' au datif est 'dir'."
+    },
+    {
+      "question": "Quel pronom remplace 'der Hund' à l'accusatif ?",
+      "options": [
+        "er",
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihn",
+      "explanation": "'Hund' est masculin (der). Au nominatif, on le remplace par 'er', mais à l'accusatif (COD), on utilise 'ihn'."
+    }
+  ]
+}

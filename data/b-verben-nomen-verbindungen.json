@@ -1,0 +1,66 @@
+{
+  "id": "b-verben-nomen-verbindungen",
+  "title": "1.9. Nomen-Verb-Verbindungen",
+  "category": "Verben",
+  "level": "B2",
+  "pedagogicTip": "Les Nomen-Verb-Verbindungen (ou Funktionsverbgefüge) associent un nom abstrait (souvent précédé d'une préposition) et un verbe support. Ces expressions remplacent un verbe simple et sont indispensables à l'écrit formel !",
+  "sections": [
+    {
+      "title": "1. Exemples d'expressions nominales-verbales fréquentes",
+      "type": "table",
+      "explanation": "Voici quelques associations indispensables pour le niveau B2.",
+      "tableData": {
+        "headers": [
+          "Expression",
+          "Verbe simple équivalent",
+          "Exemple en allemand",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "zur Verfügung stehen",
+            "disponibel sein",
+            "Das Auto steht zur Verfügung.",
+            "La voiture est à disposition."
+          ],
+          [
+            "zur Verfügung stellen",
+            "anbieten",
+            "Ich stelle das Auto zur Verfügung.",
+            "Je mets la voiture à disposition."
+          ],
+          [
+            "in Kauf nehmen",
+            "akzeptieren (négatif)",
+            "Er nimmt das Risiko in Kauf.",
+            "Il accepte / assume le risque."
+          ],
+          [
+            "eine Rolle spielen",
+            "wichtig sein",
+            "Das spielt keine Rolle.",
+            "Cela ne joue aucun rôle / n'est pas important."
+          ],
+          [
+            "einen Antrag stellen",
+            "beantragen",
+            "Er stellt einen Antrag auf Visum.",
+            "Il fait une demande de visa."
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Que signifie l'expression 'in Kauf nehmen' ?",
+      "options": [
+        "Acheter quelque chose dans un magasin",
+        "Accepter un inconvénient ou un risque",
+        "Faire des achats"
+      ],
+      "answer": "Accepter un inconvénient ou un risque",
+      "explanation": "'in Kauf nehmen' signifie accepter ou assumer une conséquence négative ou un risque lors d'un choix."
+    }
+  ]
+}

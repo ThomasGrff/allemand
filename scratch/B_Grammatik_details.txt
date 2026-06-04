@@ -1,0 +1,605 @@
+Book: B-Grammatik
+Total pages: 287
+
+Outline:
+   Inhaltsübersicht und Vorwort
+  1. Verben
+  2. Nomen und Artikel
+  3. Pronomen
+  4. Adjektive
+  5. Präpositionen
+  6. Adverbien und Partikeln
+  7. Einfache Sätze
+  8. Zusammengesetzte Sätze
+  9. Anhang
+  df-61EGxFVLcCL._SL1000_.jpg
+
+First 12 Pages Text:
+--- Page 1 ---
+
+
+--- Page 2 ---
+Übungsgrammatik  
+Deutsch als Fremdsprache
+Sprachniveau B1 • B2
+B-Grammatik
+Anne Buscha  Szilvia Szita
+Mit Zeichnungen von Jean-Marc Deltorn
+
+
+--- Page 3 ---
+Das vorliegende Lehrwerk beinhaltet Hörtexte.
+2  Hörtext
+Die Hörmaterialien stehen in unserer App SCHUBERT-Audio
+und auf unserer Website unter schubert-verlag.de/medien
+zum Download zur Verfügung.
+Das Werk und seine Teile sind urheberrechtlich geschützt.
+Jede Nutzung in anderen als den gesetzlich zugelassenen Fällen
+bedarf der vorherigen schriftlichen Einwilligung des Verlages.
+Redaktion: Albrecht Klemm, Ann-Katrin Röß unter Mitarbeit von Alessia Mütsch
+Layout und Satz: Diana Liebers; Jeanette Steinberg, Buchgestaltung | Mediendesign, Leipzig
+Coverlayout: Markus Drapatz
+Zeichnungen: Jean-Marc Deltorn
+Die Hörtexte wurden gesprochen von:
+Claudia Gräf, Tim Huber, Philipp Oehme, Clarissa Schneider
+Gedruckt auf zertifiziertem Papier aus nachhaltigen 
+und verantwortungsvollen Quellen.
+© SCHUBERT-Verlag, Leipzig
+2., vollständig überarbeitete Auflage 2024
+Alle Rechte vorbehalten
+Printed in Germany
+ISBN: 978-3-96915-077-1
+Dieses Buch wurde hergestellt mit 100 % Ökostrom aus  
+ökologischer Erzeugung, welcher durch den TÜV Nord  
+und das ok-Power-Label zertifiziert ist.
+Es ist gedruckt auf zertifiziertem Papier aus nachhaltigen  
+und verantwortungsvollen Quellen.
+
+
+--- Page 4 ---
+3
+Inhaltsübersicht
+Inhaltsübersicht
+Vorwort  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   6
+1 Verben
+1.1 Tempora 
+1.1.1 Gebrauch der Tempora   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  sie fährt, 
+ sie fuhr, sie ist gefahren, sie war gefahren, 
+ sie wird fahren, sie wird gefahren sein   .  .  .  .  .  .  .  .  .   7
+1.1.2 Präsens
+ ` Verben mit und ohne Vokalwechsel  . . . . . . . .  Otto kocht gern. Frau Huber liest eine Mail.   .  .  .  .   9
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Moritz druckt Dokumente aus. Inga besucht einen  
+ Kunden.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  14
+1.1.3 Perfekt
+ ` Perfekt mit haben   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Eva hat Musik gehört. Ben hat einen Bericht  
+ geschrieben.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  18
+ ` Perfekt mit sein   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Martina ist mit ihrem Motorroller gefahren. .  .  .   21
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Inga hat eine Kundin angerufen.   .  .  .  .  .  .  .  .  .  .  .  .  .  .   23
+1.1.4 Präteritum
+ ` Regel- und unregelmäßige Verben   .  .  .  .  .  .  .  .  .  Die Abgeordneten diskutierten über Agrarpolitik. 
+ Der Minister gab ein Interview.  . . . . . . . . . . . . . . .  26
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Ein Mann brach ins Museum ein.  . . . . . . . . . . . . . .  30
+1.1.5 Plusquamperfekt   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Als ich kam, hatte Otto gerade geduscht.   .  .  .  .  .  .   33
+1.1.6 Futur I und II  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Gustav wird eine Lösung finden. 
+  Bis morgen wird er eine Lösung gefunden haben.  36
+1.2 Modalverben
+1.2.1 Modalverben in der Grundbedeutung  .  .  .  .  .  .  .  .  Tina will später Schauspielerin werden.  . . . . . . . .  39
+1.2.2 Modalverben in subjektiver Bedeutung 
+ ` Weitergabe von Informationen   .  .  .  .  .  .  .  .  .  .  .  Es soll Forderungen nach dem Rücktritt des  
+ Ministers geben.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  46
+ ` Ausdruck einer Vermutung  . . . . . . . . . . . . . . .  Max müsste noch im Büro sein.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .   48
+1.2.3 Modalverbähnliche Verben   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Moritz lernt kochen.  . . . . . . . . . . . . . . . . . . . . . . . . .  50
+1.3 Reflexive Verben  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Ich beschwere mich über die neue Waschmaschine.   52
+1.4 Verben und ihre Ergänzungen
+1.4.1 Verben mit direktem Kasus   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Eva erklärt ihrem Kollegen das Problem.   .  .  .  .  .  .   56
+1.4.2 Verben mit präpositionalem Kasus   .  .  .  .  .  .  .  .  .  .  Philip denkt an die nächste Prüfung.   .  .  .  .  .  .  .  .  .  .   60
+1.4.3 Verben mit lokalen Ergänzungen  . . . . . . . . . . . .  Peter liegt im Bett. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .   65
+1.5 Passiv 
+1.5.1 Vorgangspassiv
+ ` Vorgangspassiv ohne Modalverben  . . . . . . . .  Franz wird untersucht.  . . . . . . . . . . . . . . . . . . . . . . .  66
+ ` Vorgangspassiv mit Modalverben   .  .  .  .  .  .  .  .  .  Franz muss untersucht werden.  . . . . . . . . . . . . . . .  71
+1.5.2 Zustandspassiv  . . . . . . . . . . . . . . . . . . . . . . . . . .  Das Auto ist leider schon verkauft.  . . . . . . . . . . . .  74
+1.5.3 Passiv-Ersatzformen  . . . . . . . . . . . . . . . . . . . . . .  Diese Aufgabe lässt sich leicht lösen.   .  .  .  .  .  .  .  .  .  .   76
+1.6 Modi
+1.6.1 Imperativ  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Iss mehr Obst und Gemüse!  . . . . . . . . . . . . . . . . . . .  79
+1.6.2 Konjunktiv II
+ ` Allgemeine Hinweise   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Otto wäre gern Astronaut.  . . . . . . . . . . . . . . . . . . .  81
+ ` Höfliche Bitten und Fragen  . . . . . . . . . . . . . . .  Wann hätten Sie Zeit?  . . . . . . . . . . . . . . . . . . . . . . .  83
+ ` Ratschläge und Meinungsäußerungen   .  .  .  .  .  Klaus, du solltest weniger arbeiten.   .  .  .  .  .  .  .  .  .  .  .   85
+ ` Irreale Wünsche, Bedingungen, Vergleiche   .  .  .  Wenn Rudi mehr Geld hätte, würde er sich 
+ ein E-Bike kaufen.  . . . . . . . . . . . . . . . . . . . . . . . . . . .  87
+1.6.3 Konjunktiv I – Die indirekte Rede  . . . . . . . . . . . .  Die Ministerin sagte, sie plane neue Gesetze.  . . .  90
+1.7 Nomen-Verb-Verbindungen   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Auf der Pressekonferenz kam das Thema 
+                                                             
+
+
+--- Page 5 ---
+4
+Inhaltsübersicht
+2 Nomen und Artikel
+2.1 Genus   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  der Baum, das Herz, die Maus  . . . . . . . . . . . . . . . .   97
+2.2 Numerus: Plural  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  eine Maus, viele Mäuse   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  102
+2.3 Kasus der Nomen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  105
+ ` Deklination der Nomen  . . . . . . . . . . . . . . . . . . . . . . .  Die Museumsmitarbeiterin erklärt dem Besucher 
+   das Bild.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+ ` n-Deklination maskuliner Nomen  . . . . . . . . . . . . . . .  Das Gespräch mit dem Kollegen war schwierig.  108
+2.4 Wortbildung der Nomen   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  die Weinflasche, die Verkostung, das Trinken  . . .  110
+2.5 Bestimmter, unbestimmter, negativer Artikel  . . . . . . .  eine Katze, die Katze, keine Katze  . . . . . . . . . . . .  112
+2.6 Possessivartikel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Das ist nicht unser Auto.  . . . . . . . . . . . . . . . . . . . . .  116
+2.7 Demonstrativ- und Frageartikel  . . . . . . . . . . . . . . . . . .  Welcher Rucksack gefällt dir? Dieser Rucksack.   118
+3 Pronomen
+3.1 Personalpronomen  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Was kann ich für Sie tun?   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  120
+3.2 Possessivpronomen  . . . . . . . . . . . . . . . . . . . . . . . . . . .  Gehört der Stift Eddi? Ja, es ist seiner.   .  .  .  .  .  .  .  122
+3.3 Indefinitpronomen
+ ` Einer, keiner …   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Ich brauche noch ein Ei. Im Kühlschrank ist keins  
+   mehr.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  123
+ ` Man, jemand, niemand, alle, etwas, nichts, alles  . . . . .  Hier ist niemand. Alle sind in der Kantine.  . . . . . .  124
+3.4 Fragepronomen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Wer hat diesen Sonnenuntergang fotografiert?   126
+3.5 Demonstrativpronomen   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Welches Bild gefällt dir am besten? Dieses da.    127
+3.6 Das Wort es  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Es ist heiß.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  129
+4 Adjektive
+4.1 Deklination
+ ` Deklination nach bestimmtem Artikel  . . . . . . . . . . .  Die schöne Tasche kann ich mir nicht leisten.  . . .  131
+ ` Deklination nach unbestimmtem Artikel  . . . . . . . . .  Dort steht ein 200 Jahre alter Baum.  . . . . . . . . .  132
+ ` Deklination ohne Artikel  . . . . . . . . . . . . . . . . . . . . . .  Ich kaufe frisches Obst immer auf dem Markt.  . .  133
+4.2 Komparation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Martina ist die schnellste Schwimmerin. 
+    Sie schwamm am schnellsten.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  136
+4.3 Partizipien als Adjektive  . . . . . . . . . . . . . . . . . . . . . . . .  Der eingefahrene Zug hat eine abweichende  
+    Wagenreihung.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  140
+4.4 Nominalisierte Adjektive und Partizipien   .  .  .  .  .  .  .  .  .  .  Tim hat mit vielen Bekannten gesprochen.   . . . . .  143
+4.5 Adjektive mit Ergänzungen
+ ` Adjektive mit präpositionalem Kasus  . . . . . . . . . . . .  Autoabgase sind schädlich für die Umwelt.  . . . . .  145
+ ` Adjektive mit direktem Kasus  . . . . . . . . . . . . . . . . . .  Einige Fragen waren dem Politiker unangenehm.   146
+4.6 Zahlwörter   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Anne belegte den dritten Platz.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  148
+4.7 Wortbildung der Adjektive  . . . . . . . . . . . . . . . . . . . . . .  Friedrich ist sehr sportlich.  . . . . . . . . . . . . . . . . . . .  150
+5 Präpositionen
+ Allgemeine Hinweise   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  153
+5.1 Präpositionen mit dem Dativ  . . . . . . . . . . . . . . . . . . . .  Wir fahren mit dem Fahrrad.  . . . . . . . . . . . . . . . . .  154
+5.2 Präpositionen mit dem Akkusativ   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Martina kocht für ihre Gäste.  . . . . . . . . . . . . . . . .  157
+5.3 Präpositionen mit Dativ oder Akkusativ   .  .  .  .  .  .  .  .  .  .  .  Das Glas steht neben der Flasche.
+  Ich habe das Glas neben die Flasche gestellt.  . . .  159
+5.4 Präpositionen mit dem Genitiv   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Wegen eines Unfalls kam es zu einem langen  
+    Stau.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  161
+5.5 Semantische Zuordnung der Präpositionen
+ ` Lokalangaben   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Wir fliegen nach Deutschland.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  163
+ ` Temporalangaben  . . . . . . . . . . . . . . . . . . . . . . . . . . .  Der Handwerker kommt am Nachmittag.  . . . . . .  166
+                                                        
+
+
+--- Page 6 ---
+5B-Grammatik
+Inhaltsübersicht
+6 Adverbien und Partikeln
+6.1 Fragewörter   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Wann und wo findet die Präsentation statt?  . . .  173
+6.2 Adverbien
+ ` Lokale Adverbien .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Hier spielen die angesagtesten Bands.  . . . . . . . . .  176
+ ` Temporale Adverbien  . . . . . . . . . . . . . . . . . . . . . . . .  In diesem Club findet heute ein Konzert statt.  . .  178
+ ` Modale und kausale Adverbien   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Die Musiker freuen sich sehr auf ihren Auftritt.   179
+6.3 Redepartikeln  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Was ist denn passiert, Sabine?  . . . . . . . . . . . . . . . .  181
+7 Einfache Sätze
+7.1 Position der Verben   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Sandra spielt zweimal in der Woche Tennis.  . . . .  183
+7.2 Position der anderen Satzglieder
+7.2.1 Wortstellung im Mittelfeld 
+ ` Kasusergänzungen  . . . . . . . . . . . . . . . . . . . . .  Nina erklärt der neuen Kollegin das Programm.  .  185
+ ` Angaben   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Tina und Tim fahren am Wochenende mit dem  
+  Auto nach Berlin.  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  186
+7.2.2 Satzglieder im Nachfeld 
+ ` Vergleiche   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Der Kuchen hat 70 Cent mehr gekostet als 
+ vor einem Jahr.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  188
+ ` Ausklammerung   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Mehrere Sammler waren sehr interessiert an  
+ diesem Werk.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  188
+7.3 Besonderes Satzglied: Apposition  . . . . . . . . . . . . . . . .  Die Zugspitze, der höchste Berg 
+ Deutschlands, ist 2 962 Meter hoch.  . . . . . . . . . . .  190
+7.4 Negation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Der Wein hat Ellen nicht geschmeckt.   .  .  .  .  .  .  .  .  .  191
+8 Zusammengesetzte Sätze
+8.1 Hauptsätze
+8.1.1 Satzverbindung mit Konjunktionen  . . . . . . . . . .  Martin macht im Winter in den Alpen 
+ Urlaub, denn er fährt gern Ski.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  193
+8.1.2 Satzverbindung mit Konjunktionaladverbien  . . .  Martin fährt gern Ski, deshalb macht er im 
+ Winter in den Alpen Urlaub.  . . . . . . . . . . . . . . . . . .  197
+8.2 Adverbiale Nebensätze   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Martin macht im Winter in den Alpen 
+ Urlaub, weil er gern Ski fährt.  . . . . . . . . . . . . . . . .  201
+8.3 Sinngerichtete Infinitivkonstruktionen   .  .  .  .  .  .  .  .  .  .  .  .  Nina fährt in den Urlaub, um sich zu erholen.    . .  213
+8.4 Übersicht Adverbialsätze: Semantische Zuordnung  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  215
+8.5 Verbabhängige Nebensätze und Infinitivkonstruktionen
+8.5.1 dass-Sätze  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Freunde haben berichtet, dass man im Harz gut 
+ wandern kann.   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  219
+8.5.2 Infinitiv mit zu  . . . . . . . . . . . . . . . . . . . . . . . . . . .  Gudrun hat vor, im Urlaub viel zu wandern. .  .  .  .  .  221
+8.6 Fragesätze als Nebensätze  . . . . . . . . . . . . . . . . . . . . . .  Nina weiß noch nicht, wo sie übernachtet.  . . . . . . 223
+8.7 Relativsätze  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Martin nimmt die Ski mit, die er schon vor 
+ zehn Jahren gekauft hat.  . . . . . . . . . . . . . . . . . . . . . 225
+9 Anhang
+9.1 Wichtige Regeln zur Rechtschreibung und Zeichensetzung   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  229
+9.2 Übersicht: Unregelmäßige Verben  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 232
+9.3 Übersicht: Verben mit direktem Kasus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 240
+9.4 Übersicht: Verben mit präpositionalem Kasus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  243
+9.5 Übersicht: Adjektive mit präpositionalem Kasus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 246
+9.6 Übersicht: Nomen-Verb-Verbindungen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 248
+9.7 Für Lehrende: Grammatik spielend festigen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  251
+9.8 Index   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+9.9 Lösungen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  267
+
+
+--- Page 7 ---
+6 B-Grammatik
+Vorwort
+Vorwort
+Die B-Grammatik ist eine Übungsgrammatik für Lernende auf den Niveaustufen B1 und B2 des Gemeinsamen Euro-
+päischen Referenzrahmens für Sprachen. Sie eignet sich sowohl als kursbegleitendes Zusatzmaterial als auch für die 
+individuelle Arbeit.
+Die B-Grammatik bietet einen Überblick über alle wichtigen Bausteine der deutschen Grammatik und kann deshalb 
+auch von Lernenden höherer Niveaustufen zur Wiederholung und Festigung ihrer Grammatikkenntnisse genutzt werden. 
+Sie orientiert sich an der Relevanz grammatischer Erscheinungen für den Sprachgebrauch, Ausnahmen und Seltenheiten 
+werden nur ansatzweise berücksichtigt.
+Im Mittelpunkt der B-Grammatik stehen die grammatischen Strukturen und ihr Gebrauch. Die Strukturen werden an-
+hand von konkreten Beispielen eingeführt und einfach und verständlich erklärt. Kenntnisse der grammatischen Termini 
+sind daher für die Arbeit mit der B-Grammatik weniger wichtig. 
+Jedes Grammatikthema ist übersichtlich gegliedert in:
+ ein illustriertes Beispiel zur Einführung in das Thema
+ Erläuterung des Gebrauchs
+ Übersichten über die grammatischen Formen
+ Hinweise zu den Strukturen
+ besondere Hinweise zur Syntax
+ zahlreiche Übungen zur Anwendung.
+Zum Erlernen und Einüben der grammatischen Strukturen werden unterschiedliche Übungsformen angeboten. Dazu 
+gehören unter anderem Zuordnungs- und Umformungsübungen, Lückentexte und das vorgabeorientierte Formulieren 
+von Sätzen oder Texten. Die Übungen sind in kommunikative und authentische Kontexte wie Dialoge, E-Mails oder Zei-
+tungsinformationen eingebunden. Die Situationen und Themen beziehen sich auf das Alltags- und das Arbeitsleben und 
+greifen Wortschatz aus beiden Bereichen auf. Bei der Textauswahl wurden sowohl formale als auch inhaltliche Kriterien 
+wie Informations- und Unterhaltungswert berücksichtigt.
+Der Anhang enthält neben Übersichten zu Rechtschreibung und Zeichensetzung, Verben, Adjektiven und Nomen-Verb-
+Verbindungen auch Tipps und Übungsbeispiele für einen kommunikativen Grammatikunterricht. Sie sollen Hilfe und 
+Anregungen für die Unterrichtenden bieten, die anhand der Beispiele schnell und unkompliziert eigene Übungen ent-
+wickeln können.
+Ausgewählte Texte stehen zur Aussprachehilfe und Kontrolle der Lösungen als Hörmaterialien in der App SCHUBERT-
+Audio sowie im MP3-Format auf der Website des Verlages zur Verfügung. Außerdem ist die Grammatik auch digital als 
+interaktive Ausgabe erhältlich, wozu sie unter schubert-verlag.de/digital weitere Informationen finden. Wir wünschen Ih-
+nen viel Freude beim Lernen.
+Anne Buscha und Szilvia Szita
+
+
+--- Page 8 ---
+7B-Grammatik
+Verben 
+Tempora: Gebrauch 1.1
+1.1 Tempora
+1.1.1 Gebrauch der Tempora
+Die Reise nach Köln
+Familie Schmidt sitzt im Zug und fährt nach Köln.
+Dort besucht Herr Schmidt morgen aus beruflichen Gründen eine 
+Messe. Frau Schmidt war noch nie in Köln. Deshalb wird sie zuerst den 
+Kölner Dom besichtigen und danach mit ihrem Sohn Lucas in den Zoo 
+gehen. Das hat sie sich jedenfalls vorgenommen.
+Der kleine Lucas hat sich auf die Reise riesig gefreut. Nachdem  Lucas  seiner 
+Oma von der Reise erzählt hatte, schenkte sie ihm ein Buch über Tiere. Das hat 
+Lucas mit großem Interesse gelesen. Das Kapitel über Giraffen  mochte er beson­
+ders, denn sie gehören zu seinen Lieblingstieren. Die fast sechs  Meter  hohen 
+Netzgiraffen im Kölner Zoo werden  Lucas wahrscheinlich sehr  beeindrucken.
+Wenn Familie Schmidt wieder zu Hause ist, wird Lucas ein großes  Abenteuer 
+erlebt haben.
+Mit den Tempusformen kann man
+ Vorgänge und Zustände in der Gegenwart, Zukunft oder Vergangenheit beschreiben: 
+Gegenwart:  Familie Schmidt sitzt im Zug und fährt nach Köln.  
+Zukunft:  Herr Schmidt besucht morgen eine Messe. 
+ Frau Schmidt wird den Kölner Dom besichtigen. 
+Vergangenheit: Frau Schmidt war noch nie in Köln. 
+ Der kleine Lucas hat sich auf die Reise riesig gefreut.
+ zeitliche Abläufe schildern: Nachdem Lucas seiner Oma von der Reise erzählt hatte,  
+ schenkte sie ihm ein Buch über Tiere.
+ eine Absicht formulieren:  Frau Schmidt wird den Kölner Dom besichtigen und mit Lucas in den Zoo  
+ gehen. (siehe Zukunft)
+ eine Vermutung ausdrücken: Die Giraffen im Zoo werden Lucas sehr beeindrucken.
+ ► Übersicht über die Tempusformen
+Präsens  (⮞ Seite 09) sie fährt er besucht
+Präteritum  (⮞ Seite 26) sie fuhr er besuchte
+Perfekt  (⮞ Seite 18) sie ist gefahren er hat besucht
+Plusquamperfekt  (⮞ Seite 33) sie war gefahren er hatte besucht
+Futur I  (⮞ Seite 36) sie wird fahren er wird besuchen
+Futur II  (⮞ Seite 36) sie wird gefahren sein er wird besucht haben
+1 Verben
+
+
+--- Page 9 ---
+8 B-Grammatik
+1.1 Verben 
+Tempora: Gebrauch
+ ► Die Beziehung zwischen Zeit und Tempusformen
+ Die grammatischen Tempusformen entsprechen im Deutschen nicht immer der Aktionszeit!
+Aktionszeit Tempus Beispielsatz sprachliche Handlung
+Gegenwart
+Präsens Wir fahren heute nach Köln. über gegenwärtige Ereignisse berichten
+Futur I Wo ist Tom? 
+Er wird noch im Stau stehen.
+Vermutungen über ein gegenwärtiges  
+Geschehen ausdrücken
+Aktionszeit Tempus Beispielsatz sprachliche Handlung
+Zukunft
+Präsens Herr Schmidt besucht morgen eine 
+Messe.
+über ein zukünftiges Geschehen sprechen 
+(oft mit einer Zeitangabe)
+Futur I Frau Schmidt wird den Kölner Dom 
+besichtigen.
+Die Erdbevölkerung wird zunehmen.
+Die Giraffen werden Lucas sehr 
+beeindrucken.
+eine Absicht bzw. ein Vorhaben ausdrücken 
+erwartetes, zukünftiges Geschehen oder 
+Visionen/Prophezeiungen beschreiben
+eine Vermutung über zukünftiges  
+Geschehen formulieren
+Futur II Lucas wird ein großes Abenteuer 
+erlebt haben.
+eine Vermutung, eine Prophezeiung über 
+ein Geschehen ausdrücken, das zu einem 
+zukünftigen Zeitpunkt abgeschlossen ist
+Aktionszeit Tempus Beispielsatz sprachliche Handlung
+Vergangenheit
+Perfekt Ich habe den Bericht schon gelesen.
+Lucas hat sich auf die Reise gefreut.
+über vergangene Ereignisse berichten, vor 
+allem in der mündlichen Kommunikation 
+und in schriftlichen Texten wie E-Mails oder 
+persönlichen Berichten
+Präteritum Der Minister gab ein Interview.
+Frau Schmidt war noch nie in Köln.
+Das Kapitel über die Giraffen mochte 
+Lucas besonders.
+über vergangene Ereignisse berichten, vor 
+allem schriftlich in formellen und litera-
+rischen Texten sowie bei bestimmten Verben 
+(z. B. Modalverben oder haben und sein)
+Plusquam-
+perfekt
+Nachdem Lucas seiner Oma von 
+seiner Reise erzählt hatte, schenkte 
+sie ihm ein Buch.
+über in der Vergangenheit hintereinander 
+stattfindende Ereignisse berichten
+Aktionszeit Tempus Beispielsatz sprachliche Handlung
+zeitstufen - 
+unabhängig
+Präsens Der Abstand der Erde zum Mond 
+beträgt 365 000 km.
+über Allgemeingültiges berichten
+
+
+--- Page 10 ---
+9B-Grammatik
+Verben 
+Tempora: Präsens 1.1
+1.1.2 Präsens
+Familie Schmidt sitzt im Zug und fährt nach Köln. 
+Morgen besucht Herr Schmidt eine Messe.
+Bei Fernreisen sind Züge und Busse die  
+umweltfreundlichsten Verkehrsmittel.
+ ► Gebrauch
+Wir verwenden das Präsens
+ zum Berichten und Beschreiben gegenwärtiger Ereignisse und Zustände:  
+Familie Schmidt sitzt im Zug und fährt nach Köln. 
+Katharina arbeitet in einer kleinen Firma.
+ zum Beschreiben zukünftigen Geschehens (oft mit einer Zeitangabe):  
+Herr Schmidt besucht morgen eine Messe. 
+Ich rufe Sie nächste Woche an.
+ zur Wiedergabe zeitunabhängiger Tatsachen und allgemeiner Informationen:  
+Der Abstand der Erde zum Mond beträgt 365 000 km. 
+Bei Fernreisen sind Züge und Busse die umweltfreundlichsten Verkehrsmittel.
+	■ Verben mit und ohne Vokalwechsel im Präsens
+ 
+ 
+Otto kocht gern.
+ 
+ ⭢ ⭢ Verb ohne Vokalwechsel
+ 
+Frau Huber liest eine Mail 
+und spricht mit einer Kollegin.
+ 
+ ⭢ ⭢ Verben mit Vokalwechsel
+Franz ist krank.  
+Er hat eine Erkältung. 
+Er wird bald wieder gesund.
+ 
+ ⭢ ⭢ haben, sein und werden
+ ► Formen: Verben ohne Vokalwechsel im Präsens
+Verben auf -t/-d Verben auf -n/-m Verben auf -s/-ss/-ß/-z Verben auf -eln
+kochen arbeiten öffnen tanzen sammeln
+ich
+du
+er/sie/es 
+koche
+kochst 
+kocht 
+arbeite
+arbeitest 
+arbeitet 
+öffne
+öffnest
+öffnet 
+tanze
+tanzt 
+tanzt
+sammle 
+sammelst
+sammelt
+wir 
+ihr
+sie/Sie
+kochen
+kocht
+kochen
+arbeiten
+arbeitet 
+arbeiten
+öffnen
+öffnet 
+öffnen
+tanzen
+tanzt
+tanzen
+sammeln
+sammelt 
+sammeln
+
+
+--- Page 11 ---
+10 B-Grammatik
+1.1 Verben 
+Tempora: Präsens
+⭢⭢ Fast alle Verben haben im Präsens die Endungen: Singular: -e /-st/-t; Plural: -en/-t/-en.
+⭢⭢ Verben auf -t oder -d bekommen in der 2. und 3. Person Singular und der 2. Person Plural ein -e vor der 
+ Endung: du arbeitest • er arbeitet • ihr arbeitet. Das erleichtert die Aussprache.
+⭢⭢ Das Gleiche gilt für Verben auf -m oder -n, wenn ein anderer Konsonant (aber nicht: r) davorsteht: du öffnest  •  
+er öffnet • ihr öffnet.
+⭢⭢ Für Verben auf -s/-ss/-ß/-z gilt: 2. Person Singular = 3. Person Singular: du tanzt – er tanzt.
+⭢⭢ Bei Verben auf -eln entfällt das -e- in der 1. Person Singular: ich sammle.
+ ► Formen: Verben mit Vokalwechsel im Präsens
+e ⭢⭢ i(e) a ⭢⭢ ä i ⭢⭢ ei o ⭢⭢ ö
+sprechen nehmen lesen fahren laufen wissen stoßen
+ich
+du
+er/sie/es 
+spreche
+sprichst
+spricht
+nehme
+nimmst
+nimmt
+lese
+liest
+liest
+fahre
+fährst
+fährt
+laufe
+läufst
+läuft
+weiß 
+weißt
+weiß
+stoße
+stößt
+stößt
+wir 
+ihr
+sie/Sie
+sprechen
+sprecht
+sprechen
+nehmen
+nehmt
+nehmen
+lesen
+lest
+lesen
+fahren
+fahrt
+fahren
+laufen
+lauft 
+laufen
+wissen
+wisst
+wissen
+stoßen
+stoßt
+stoßen
+⮞ Seite 232: Übersicht Unregelmäßige Verben
+⭢⭢ Einige Verben haben einen Vokalwechsel in der 2. und 3. Person Singular: e ⭢⭢ i(e), a ⭢⭢ ä 
+e ⭢⭢ i: geben, brechen, essen, helfen, nehmen, sprechen, treffen, treten, vergessen, werfen 
+e ⭢⭢ ie: empfehlen, lesen, sehen, stehlen  
+a ⭢⭢ ä: empfangen, halten, fahren, fallen, fangen, laden, laufen, schlafen, schlagen, tragen, waschen
+⭢⭢ Besondere Verben: Wissen hat besondere Formen im Singular: ich weiß, du weißt, er weiß.  
+Stoßen/verstoßen hat einen o ⭢⭢ ö Wechsel.
+ ► Formen: haben, sein und werden
+haben sein werden
+ich
+du
+er/sie/es 
+habe
+hast
+hat
+bin
+bist
+ist
+werde
+wirst
+wird
+wir 
+ihr
+sie/Sie
+haben
+habt
+haben
+sind
+seid
+sind
+werden
+werdet
+werden
+⭢⭢ Als Vollverben werden haben, sein und werden mit einer Ergänzung (Nomen oder Adjektiv) verwendet:  
+Ich bin krank. Ich habe Angst. Ich werde Ärztin.
+⭢⭢ Meistens werden haben, sein und werden als Hilfsverben gebraucht (zum Beispiel beim Perfekt oder beim Passiv). 
+ ► Satzbau
+I. II. III. Satzende
+Aussagesatz Ich
+Franz
+koche
+ist
+gern.
+heute krank.
+Fragesatz mit
+Fragewort
+Was
+Wann
+kocht
+wird
+Otto gern?
+Franz endlich wieder gesund?
+Fragesatz ohne
+Fragewort
+Kochst
+Ist
+du
+Franz
+gern?
+schon lange krank?
+
+
+--- Page 12 ---
+11B-Grammatik
+Verben
+Tempora: Präsens 1.1
+Übungen
+Niemand hat Zeit, alle sind sehr beschäftigt 
+Bilden Sie Sätze wie im Beispiel.
+a) Zu Hause: Niemand hilft Julia beim Saubermachen
+● John – schreiben – eine Nachricht – an seine Freunde John schreibt eine Nachricht an seine Freunde.
+1. mit seiner Mutter – Marcus – telefonieren 
+2. Ludwig – lesen – Zeitung + Frieda – Kaff ee – trinken 
+3. laufen – Ina – durch den Park 
+4. Hannes und Christina – einen Kuchen – backen 
+5. sehen – ein wichtiges Handballspiel – Leon 
+6. ich – die Fische im Aquarium – beobachten 
+7. Felix – reparieren – sein Fahrrad 
+8. buchen – einen Flug – Carla 
+9. Franziska – schlafen 
+10. im Garten – Cornelius – arbeiten 
+11. Elias – waschen – seine Socken 
+12. essen – Pommes – an der Imbissbude – Lena 
+b) Im Büro: Niemand geht mit mir zum Mittagessen in die Kantine
+1. die Managerin – sprechen – mit einem Kunden
+2. über die Reisekostenabrechnung – Frank – mit der Verwaltungsleiterin – diskutieren
+3. haben – ein Problem – Brigitte – mit dem Kopierer
+4. einen Termin – die Assistentin – mit der Firma SUFIX – vereinbaren
+5. die Praktikantin – ein Hotelzimmer – reservieren – für Frau Weber
+6. Herr Krüger – zum Flughafen – fahren 
+7. sein – Martina – krank
+8. mit dem Abteilungsleiter – über eine Gehaltserhöhung – Susanna – reden 
+9. der Hausmeister – auf eine Lieferung von Büroartikeln – warten 
+10. Frau Schenk – ein Seminar – zum Thema „Motivation im Büro“ – geben
+11. halten – Herr Krause – einen Vortrag – über das neue Marketingkonzept
+12. Andreas – seinen Fotoapparat – nehmen + die neuen Produkte – fotografi eren
+13. messen – die Temperatur – im Keller – der Elektriker
+14. Franziska – empfangen – Gäste aus der Schweiz
+15. die Informatikerin – installieren – ein neues Programm
+1

@@ -1,0 +1,97 @@
+{
+  "id": "b-nomen-n-deklination",
+  "title": "2. Déclinaison en N & Wortbildung",
+  "category": "Nomen",
+  "level": "B1-B2",
+  "pedagogicTip": "La n-déclinaison (N-Deklination) concerne certains noms masculins qui prennent une terminaison -(e)n à tous les cas (Accusatif, Datif, Génitif) excepté au Nominatif singulier. Ne les oubliez pas lors des rédactions !",
+  "sections": [
+    {
+      "title": "1. Les classes de noms de la N-Déclinaison",
+      "type": "grid",
+      "explanation": "Ces noms sont exclusivement masculins. Ils se reconnaissent souvent à leur terminaison.",
+      "examples": [
+        {
+          "german": "Noms en -e (êtres animés)",
+          "french": "der Junge, der Kollege, der Kunde, der Riese",
+          "highlight": "Kollege, Kunde"
+        },
+        {
+          "german": "Noms d'origine étrangère (surtout en -ant, -ent, -ist, -oge)",
+          "french": "der Student, der Polizist, der Biologe, der Praktikant",
+          "highlight": "Student, Polizist"
+        },
+        {
+          "german": "Exceptions historiques masculines",
+          "french": "der Mensch, der Herr, der Bär, der Nachbar",
+          "highlight": "Mensch, Nachbar"
+        },
+        {
+          "german": "L'exception neutre : das Herz",
+          "french": "Prend -ens au génitif (des Herzens) et -en au datif.",
+          "highlight": "Herzens"
+        }
+      ]
+    },
+    {
+      "title": "2. Exemple de déclinaison (der Kunde / der Student)",
+      "type": "table",
+      "explanation": "Observez l'ajout systématique de -n ou -en dès le singulier en dehors du nominatif.",
+      "tableData": {
+        "headers": [
+          "Cas",
+          "der Kunde (le client)",
+          "der Student (l'étudiant)",
+          "der Kollege (le collègue)"
+        ],
+        "rows": [
+          [
+            "Nominatif",
+            "der Kunde",
+            "der Student",
+            "der Kollege"
+          ],
+          [
+            "Accusatif",
+            "den Kunden",
+            "den Studenten",
+            "den Kollegen"
+          ],
+          [
+            "Datif",
+            "dem Kunden",
+            "dem Studenten",
+            "dem Kollegen"
+          ],
+          [
+            "Génitif",
+            "des Kunden",
+            "des Studenten",
+            "des Kollegen"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich spreche mit dem ___.' (der Kollege)",
+      "options": [
+        "Kollege",
+        "Kollegen",
+        "Kollegem"
+      ],
+      "answer": "Kollegen",
+      "explanation": "'Kollege' appartient à la n-déclinaison. Au datif (après mit dem), il prend la terminaison '-en', ce qui donne 'Kollegen'."
+    },
+    {
+      "question": "Quel nom n'appartient PAS à la n-déclinaison ?",
+      "options": [
+        "der Mensch",
+        "der Student",
+        "der Lehrer"
+      ],
+      "answer": "der Lehrer",
+      "explanation": "Les noms se terminant par '-er' comme 'Lehrer' suivent la déclinaison normale et ne prennent pas de '-n' au singulier accusatif/datif."
+    }
+  ]
+}

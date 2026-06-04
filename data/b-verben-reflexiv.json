@@ -1,0 +1,83 @@
+{
+  "id": "b-verben-reflexiv",
+  "title": "1.5. Les Verbes Réfléchis avancés",
+  "category": "Verben",
+  "level": "B1-B2",
+  "pedagogicTip": "À un niveau avancé, de nombreux verbes réfléchis s'utilisent obligatoirement avec une préposition fixe. Vous devez apprendre à la fois le pronom réfléchi (Accusatif ou Datif) et la préposition qui suit !",
+  "sections": [
+    {
+      "title": "1. Verbes réfléchis à préposition fixe",
+      "type": "table",
+      "explanation": "Liste de verbes réfléchis essentiels régissant un groupe prépositionnel.",
+      "tableData": {
+        "headers": [
+          "Verbe réfléchi",
+          "Préposition + Cas",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "sich beschweren",
+            "über + Acc.",
+            "Er beschwert sich über das Essen.",
+            "Il se plaint de la nourriture."
+          ],
+          [
+            "sich freuen",
+            "auf / über + Acc.",
+            "Ich freue mich auf den Urlaub.",
+            "Je me réjouis des vacances (futures)."
+          ],
+          [
+            "sich interessieren",
+            "für + Acc.",
+            "Sie interessiert sich für Kunst.",
+            "Elle s'intéresse à l'art."
+          ],
+          [
+            "sich ärgern",
+            "über + Acc.",
+            "Ärgere dich nicht über das Wetter!",
+            "Ne t'énerve pas pour la météo !"
+          ],
+          [
+            "sich beschäftigen",
+            "mit + Dat.",
+            "Er beschäftigt sich mit Informatik.",
+            "Il s'occupe / travaille sur l'informatique."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Verbes réfléchis exigeant le Datif (rappel B1)",
+      "type": "grid",
+      "explanation": "Ces verbes ont un pronom réfléchi au datif car ils introduisent un objet à l'accusatif (COD) :",
+      "examples": [
+        {
+          "german": "sich (Dat) etwas merken (retenir)",
+          "french": "Ich muss mir diese Regel merken. (Je dois retenir cette règle.)",
+          "highlight": "mir, merken"
+        },
+        {
+          "german": "sich (Dat) etwas vorstellen (s'imaginer)",
+          "french": "Kannst du dir das vorstellen? (Peux-tu t'imaginer cela ?)",
+          "highlight": "dir, vorstellen"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle préposition et quel cas suivent le verbe 'sich beschweren' ?",
+      "options": [
+        "mit + Datif",
+        "über + Accusatif",
+        "für + Accusatif"
+      ],
+      "answer": "über + Accusatif",
+      "explanation": "On dit 'sich beschweren über + Accusatif' (se plaindre de quelque chose)."
+    }
+  ]
+}

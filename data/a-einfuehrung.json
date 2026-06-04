@@ -1,0 +1,92 @@
+{
+  "id": "a-einfuehrung",
+  "title": "Introduction : Les clés fondamentales",
+  "category": "Einführung",
+  "level": "A1",
+  "pedagogicTip": "En allemand, la clarté commence par identifier les natures de mots (Wortarten). Prêtez une attention particulière aux majuscules systématiques sur les noms communs et à la place du verbe conjugué (position 2). C'est la charpente de toute phrase !",
+  "sections": [
+    {
+      "title": "1. Les Classes de Mots (Die Wortarten)",
+      "type": "grid",
+      "explanation": "Pour comprendre la grammaire de l'allemand, vous devez identifier la nature de chaque mot.",
+      "examples": [
+        {
+          "german": "der Mann, das Buch",
+          "french": "l'homme, le livre (Nomen : prend toujours une majuscule !)",
+          "highlight": "Mann, Buch"
+        },
+        {
+          "german": "lernen, wohnen",
+          "french": "apprendre, habiter (Verb : exprime l'action, se conjugue)",
+          "highlight": "lernen"
+        },
+        {
+          "german": "ich, du, er",
+          "french": "je, tu, il (Pronomen : remplace un nom ou désigne)",
+          "highlight": "ich"
+        },
+        {
+          "german": "oft, heute, jetzt",
+          "french": "souvent, aujourd'hui, maintenant (Adverb : invariable)",
+          "highlight": "oft, heute"
+        }
+      ]
+    },
+    {
+      "title": "2. Structure fondamentale de la phrase",
+      "type": "table",
+      "explanation": "Dans une phrase affirmative simple, le verbe conjugué occupe TOUJOURS la 2e position.",
+      "tableData": {
+        "headers": [
+          "Position 1",
+          "Position 2 (Verbe)",
+          "Milieu / Fin de phrase"
+        ],
+        "rows": [
+          [
+            "Ich",
+            "lerne",
+            "heute Deutsch. (J'apprends l'allemand aujourd'hui.)"
+          ],
+          [
+            "Heute",
+            "lerne",
+            "ich Deutsch. (Aujourd'hui, j'apprends l'allemand. Inversion sujet/verbe !)"
+          ],
+          [
+            "Wo",
+            "wohnst",
+            "du? (Où habites-tu ? - Question ouverte, verbe en Pos 2)"
+          ],
+          [
+            "Wohnst",
+            "du",
+            "in Berlin? (Habites-tu à Berlin ? - Question fermée, verbe en Pos 1)"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle est la position du verbe conjugué dans une phrase affirmative standard en allemand ?",
+      "options": [
+        "En première position",
+        "En deuxième position",
+        "En toute fin de phrase"
+      ],
+      "answer": "En deuxième position",
+      "explanation": "Dans une phrase déclarative simple, le verbe se place toujours en position 2. Si un autre élément (ex: temps) prend la position 1, le sujet se place juste après le verbe (position 3)."
+    },
+    {
+      "question": "Quelle phrase est correctement ordonnée ?",
+      "options": [
+        "Morgen ich gehe in die Schule.",
+        "Morgen gehe ich in die Schule.",
+        "Morgen gehe in die Schule ich."
+      ],
+      "answer": "Morgen gehe ich in die Schule.",
+      "explanation": "L'adverbe de temps 'Morgen' est en pos 1, le verbe 'gehe' est en pos 2, et le sujet 'ich' est placé en pos 3 par inversion."
+    }
+  ]
+}

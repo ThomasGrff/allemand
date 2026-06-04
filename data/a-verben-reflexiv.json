@@ -1,0 +1,102 @@
+{
+  "id": "a-verben-reflexiv",
+  "title": "1.5. Les Verbes Réfléchis",
+  "category": "Verben",
+  "level": "A2",
+  "pedagogicTip": "Les verbes réfléchis s'utilisent avec un pronom réfléchi (sich) accordé au sujet. Attention : le pronom est à l'Accusatif sauf si la phrase contient déjà un COD (auquel cas le pronom réfléchi se met au Datif) !",
+  "sections": [
+    {
+      "title": "1. Les Pronoms Réfléchis (Reflexivpronomen)",
+      "type": "table",
+      "explanation": "Comparez le pronom réfléchi à l'Accusatif et au Datif (seules les 1re et 2e pers. du singulier diffèrent).",
+      "tableData": {
+        "headers": [
+          "Sujet",
+          "Accusatif (Cas standard)",
+          "Datif (Si COD déjà présent)"
+        ],
+        "rows": [
+          [
+            "ich",
+            "mich (ich freue mich)",
+            "mir (ich putze mir die Zähne)"
+          ],
+          [
+            "du",
+            "dich (du freust dich)",
+            "dir (du putzt dir die Zähne)"
+          ],
+          [
+            "er / sie / es",
+            "sich",
+            "sich"
+          ],
+          [
+            "wir",
+            "uns",
+            "uns"
+          ],
+          [
+            "ihr",
+            "euch",
+            "euch"
+          ],
+          [
+            "sie / Sie",
+            "sich",
+            "sich"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Exemples d'usage (Accusatif vs Datif)",
+      "type": "grid",
+      "explanation": "Exemples clairs pour voir le changement de cas du pronom réfléchi.",
+      "examples": [
+        {
+          "german": "sich waschen (Akk)",
+          "french": "Ich wasche mich. (Je me lave.)",
+          "highlight": "wasche, mich"
+        },
+        {
+          "german": "sich (Dat) etwas (Akk) waschen",
+          "french": "Ich wasche mir die Hände. (Je me lave les mains. 'die Hände' est COD, le pronom réfléchi passe au datif 'mir')",
+          "highlight": "wasche, mir, Hände"
+        },
+        {
+          "german": "sich kämmen (Akk) / sich (Dat) die Haare kämmen",
+          "french": "Ich kämme mich. / Ich kämme mir die Haare. (Je me peigne. / Je me peigne les cheveux.)",
+          "highlight": "mir, Haare"
+        },
+        {
+          "german": "sich beeilen (se dépêcher)",
+          "french": "Wir müssen uns beeilen. (Nous devons nous dépêcher.)",
+          "highlight": "uns, beeilen"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Ich putze ___ die Zähne.' (Zähne = COD)",
+      "options": [
+        "mich",
+        "mir",
+        "sich"
+      ],
+      "answer": "mir",
+      "explanation": "Comme il y a déjà un COD ('die Zähne'), le pronom réfléchi du verbe 'sich putzen' se met au datif, donc 'mir' pour 'ich'."
+    },
+    {
+      "question": "Quelle est la forme du pronom réfléchi pour 'ihr' ?",
+      "options": [
+        "sich",
+        "uns",
+        "euch"
+      ],
+      "answer": "euch",
+      "explanation": "Le pronom réfléchi correspondant à la 2e personne du pluriel 'ihr' est 'euch'."
+    }
+  ]
+}

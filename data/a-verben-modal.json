@@ -1,0 +1,163 @@
+{
+  "id": "a-verben-modal",
+  "title": "1.4. Les Verbes Modaux",
+  "category": "Verben",
+  "level": "A1-A2",
+  "pedagogicTip": "Les verbes modaux modifient le sens du verbe principal. En allemand, le verbe modal est conjugué en position 2, et le verbe d'action est renvoyé à l'infinitif en toute fin de phrase !",
+  "sections": [
+    {
+      "title": "1. Les Six Verbes Modaux et leurs sens",
+      "type": "grid",
+      "explanation": "Voici les nuances exprimées par chaque verbe modal.",
+      "examples": [
+        {
+          "german": "können (capacité, possibilité)",
+          "french": "Ich kann Deutsch sprechen. (Je peux parler allemand.)",
+          "highlight": "kann"
+        },
+        {
+          "german": "müssen (obligation, nécessité absolue)",
+          "french": "Ich muss heute arbeiten. (Je dois travailler aujourd'hui.)",
+          "highlight": "muss"
+        },
+        {
+          "german": "wollte (volonté ferme, projet)",
+          "french": "Ich will ein Auto kaufen. (Je veux acheter une voiture.)",
+          "highlight": "will"
+        },
+        {
+          "german": "sollen (devoir moral, conseil, consigne)",
+          "french": "Du sollst mehr schlafen. (Tu devrais dormir plus.)",
+          "highlight": "soll"
+        },
+        {
+          "german": "dürfen (autorisation, permission, interdiction avec nicht)",
+          "french": "Hier darf man nicht rauchen. (Ici, on ne doit pas fumer.)",
+          "highlight": "darf"
+        },
+        {
+          "german": "mögen / möchte (goût / souhait poli)",
+          "french": "Ich mag Schokolade. / Ich möchte Kaffee trinken.",
+          "highlight": "mag, möchte"
+        }
+      ]
+    },
+    {
+      "title": "2. Particularité de conjugaison",
+      "type": "table",
+      "explanation": "Au présent, la 1re et la 3e personne du singulier ont la même forme et n'ont pas de terminaison.",
+      "tableData": {
+        "headers": [
+          "Personne",
+          "können",
+          "müssen",
+          "wollen",
+          "dürfen"
+        ],
+        "rows": [
+          [
+            "ich",
+            "kann",
+            "muss",
+            "will",
+            "darf"
+          ],
+          [
+            "du",
+            "kannst",
+            "musst",
+            "willst",
+            "darfst"
+          ],
+          [
+            "er/sie/es",
+            "kann",
+            "muss",
+            "will",
+            "darf"
+          ],
+          [
+            "wir",
+            "können",
+            "müssen",
+            "wollen",
+            "dürfen"
+          ],
+          [
+            "ihr",
+            "könnt",
+            "müsst",
+            "wollt",
+            "dürft"
+          ],
+          [
+            "sie / Sie",
+            "können",
+            "müssen",
+            "wollen",
+            "dürfen"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "3. Nuances sémantiques détaillées des verbes modaux (Sens Objectif)",
+      "type": "grid",
+      "explanation": "Chaque verbe modal modifie le sens du verbe principal en y apportant une nuance de volonté, d'obligation, de possibilité ou d'autorisation :",
+      "examples": [
+        {
+          "german": "Ich kann Deutsch sprechen. / Wir können heute kommen.",
+          "french": "können (Capacité / Possibilité) : Je peux parler allemand (capacité acquise). / Nous pouvons venir aujourd'hui (possibilité).",
+          "highlight": "kann, können"
+        },
+        {
+          "german": "Man muss atmen, um zu leben. / Ich muss sofort gehen.",
+          "french": "müssen (Obligation absolue / Nécessité) : Il faut respirer pour vivre (nécessité biologique). / Je dois partir tout de suite (urgence).",
+          "highlight": "muss"
+        },
+        {
+          "german": "Hier darf man parken. / Hier darf man nicht rauchen.",
+          "french": "dürfen (Autorisation / Interdiction) : Ici on a le droit de se garer. / Ici on ne doit pas fumer (interdiction).",
+          "highlight": "darf"
+        },
+        {
+          "german": "Du sollst deine Eltern respektieren. / Der Arzt sagt, ich soll im Bett bleiben.",
+          "french": "sollen (Devoir moral / Consigne d'un tiers) : Tu dois respecter tes parents. / Le médecin dit que je dois garder le lit.",
+          "highlight": "sollst, soll"
+        },
+        {
+          "german": "Ich will Medizin studieren. / Er will das Auto nicht verkaufen.",
+          "french": "wollen (Volonté ferme / Projet décidé) : Je veux apprendre la médecine (projet). / Il refuse de vendre la voiture (refus).",
+          "highlight": "will"
+        },
+        {
+          "german": "Ich mag Schokolade. / Ich möchte ein Eis bestellen.",
+          "french": "mögen / möchte (Goût / Souhait poli) : J'aime le chocolat (goût). / Je voudrais commander une glace (souhait poli).",
+          "highlight": "mag, möchte"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Hier ___ man nicht parken.' (interdiction)",
+      "options": [
+        "soll",
+        "will",
+        "darf"
+      ],
+      "answer": "darf",
+      "explanation": "L'interdiction ou l'autorisation est exprimée par 'dürfen'. Négativé, 'darf nicht' signifie 'ne pas avoir le droit de'."
+    },
+    {
+      "question": "Où se place l'infinitif dans une phrase avec verbe modal ?",
+      "options": [
+        "Juste après le verbe modal",
+        "À la fin de la phrase",
+        "Au début de la phrase"
+      ],
+      "answer": "À la fin de la phrase",
+      "explanation": "Le verbe modal conjugué occupe la position 2 et le verbe principal à l'infinitif est rejeté à la fin de la phrase (structure de la pince verbale)."
+    }
+  ]
+}

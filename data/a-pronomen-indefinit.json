@@ -1,0 +1,86 @@
+{
+  "id": "a-pronomen-indefinit",
+  "title": "3.3. Les Pronoms Indéfinis",
+  "category": "Pronomen",
+  "level": "A2",
+  "pedagogicTip": "Les pronoms indéfinis désignent des personnes ou des choses de manière générale. Maîtrisez le pronom sujet 'man' (on), ainsi que les pronoms déclinés comme 'einer' / 'keiner' qui remplacent un nom déjà mentionné !",
+  "sections": [
+    {
+      "title": "1. Personnes et choses de manière générale",
+      "type": "grid",
+      "explanation": "Ces pronoms sont invariables (sauf man qui a des formes déclinées comme einen/einem).",
+      "examples": [
+        {
+          "german": "man (on / les gens - sujet uniquement)",
+          "french": "Hier lernt man viel. (Ici, on apprend beaucoup.)",
+          "highlight": "man"
+        },
+        {
+          "german": "jemand / niemand (quelqu'un / personne)",
+          "french": "Ist hier jemand? - Nein, hier ist niemand.",
+          "highlight": "jemand, niemand"
+        },
+        {
+          "german": "etwas / nichts (quelque chose / rien)",
+          "french": "Möchtest du etwas essen? - Nein, ich möchte nichts.",
+          "highlight": "etwas, nichts"
+        }
+      ]
+    },
+    {
+      "title": "2. Remplacer un nom déjà cité (einer, keines...)",
+      "type": "table",
+      "explanation": "Ils se substituent à un groupe nominal pour éviter la répétition et prennent la marque du cas et du genre fort.",
+      "tableData": {
+        "headers": [
+          "Genre de base",
+          "Nominatif (Sujet)",
+          "Accusatif (COD)",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Masculin (der Stift)",
+            "einer / keiner",
+            "einen / keinen",
+            "Hast du einen Stift? - Ja, hier ist einer / Nein, ich habe keinen."
+          ],
+          [
+            "Féminin (die Tasche)",
+            "eine / keine",
+            "eine / keine",
+            "Brauchst du eine Tasche? - Ich habe schon eine."
+          ],
+          [
+            "Neutre (das Buch)",
+            "eines / keines (ou eins/keins)",
+            "eines / keines (ou eins/keins)",
+            "Hier ist ein Buch. Nimm eins!"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Hast du ein Auto? - Nein, ich habe ___.'",
+      "options": [
+        "kein",
+        "keines (keins)",
+        "keinen"
+      ],
+      "answer": "keines (keins)",
+      "explanation": "'Auto' est neutre (das Auto). Pour remplacer un nom neutre à l'accusatif sans répéter le nom, on utilise le pronom neutre 'keines' ou sa contraction courante 'keins'."
+    },
+    {
+      "question": "Que signifie le pronom 'niemand' ?",
+      "options": [
+        "Quelqu'un",
+        "Personne",
+        "Chacun"
+      ],
+      "answer": "Personne",
+      "explanation": "'niemand' est le contraire de 'jemand'. Il signifie 'personne'."
+    }
+  ]
+}

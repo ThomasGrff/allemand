@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A-Grammatik - Compagnon d'Apprentissage Interactif</title>
+    <title>Compagnon d'Apprentissage Interactif - Grammatik</title>
     <!-- Tailwind CSS pour un design moderne et responsive -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -16,7 +16,7 @@
                             gold: '#FFCC00',
                             red: '#FF0000',
                             black: '#000000',
-                            accent: '#4F46E5', // Indigo de base pour l'UI
+                            accent: '#4F46E5',
                         }
                     }
                 }
@@ -35,13 +35,16 @@
         .mono-font {
             font-family: 'JetBrains Mono', monospace;
         }
-        /* Style des scrollbars pour l'élégance */
+        /* Style des scrollbars */
         ::-webkit-scrollbar {
             width: 6px;
             height: 6px;
         }
         ::-webkit-scrollbar-track {
             background: transparent;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background: #475569;
         }
         ::-webkit-scrollbar-thumb {
             background: #CBD5E1;
@@ -50,103 +53,158 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #94A3B8;
         }
+        /* Style bloc-notes */
+        .notepad-paper {
+            background-color: #fefcf0;
+            background-image: radial-gradient(#e5e0c9 1px, transparent 0);
+            background-size: 16px 16px;
+        }
+        .dark .notepad-paper {
+            background-color: #1e293b;
+            background-image: radial-gradient(#334155 1px, transparent 0);
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col transition-colors duration-300">
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 antialiased min-h-screen flex flex-col transition-colors duration-300">
 
     <!-- HEADER DE L'APPLICATION -->
-    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 px-4 py-3 sm:px-6 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-            <div class="flex flex-col gap-0.5">
-                <span class="flex h-2.5 w-8 rounded bg-gradient-to-r from-black via-red-600 to-amber-400"></span>
-                <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Niveaux A1 - A2</span>
+    <header class="sticky top-0 z-50 bg-white/95 dark:bg-slate-850/95 backdrop-blur-md border-b border-slate-100 dark:border-slate-800 px-4 py-3 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+        <div class="flex items-center justify-between w-full sm:w-auto gap-4">
+            <div class="flex items-center gap-3">
+                <div class="flex flex-col gap-0.5">
+                    <span class="flex h-2.5 w-8 rounded bg-gradient-to-r from-black via-red-600 to-amber-400"></span>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">COMPAGNON D'APPRENTISSAGE</span>
+                </div>
+                <div>
+                    <h1 class="text-lg font-extrabold text-slate-900 dark:text-white flex items-center gap-2">
+                        Grammatik <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900">Compagnon Actif</span>
+                    </h1>
+                </div>
             </div>
-            <div>
-                <h1 class="text-lg sm:text-xl font-extrabold text-slate-900 flex items-center gap-2">
-                    A-Grammatik <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100">Synthèse Interactive</span>
-                </h1>
-            </div>
+            
+            <!-- Dark mode toggle mobile -->
+            <button onclick="toggleDarkMode()" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all sm:hidden" aria-label="Toggle Theme">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 dark:hidden text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden dark:block text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+                </svg>
+            </button>
         </div>
 
-        <div class="flex items-center gap-4">
+        <!-- Onglets Niveau A / Niveau B -->
+        <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl w-full sm:w-auto">
+            <button id="btn-book-A" onclick="selectBook('A')" class="flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-bold rounded-lg transition-all flex items-center justify-center gap-2 bg-white dark:bg-slate-750 text-slate-900 dark:text-white shadow-sm">
+                Niveau A <span class="text-[10px] px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-900 text-slate-500">A1-A2</span>
+            </button>
+            <button id="btn-book-B" onclick="selectBook('B')" class="flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-medium rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center justify-center gap-2">
+                Niveau B <span class="text-[10px] px-1.5 py-0.5 rounded bg-slate-200 dark:bg-slate-900/60 text-slate-500">B1-B2</span>
+            </button>
+        </div>
+
+        <div class="flex items-center gap-4 w-full sm:w-auto justify-end">
             <!-- Mode de révision (Masquer/Afficher les traductions) -->
-            <button id="toggle-translations" onclick="toggleTranslations()" class="text-xs sm:text-sm font-semibold text-indigo-600 hover:text-indigo-800 flex items-center gap-2 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100 transition-all hover:scale-105 active:scale-95">
+            <button id="toggle-translations" onclick="toggleTranslations()" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 flex items-center gap-1.5 bg-indigo-50 dark:bg-indigo-950/40 px-3 py-2 rounded-xl border border-indigo-100 dark:border-indigo-900/60 transition-all hover:scale-105 active:scale-95">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 11.37 7.363 16.29 1 18.051" />
                 </svg>
                 <span id="btn-trans-text">Masquer les traductions</span>
             </button>
             
+            <!-- Dark mode toggle desktop -->
+            <button onclick="toggleDarkMode()" class="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all hidden sm:block" aria-label="Toggle Theme">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 dark:hidden text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden dark:block text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+                </svg>
+            </button>
+            
             <!-- Indicateur de progression globale -->
-            <div class="hidden md:flex items-center gap-2">
+            <div class="hidden md:flex items-center gap-2 shrink-0">
                 <div class="text-right">
-                    <div class="text-xs text-slate-400">Progression globale</div>
-                    <div class="text-sm font-bold text-slate-700" id="global-progress-txt">0% (0/8 chapitres)</div>
+                    <div class="text-[10px] text-slate-400 dark:text-slate-500 uppercase tracking-wider font-bold">Progression</div>
+                    <div class="text-xs font-bold text-slate-700 dark:text-slate-350" id="global-progress-txt">0% (0/11)</div>
                 </div>
-                <div class="w-24 bg-slate-200 h-2 rounded-full overflow-hidden">
+                <div class="w-16 bg-slate-200 dark:bg-slate-700 h-2 rounded-full overflow-hidden">
                     <div id="global-progress-bar" class="bg-emerald-500 h-full w-0 transition-all duration-500"></div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- ZONE DE NOTIFICATION (Modale ou Toast customisée sans utiliser alert) -->
-    <div id="custom-toast" class="fixed bottom-5 right-5 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
-        <span class="text-emerald-400" id="toast-icon">✓</span>
-        <p class="text-sm font-medium" id="toast-msg">Note enregistrée avec succès !</p>
+    <!-- ZONE DE NOTIFICATION (TOAST) -->
+    <div id="custom-toast" class="fixed bottom-5 right-5 z-50 bg-slate-900 dark:bg-slate-800 text-white border border-slate-750 px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
+        <span class="text-emerald-400 font-bold" id="toast-icon">✓</span>
+        <p class="text-xs font-medium" id="toast-msg">Note enregistrée avec succès !</p>
     </div>
 
     <!-- CONTENU PRINCIPAL -->
     <div class="flex-1 flex flex-col md:flex-row">
         
         <!-- SIDEBAR DE NAVIGATION GAUCHE -->
-        <aside class="w-full md:w-80 bg-white border-r border-slate-100 p-4 md:p-6 shrink-0 flex flex-col justify-between">
+        <aside class="w-full md:w-80 bg-white dark:bg-slate-900 border-r border-slate-100 dark:border-slate-800/80 p-4 md:p-5 shrink-0 flex flex-col justify-between">
             <div>
-                <div class="mb-6">
-                    <h2 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Sommaire interactif</h2>
-                    <p class="text-xs text-slate-500 mb-4">Cliquez sur un chapitre pour charger la synthèse correspondante.</p>
+                <!-- Moteur de recherche -->
+                <div class="mb-4">
+                    <div class="relative">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                            <svg class="h-4 w-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </span>
+                        <input type="text" id="search-input" oninput="handleSearch()" placeholder="Rechercher un point de grammaire..." class="w-full pl-9 pr-4 py-2 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700/60 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none text-slate-700 dark:text-slate-250 placeholder-slate-400">
+                    </div>
                 </div>
 
-                <nav class="space-y-1.5" id="navigation-list">
-                    <!-- Généré par JS -->
+                <div class="mb-4 flex items-center justify-between">
+                    <h2 class="text-[10px] font-extrabold text-slate-400 dark:text-slate-500 uppercase tracking-widest">Sommaire</h2>
+                    <span id="chapter-count" class="text-[10px] bg-slate-100 dark:bg-slate-800 text-slate-500 px-2 py-0.5 rounded-full font-bold">11 modules</span>
+                </div>
+
+                <!-- Liste des chapitres -->
+                <nav class="space-y-1.5 max-h-[60vh] md:max-h-[50vh] overflow-y-auto pr-1" id="navigation-list">
+                    <!-- Généré dynamiquement par JS -->
                 </nav>
             </div>
 
             <!-- BLOC MEMOIRE / NOTEPAD PERSISTANT -->
-            <div class="mt-8 border-t border-slate-100 pt-6">
-                <div class="bg-indigo-50/50 rounded-xl p-4 border border-indigo-100">
+            <div class="mt-6 border-t border-slate-100 dark:border-slate-800 pt-5">
+                <div class="notepad-paper rounded-2xl p-4 border border-slate-200/80 dark:border-slate-800 shadow-sm transition-all">
                     <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-sm font-bold text-indigo-900 flex items-center gap-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <h3 class="text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                             </svg>
                             Mon Bloc-Notes
                         </h3>
-                        <button onclick="saveNotes()" class="text-xs bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-1 px-2.5 rounded shadow transition-all active:scale-95">
+                        <button onclick="saveNotes()" class="text-[10px] bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1 px-2.5 rounded-lg shadow-sm transition-all active:scale-95">
                             Sauver
                         </button>
                     </div>
-                    <textarea id="user-notes" placeholder="Notes de révision, verbes difficiles, rappels..." class="w-full h-32 text-xs bg-white border border-slate-200 rounded-lg p-2 focus:ring-2 focus:ring-indigo-500 focus:outline-none placeholder-slate-400 text-slate-700 font-medium leading-relaxed"></textarea>
-                    <p class="text-[10px] text-slate-400 mt-1">Le contenu est stocké en local dans votre navigateur.</p>
+                    <textarea id="user-notes" placeholder="Notes de révision, verbes difficiles, rappels..." class="w-full h-28 text-xs bg-white/70 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-750/70 rounded-xl p-2.5 focus:ring-2 focus:ring-indigo-500 focus:outline-none placeholder-slate-400 text-slate-700 dark:text-slate-300 font-medium leading-relaxed resize-none"></textarea>
+                    <p class="text-[9px] text-slate-400 dark:text-slate-500 mt-1">Sauvegardé automatiquement dans le navigateur.</p>
                 </div>
             </div>
         </aside>
 
         <!-- ZONE DE TEXTE ET DE COMPLIANCE DE CONTENU -->
-        <main class="flex-1 p-4 sm:p-8 md:p-12 max-w-5xl mx-auto w-full">
+        <main class="flex-1 p-4 sm:p-6 md:p-10 max-w-5xl mx-auto w-full">
             
             <!-- HEADER DE PAGE DU CHAPITRE -->
-            <div class="mb-8 border-b border-slate-100 pb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="mb-6 border-b border-slate-100 dark:border-slate-800 pb-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                    <div class="flex items-center gap-2 mb-2">
-                        <span id="chapter-badge" class="text-xs font-bold px-2.5 py-1 rounded bg-slate-200 text-slate-700 uppercase tracking-wider">A1</span>
-                        <span class="text-sm text-slate-400" id="chapter-number">Structure de base</span>
+                    <div class="flex items-center gap-2 mb-1.5">
+                        <span id="chapter-badge" class="text-[10px] font-extrabold px-2 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/50 uppercase tracking-wider">A1</span>
+                        <span class="text-xs text-slate-400 dark:text-slate-500 font-bold" id="chapter-category">Catégorie</span>
                     </div>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900" id="chapter-title">Chargement en cours...</h2>
+                    <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white" id="chapter-title">Chargement...</h2>
                 </div>
                 
                 <div class="flex items-center gap-3">
-                    <button id="btn-complete" onclick="toggleChapterComplete()" class="w-full sm:w-auto px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-2 border">
+                    <button id="btn-complete" onclick="toggleChapterComplete()" class="w-full sm:w-auto px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 flex items-center justify-center gap-2 border">
                         <!-- Icone dynamique par JS -->
                         <span id="btn-complete-text">Marquer comme acquis</span>
                     </button>
@@ -154,116 +212,236 @@
             </div>
 
             <!-- CONTENU DE COURS DYNAMIQUE -->
-            <div id="content-container" class="space-y-10">
+            <div id="content-container" class="space-y-8">
                 <!-- Rempli dynamiquement via JS -->
             </div>
 
+            <!-- ZONE DU QUIZ INTERACTIF -->
+            <div id="quiz-container" class="mt-12 bg-white dark:bg-slate-850 rounded-2xl border border-slate-100 dark:border-slate-800 p-5 sm:p-6 shadow-sm hidden">
+                <!-- Généré dynamiquement -->
+            </div>
+
             <!-- FOOTER PEDAGOGIQUE -->
-            <footer class="mt-20 pt-8 border-t border-slate-100 text-center text-xs text-slate-400">
-                <p>Compagnon d'apprentissage interactif basé sur l'ouvrage <strong class="text-slate-500">A-Grammatik</strong> de Buscha & Szita (SCHUBERT Verlag).</p>
-                <p class="mt-1">Fait avec passion pour favoriser la mémorisation active.</p>
+            <footer class="mt-16 pt-6 border-t border-slate-100 dark:border-slate-800 text-center text-xs text-slate-400 dark:text-slate-500">
+                <p>Compagnon interactif d'apprentissage de la grammaire allemande.</p>
+                <p class="mt-1">Favorise la mémorisation active par réitération et tests d'acquis.</p>
             </footer>
 
         </main>
     </div>
 
-    <!-- CONFIGURATION & LOGIQUE JS DU COMPAGNON -->
+    <!-- LOGIQUE JS PRINCIPALE -->
     <script>
         // --- BASE DE DONNÉES LOCALE DE REPLI (FALLBACK) ---
-        // Si les fichiers JSON dans le dossier data/ ne sont pas accessibles (ex: en local hors-ligne),
-        // l'application utilisera automatiquement ces fiches intégrées.
         const fallbackData = {
-            "einfuehrung": {
-                id: "einfuehrung",
+            "a-einfuehrung": {
+                id: "a-einfuehrung",
                 title: "Introduction : Les clés fondamentales",
                 number: "Einführung",
                 level: "A1",
-                content: `
-                    <div class="p-4 bg-emerald-50/70 border border-emerald-100 rounded-xl text-sm text-emerald-800 leading-relaxed">
-                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> En allemand, la clarté commence par identifier les natures de mots (Wortarten). Prêtez une attention toute particulière aux <strong>majuscules systématiques sur les noms communs</strong> et à la <strong>place du verbe conjugué</strong>.
-                    </div>
-                    <section class="space-y-4">
-                        <div class="flex items-center gap-2">
-                            <span class="h-6 w-1 bg-indigo-600 rounded"></span>
-                            <h3 class="text-lg font-bold text-slate-900">1. Les Classes de Mots (Die Wortarten)</h3>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-                            <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-sm">
-                                <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Substantiv / Nomen</span>
-                                <h4 class="font-bold text-slate-900 text-base mb-1">Le Nom Commun</h4>
-                                <div class="bg-slate-50 p-2.5 rounded-lg text-sm flex justify-between items-center">
-                                    <span class="font-semibold text-slate-900">der Mann, das Buch</span>
-                                    <span class="translation text-slate-500 text-xs italic">l'homme, le livre</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                `
+                pedagogicTip: "En allemand, la clarté commence par identifier les natures de mots (Wortarten). Prêtez une attention particulière aux majuscules systématiques sur les noms communs et à la place du verbe conjugué (position 2). C'est la charpente de toute phrase !",
+                sections: [
+                    {
+                        title: "1. Les Classes de Mots (Die Wortarten)",
+                        type: "grid",
+                        explanation: "Pour comprendre la grammaire de l'allemand, vous devez identifier la nature de chaque mot.",
+                        examples: [
+                            { german: "der Mann, das Buch", french: "l'homme, le livre [Nomen : prend toujours une majuscule !]", highlight: "Mann, Buch" },
+                            { german: "lernen, wohnen", french: "apprendre, habiter [Verb : exprime l'action, se conjugue]", highlight: "lernen" },
+                            { german: "ich, du, er", french: "je, tu, il [Pronomen : remplace un nom ou désigne]", highlight: "ich" }
+                        ]
+                    },
+                    {
+                        title: "2. Structure fondamentale de la phrase",
+                        type: "table",
+                        explanation: "Dans une phrase affirmative simple, le verbe conjugué occupe TOUJOURS la 2e position.",
+                        tableData: {
+                            headers: ["Position 1 (Sujet/Complément)", "Position 2 (Verbe conjugué)", "Milieu / Fin de phrase"],
+                            rows: [
+                                ["Ich", "lerne", "heute Deutsch. (J'apprends l'allemand aujourd'hui.)"],
+                                ["Heute", "lerne", "ich Deutsch. (Aujourd'hui, j'apprends l'allemand. Inversion sujet/verbe !)"],
+                                ["Wo", "wohnst", "du? (Où habites-tu ? - Question ouverte, verbe en Pos 2)"],
+                                ["Wohnst", "du", "in Berlin? (Habites-tu à Berlin ? - Question fermée, verbe en Pos 1)"]
+                            ]
+                        }
+                    }
+                ],
+                quiz: [
+                    {
+                        question: "Quelle est la position du verbe conjugué dans une phrase affirmative standard en allemand ?",
+                        options: ["En première position", "En deuxième position", "En toute fin de phrase"],
+                        answer: "En deuxième position",
+                        explanation: "Dans une phrase déclarative simple, le verbe se place toujours en position 2. Si le sujet commence, il est en pos 1; si un autre élément commence (ex: temps, lieu), il y a inversion et le sujet passe après le verbe."
+                    },
+                    {
+                        question: "Quelle phrase est correctement ordonnée ?",
+                        options: [
+                            "Morgen ich gehe in die Schule.",
+                            "Morgen gehe ich in die Schule.",
+                            "Morgen gehe in die Schule ich."
+                        ],
+                        answer: "Morgen gehe ich in die Schule.",
+                        explanation: "L'adverbe de temps 'Morgen' occupe la position 1, le verbe conjugué 'gehe' est en position 2, et le sujet 'ich' est inversé en position 3."
+                    }
+                ]
             },
-            "verben-presens": {
-                id: "verben-presens",
+            "a-verben-presens": {
+                id: "a-verben-presens",
                 title: "1.1. Le Présent (Präsens)",
                 number: "Verben",
                 level: "A1-A2",
-                content: `
-                    <div class="p-4 bg-emerald-50/70 border border-emerald-100 rounded-xl text-sm text-emerald-800 leading-relaxed">
-                        <span class="font-extrabold text-emerald-950">💡 Conseil du Pédagogue :</span> Visualisez toujours deux éléments : le radical du verbe et sa terminaison standard.
-                    </div>
-                    <section class="space-y-4">
-                        <h3 class="text-lg font-bold text-slate-900">1. Les Verbes Réguliers</h3>
-                        <p class="text-sm text-slate-600">Formes standards : -e, -st, -t, -en, -t, -en.</p>
-                    </section>
-                `
-            },
-            "verben-perfekt": {
-                id: "verben-perfekt",
-                title: "1.2. Le Parfait (Perfekt)",
-                number: "Verben",
-                level: "A1-A2",
-                content: `
-                    <div class="p-4 bg-indigo-50 border border-indigo-100 rounded-xl text-sm text-indigo-800">
-                        <p><strong>💡 Rappel :</strong> Le Parfait utilise l'auxiliaire <em>haben</em> ou <em>sein</em> + le Participe II à la fin de la phrase.</p>
-                    </div>
-                `
+                pedagogicTip: "Le présent sert pour le présent mais s'emploie aussi très souvent pour le futur simple si une indication temporelle est donnée (ex: morgen). Pensez au radical et ajoutez les terminaisons régulières !",
+                sections: [
+                    {
+                        title: "1. Terminaisons régulières",
+                        type: "table",
+                        explanation: "Le radical ne change pas. On y accole : -e, -st, -t, -en, -t, -en.",
+                        tableData: {
+                            headers: ["Personne", "lernen (apprendre)", "arbeiten (travailler - e d'appui)", "heißen (s'appeler - radical en -ß)"],
+                            rows: [
+                                ["ich", "lerne", "arbeite", "heiße"],
+                                ["du", "lernst", "arbeitest (e)", "heißt (pas de s)"],
+                                ["er/sie/es", "lernt", "arbeitet (e)", "heißt"],
+                                ["wir", "lernen", "arbeiten", "heißen"],
+                                ["ihr", "lernt", "arbeitet (e)", "heißt"],
+                                ["sie / Sie", "lernen", "arbeiten", "heißen"]
+                            ]
+                        }
+                    },
+                    {
+                        title: "2. Verbes forts avec changement de voyelle",
+                        type: "table",
+                        explanation: "Ils changent de voyelle uniquement à la 2e (du) et 3e (er/sie/es) personne du singulier.",
+                        tableData: {
+                            headers: ["Changement", "Verbe modèle", "ich", "du", "er/sie/es", "wir"],
+                            rows: [
+                                ["e ➔ i", "sprechen (parler)", "spreche", "sprichst", "spricht", "sprechen"],
+                                ["e ➔ ie", "sehen (voir)", "sehe", "siehst", "sieht", "sehen"],
+                                ["a ➔ ä", "fahren (aller en voiture)", "fahre", "fährst", "fährt", "fahren"]
+                            ]
+                        }
+                    }
+                ],
+                quiz: [
+                    {
+                        question: "Comment conjugue-t-on 'du' avec le verbe 'fahren' au présent ?",
+                        options: ["du fahrst", "du fährst", "du fahrst"],
+                        answer: "du fährst",
+                        explanation: "Fahren est un verbe fort qui fait un changement de voyelle 'a' vers 'ä' aux 2e et 3e personnes du singulier."
+                    }
+                ]
             }
         };
 
-        // Configuration de la liste complète des chapitres
-        const chaptersMetadata = {
-            "einfuehrung": { id: "einfuehrung", title: "Introduction : Les clés fondamentales", number: "Einführung", level: "A1", locked: false },
-            "verben-presens": { id: "verben-presens", title: "1.1. Le Présent (Präsens)", number: "Verben", level: "A1-A2", locked: false },
-            "verben-perfekt": { id: "verben-perfekt", title: "1.2. Le Parfait (Perfekt)", number: "Verben", level: "A1-A2", locked: false },
-            "nomen-deklination": { id: "nomen-deklination", title: "2. Noms et Articles", number: "Nomen", level: "A1", locked: true },
-            "nomen-dativ": { id: "nomen-dativ", title: "2.2. Le Datif", number: "Nomen", level: "A1-A2", locked: true },
-            "pronomen-possessiv": { id: "pronomen-possessiv", title: "3. Les Pronoms Possessifs", number: "Pronomen", level: "A1-A2", locked: true },
-            "adjektive": { id: "adjektive", title: "4. La déclinaison de l'Adjectif", number: "Adjektive", level: "A2", locked: true },
-            "praepositionen": { id: "praepositionen", title: "5. Les Prépositions mixtes", number: "Präpositionen", level: "A1-A2", locked: true }
+        // Métadonnées complètes des chapitres A et B
+        const booksMetadata = {
+            "A": {
+                name: "Niveau A",
+                level: "A1-A2",
+                chapters: {
+                    "a-einfuehrung": { id: "a-einfuehrung", title: "Introduction : Les clés fondamentales", category: "Einführung", level: "A1" },
+                    "a-verben-presens": { id: "a-verben-presens", title: "1.1. Le Présent (Präsens)", category: "Verben", level: "A1-A2" },
+                    "a-verben-perfekt": { id: "a-verben-perfekt", title: "1.2. Le Parfait (Perfekt)", category: "Verben", level: "A1-A2" },
+                    "a-verben-praeteritum": { id: "a-verben-praeteritum", title: "1.3. Le Prétérit (Präteritum)", category: "Verben", level: "A1-A2" },
+                    "a-verben-modal": { id: "a-verben-modal", title: "1.4. Les Verbes Modaux", category: "Verben", level: "A1-A2" },
+                    "a-verben-reflexiv": { id: "a-verben-reflexiv", title: "1.5. Les Verbes Réfléchis", category: "Verben", level: "A2" },
+                    "a-verben-imperativ": { id: "a-verben-imperativ", title: "1.6. L'Impératif (Imperativ)", category: "Verben", level: "A1-A2" },
+                    "a-verben-konjunktiv": { id: "a-verben-konjunktiv", title: "1.7. Le Konjunktiv II (base)", category: "Verben", level: "A2" },
+                    "a-verben-passiv": { id: "a-verben-passiv", title: "1.8. Le Passif de base", category: "Verben", level: "A2" },
+                    "a-verben-ergaenzungen": { id: "a-verben-ergaenzungen", title: "1.9. Verbes et Compléments (Cas/Prép)", category: "Verben", level: "A2" },
+                    "a-nomen-deklination": { id: "a-nomen-deklination", title: "2.1. Noms & Articles (Nom/Akk)", category: "Nomen", level: "A1" },
+                    "a-nomen-dativ": { id: "a-nomen-dativ", title: "2.2. Le Datif (Dativ)", category: "Nomen", level: "A1-A2" },
+                    "a-pronomen-personal": { id: "a-pronomen-personal", title: "3.1. Les Pronoms Personnels", category: "Pronomen", level: "A1-A2" },
+                    "a-pronomen-possessiv": { id: "a-pronomen-possessiv", title: "3.2. Les Pronoms Possessifs", category: "Pronomen", level: "A1-A2" },
+                    "a-pronomen-indefinit": { id: "a-pronomen-indefinit", title: "3.3. Les Pronoms Indéfinis", category: "Pronomen", level: "A2" },
+                    "a-adjektive": { id: "a-adjektive", title: "4. La déclinaison de l'Adjectif", category: "Adjektive", level: "A2" },
+                    "a-praepositionen": { id: "a-praepositionen", title: "5. Les Prépositions mixtes", category: "Präpositionen", level: "A1-A2" },
+                    "a-adverbien": { id: "a-adverbien", title: "6. Adverbes & Particules", category: "Adverbien", level: "A2" },
+                    "a-satz-negation": { id: "a-satz-negation", title: "7.3. La Négation (nicht vs kein)", category: "Satzstruktur", level: "A1-A2" },
+                    "a-satzstruktur": { id: "a-satzstruktur", title: "8. La Structure des Phrases", category: "Satzstruktur", level: "A1-A2" }
+                }
+            },
+            "B": {
+                name: "Niveau B",
+                level: "B1-B2",
+                chapters: {
+                    "b-verben-zeiten": { id: "b-verben-zeiten", title: "1.1. Le Passé (Prét./Perf./Plusq.)", category: "Verben", level: "B1-B2" },
+                    "b-verben-futur": { id: "b-verben-futur", title: "1.2. Le Futur I & II", category: "Verben", level: "B1-B2" },
+                    "b-verben-modal-objektiv": { id: "b-verben-modal-objektiv", title: "1.3. Modaux en Sens Objectif", category: "Verben", level: "B1-B2" },
+                    "b-verben-modal-subjektiv": { id: "b-verben-modal-subjektiv", title: "1.4. Modaux en Sens Subjectif", category: "Verben", level: "B2" },
+                    "b-verben-reflexiv": { id: "b-verben-reflexiv", title: "1.5. Les Verbes Réfléchis avancés", category: "Verben", level: "B1-B2" },
+                    "b-verben-passiv": { id: "b-verben-passiv", title: "1.6. Le Passif & Alternatives", category: "Verben", level: "B1-B2" },
+                    "b-verben-konjunktiv-zwei": { id: "b-verben-konjunktiv-zwei", title: "1.7. Le Konjunktiv II", category: "Verben", level: "B1-B2" },
+                    "b-verben-konjunktiv-eins": { id: "b-verben-konjunktiv-eins", title: "1.8. Le Konjunktiv I", category: "Verben", level: "B2" },
+                    "b-verben-nomen-verbindungen": { id: "b-verben-nomen-verbindungen", title: "1.9. Nomen-Verb-Verbindungen", category: "Verben", level: "B2" },
+                    "b-nomen-genus-deklination": { id: "b-nomen-genus-deklination", title: "2.1. Déclinaison & Pluriel", category: "Nomen", level: "B1-B2" },
+                    "b-nomen-wortbildung": { id: "b-nomen-wortbildung", title: "2.2. Formation des Noms", category: "Nomen", level: "B1-B2" },
+                    "b-pronomen-deklination": { id: "b-pronomen-deklination", title: "3. Pronoms complexes", category: "Pronomen", level: "B1-B2" },
+                    "b-adjektive-deklination": { id: "b-adjektive-deklination", title: "4.1. Déclinaison de l'Adjectif", category: "Adjektive", level: "B1-B2" },
+                    "b-adjektive-partizipien": { id: "b-adjektive-partizipien", title: "4.2. Participes & Adj. à régime", category: "Adjektive", level: "B1-B2" },
+                    "b-praepositionen-genitiv": { id: "b-praepositionen-genitiv", title: "5. Prépositions au Génitif", category: "Präpositionen", level: "B1-B2" },
+                    "b-adverbien-partikeln": { id: "b-adverbien-partikeln", title: "6. Adverbes & Particules", category: "Adverbien", level: "B1-B2" },
+                    "b-satzstellung-mittelfeld": { id: "b-satzstellung-mittelfeld", title: "7. Phrase simple & Mittelfeld", category: "Satzstruktur", level: "B1-B2" },
+                    "b-satzstruktur-infinitiv": { id: "b-satzstruktur-infinitiv", title: "8. Infinitives & Relatives complexes", category: "Satzstruktur", level: "B1-B2" }
+                }
+            }
         };
 
         // --- GESTION DE L'ÉTAT LOCAL (STATE) ---
         let state = {
-            currentChapterId: "einfuehrung",
+            selectedBook: "A",
+            currentChapterId: { "A": "a-einfuehrung", "B": "b-verben-zeiten" },
             completedChapters: [],
             showTranslations: true,
-            userNotes: ""
+            userNotes: { "A": "", "B": "" },
+            theme: "light",
+            quizScores: {} // Format: {"chapterId": {score: 80, answeredCount: 5}}
         };
 
-        // --- CHARGEMENT DU COMPAGNON ---
+        // --- INITIALISATION SUR CHARGEMENT DE PAGE ---
         window.onload = function() {
-            const savedState = localStorage.getItem("a_grammatik_companion_state");
+            // Charger l'état sauvegardé
+            const savedState = localStorage.getItem("grammatik_companion_state_v2");
             if (savedState) {
-                state = JSON.parse(savedState);
+                try {
+                    const parsed = JSON.parse(savedState);
+                    // Fusionner avec l'état par défaut au cas où des clés manquent
+                    state = { ...state, ...parsed };
+                } catch(e) {
+                    console.error("Erreur de lecture du state local:", e);
+                }
             }
 
-            const savedNotes = localStorage.getItem("a_grammatik_notes");
-            if (savedNotes) {
-                document.getElementById("user-notes").value = savedNotes;
-            }
+            // Appliquer le thème
+            applyTheme();
 
+            // Charger les notes
+            const notesTextarea = document.getElementById("user-notes");
+            const currentBook = state.selectedBook;
+            notesTextarea.value = state.userNotes[currentBook] || "";
+
+            // Rendre l'interface
+            updateBookSelectorUI();
             renderSidebar();
-            loadChapter(state.currentChapterId);
+            loadChapter(state.currentChapterId[currentBook]);
             updateGlobalProgress();
         };
+
+        // --- DARK MODE THEME ---
+        function toggleDarkMode() {
+            state.theme = state.theme === "dark" ? "light" : "dark";
+            saveGlobalState();
+            applyTheme();
+        }
+
+        function applyTheme() {
+            const html = document.documentElement;
+            if (state.theme === "dark") {
+                html.classList.add("dark");
+            } else {
+                html.classList.remove("dark");
+            }
+        }
 
         // --- NOTIFICATION / TOAST SYSTEM ---
         function showNotification(message, isSuccess = true) {
@@ -272,7 +450,7 @@
             const msg = document.getElementById("toast-msg");
             
             icon.innerText = isSuccess ? "✓" : "ℹ";
-            icon.className = isSuccess ? "text-emerald-400" : "text-amber-400";
+            icon.className = isSuccess ? "text-emerald-400 font-bold" : "text-amber-400 font-bold";
             msg.innerText = message;
             
             toast.classList.remove("translate-y-20", "opacity-0");
@@ -284,78 +462,127 @@
             }, 3000);
         }
 
-        // --- ENREGISTRER LES NOTES ---
-        function saveNotes() {
-            const notes = document.getElementById("user-notes").value;
-            localStorage.setItem("a_grammatik_notes", notes);
-            showNotification("Vos notes personnelles ont été sauvegardées localement !");
-        }
-
+        // --- PERSISTENCE ---
         function saveGlobalState() {
-            localStorage.setItem("a_grammatik_companion_state", JSON.stringify(state));
+            localStorage.setItem("grammatik_companion_state_v2", JSON.stringify(state));
             updateGlobalProgress();
         }
 
-        // --- RENDU DU MENU DE NAVIGATION ---
-        function renderSidebar() {
+        // --- ENREGISTRER LES NOTES ---
+        function saveNotes() {
+            const notes = document.getElementById("user-notes").value;
+            state.userNotes[state.selectedBook] = notes;
+            saveGlobalState();
+            showNotification("Vos notes personnelles ont été sauvegardées !");
+        }
+
+        // --- SÉLECTION DE LIVRE (A ou B) ---
+        function selectBook(bookId) {
+            if (state.selectedBook === bookId) return;
+            
+            // Sauvegarder les notes actuelles avant de changer
+            const notes = document.getElementById("user-notes").value;
+            state.userNotes[state.selectedBook] = notes;
+
+            state.selectedBook = bookId;
+            
+            // Charger les notes du nouveau livre
+            document.getElementById("user-notes").value = state.userNotes[bookId] || "";
+
+            updateBookSelectorUI();
+            renderSidebar();
+            
+            // Charger le dernier chapitre actif de ce livre
+            const chapterId = state.currentChapterId[bookId];
+            loadChapter(chapterId);
+            
+            saveGlobalState();
+        }
+
+        function updateBookSelectorUI() {
+            const btnA = document.getElementById("btn-book-A");
+            const btnB = document.getElementById("btn-book-B");
+            
+            if (state.selectedBook === "A") {
+                btnA.className = "flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all flex items-center justify-center gap-2 bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm border border-slate-200/50 dark:border-slate-650";
+                btnB.className = "flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-medium rounded-xl text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center justify-center gap-2";
+            } else {
+                btnB.className = "flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-bold rounded-xl transition-all flex items-center justify-center gap-2 bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm border border-slate-200/50 dark:border-slate-650";
+                btnA.className = "flex-1 sm:flex-none px-4 py-2 text-xs sm:text-sm font-medium rounded-xl text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-all flex items-center justify-center gap-2";
+            }
+        }
+
+        // --- RENDU DU MENU DE NAVIGATION (SIDEBAR) ---
+        function renderSidebar(filteredChapters = null) {
             const nav = document.getElementById("navigation-list");
             nav.innerHTML = "";
 
-            Object.values(chaptersMetadata).forEach(chapter => {
-                const isSelected = chapter.id === state.currentChapterId;
+            const currentBook = state.selectedBook;
+            const chaptersObj = booksMetadata[currentBook].chapters;
+            const chaptersToRender = filteredChapters || Object.values(chaptersObj);
+            
+            // Compteur de chapitres affichés
+            document.getElementById("chapter-count").innerText = `${chaptersToRender.length} module(s)`;
+
+            if (chaptersToRender.length === 0) {
+                nav.innerHTML = `<p class="text-xs text-slate-400 dark:text-slate-500 italic p-4 text-center">Aucun résultat trouvé.</p>`;
+                return;
+            }
+
+            chaptersToRender.forEach(chapter => {
+                const isSelected = chapter.id === state.currentChapterId[currentBook];
                 const isCompleted = state.completedChapters.includes(chapter.id);
-                
+                const hasScore = state.quizScores[chapter.id];
+
                 const btn = document.createElement("button");
-                btn.className = `w-full text-left px-3.5 py-2.5 rounded-xl text-sm transition-all flex items-center justify-between gap-2 border ${
+                btn.className = `w-full text-left px-3 py-2.5 rounded-xl text-xs transition-all flex items-center justify-between gap-2 border ${
                     isSelected 
-                    ? "bg-indigo-600 text-white font-semibold shadow-md border-indigo-600" 
-                    : chapter.locked 
-                        ? "bg-slate-50/50 text-slate-400 border-transparent cursor-not-allowed" 
-                        : "bg-white hover:bg-slate-50 text-slate-700 border-slate-100 hover:border-slate-200"
+                    ? "bg-indigo-600 dark:bg-indigo-650 text-white font-semibold shadow-md border-indigo-600 dark:border-indigo-650" 
+                    : "bg-white dark:bg-slate-850 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 border-slate-100 dark:border-slate-800/80 hover:border-slate-200 dark:hover:border-slate-700"
                 }`;
 
-                if (chapter.locked) {
-                    btn.disabled = true;
-                } else {
-                    btn.onclick = () => {
-                        state.currentChapterId = chapter.id;
-                        saveGlobalState();
-                        renderSidebar();
-                        loadChapter(chapter.id);
-                    };
-                }
+                btn.onclick = () => {
+                    state.currentChapterId[currentBook] = chapter.id;
+                    saveGlobalState();
+                    renderSidebar();
+                    loadChapter(chapter.id);
+                };
 
                 const labelDiv = document.createElement("div");
-                labelDiv.className = "flex flex-col gap-0.5";
+                labelDiv.className = "flex flex-col gap-0.5 min-w-0";
                 
                 const mainTitle = document.createElement("span");
-                mainTitle.className = "font-medium leading-snug";
+                mainTitle.className = "font-semibold leading-snug truncate";
                 mainTitle.innerText = chapter.title;
                 
                 const subMeta = document.createElement("span");
-                subMeta.className = `text-[10px] ${isSelected ? "text-indigo-200" : "text-slate-400"}`;
-                subMeta.innerText = `${chapter.number} • Niveau ${chapter.level}`;
+                subMeta.className = `text-[9px] ${isSelected ? "text-indigo-200" : "text-slate-400 dark:text-slate-500"} font-medium`;
+                subMeta.innerText = `${chapter.category} • Niveau ${chapter.level}`;
                 
                 labelDiv.appendChild(mainTitle);
                 labelDiv.appendChild(subMeta);
                 btn.appendChild(labelDiv);
 
                 const indicatorDiv = document.createElement("div");
-                indicatorDiv.className = "shrink-0 flex items-center";
+                indicatorDiv.className = "shrink-0 flex items-center gap-1";
 
-                if (chapter.locked) {
-                    indicatorDiv.innerHTML = `
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
-                        </svg>
+                // Score du quiz si existant
+                if (hasScore) {
+                    const scorePercentage = Math.round((hasScore.score / hasScore.answeredCount) * 100);
+                    const scoreColor = scorePercentage >= 80 ? "text-emerald-500 bg-emerald-50 dark:bg-emerald-950/30" : scorePercentage >= 50 ? "text-amber-500 bg-amber-50 dark:bg-amber-950/30" : "text-rose-500 bg-rose-50 dark:bg-rose-950/30";
+                    indicatorDiv.innerHTML += `
+                        <span class="text-[9px] font-extrabold px-1.5 py-0.5 rounded ${scoreColor} ${isSelected ? 'border border-white/20' : ''}">${scorePercentage}%</span>
                     `;
-                } else if (isCompleted) {
-                    indicatorDiv.innerHTML = `
-                        <span class="h-5 w-5 bg-emerald-500 rounded-full flex items-center justify-center text-[10px] text-white font-bold">✓</span>
+                }
+
+                // Coche verte de complétion
+                if (isCompleted) {
+                    indicatorDiv.innerHTML += `
+                        <span class="h-4 w-4 bg-emerald-500 dark:bg-emerald-600 rounded-full flex items-center justify-center text-[9px] text-white font-bold">✓</span>
                     `;
                 } else if (isSelected) {
-                    indicatorDiv.innerHTML = `
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    indicatorDiv.innerHTML += `
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                         </svg>
                     `;
@@ -366,62 +593,218 @@
             });
         }
 
-        // --- SYSTEME DE CHARGEMENT DYNAMIQUE AVEC REPLI ---
-        async function loadChapter(chapterId) {
-            const metadata = chaptersMetadata[chapterId];
-            if (!metadata) return;
-
-            // En-tête par défaut
-            document.getElementById("chapter-badge").innerText = metadata.level;
-            document.getElementById("chapter-number").innerText = metadata.number;
-            document.getElementById("chapter-title").innerText = metadata.title;
-            document.getElementById("content-container").innerHTML = `<p class="text-sm text-slate-400 italic">Chargement du contenu...</p>`;
-
-            let loadedContent = "";
-
-            try {
-                // Tenter de charger le fichier JSON externe
-                const response = await fetch(`data/${chapterId}.json`);
-                if (response.ok) {
-                    const data = await response.json();
-                    loadedContent = data.content;
-                    if (data.title) document.getElementById("chapter-title").innerText = data.title;
-                    if (data.level) document.getElementById("chapter-badge").innerText = data.level;
-                    if (data.number) document.getElementById("chapter-number").innerText = data.number;
-                    console.log(`[Compagnon] Fiche "${chapterId}" chargée depuis le serveur.`);
-                } else {
-                    throw new Error("Fichier JSON non trouvé");
-                }
-            } catch (error) {
-                // Repli sur la base de données intégrée si échec (local ou CORS)
-                console.warn(`[Compagnon] Impossible de joindre "data/${chapterId}.json" (${error.message}). Utilisation de la version locale.`);
-                const fallback = fallbackData[chapterId];
-                loadedContent = fallback ? fallback.content : `<div class="text-center py-12"><p class="text-slate-400">Cette fiche n'est pas encore rédigée.</p></div>`;
+        // --- RECHERCHE GLOBALE ---
+        function handleSearch() {
+            const query = document.getElementById("search-input").value.toLowerCase().trim();
+            const currentBook = state.selectedBook;
+            const chaptersArray = Object.values(booksMetadata[currentBook].chapters);
+            
+            if (query === "") {
+                renderSidebar();
+                return;
             }
 
-            // Injection du contenu
-            document.getElementById("content-container").innerHTML = loadedContent;
+            const filtered = chaptersArray.filter(chapter => {
+                return chapter.title.toLowerCase().includes(query) || 
+                       chapter.category.toLowerCase().includes(query) || 
+                       chapter.level.toLowerCase().includes(query);
+            });
 
-            // Mise à jour de l'interactivité
+            renderSidebar(filtered);
+        }
+
+        // --- CHARGEMENT DYNAMIQUE DU CHAPITRE ---
+        async function loadChapter(chapterId) {
+            const currentBook = state.selectedBook;
+            const metadata = booksMetadata[currentBook].chapters[chapterId];
+            if (!metadata) return;
+
+            // Réinitialiser le quiz
+            currentQuizQuestions = [];
+            currentQuizIndex = 0;
+            currentQuizScore = 0;
+            document.getElementById("quiz-container").classList.add("hidden");
+
+            // Mettre à jour l'en-tête de base
+            document.getElementById("chapter-badge").innerText = metadata.level;
+            document.getElementById("chapter-category").innerText = metadata.category;
+            document.getElementById("chapter-title").innerText = metadata.title;
+            
+            const container = document.getElementById("content-container");
+            container.innerHTML = `<p class="text-xs text-slate-400 dark:text-slate-500 italic py-8">Chargement de la fiche de grammaire...</p>`;
+
+            let loadedData = null;
+
+            try {
+                // Tenter de charger le fichier JSON
+                const response = await fetch(`data/${chapterId}.json`);
+                if (response.ok) {
+                    loadedData = await response.json();
+                    console.log(`[Grammatik] Fiche "${chapterId}" chargée avec succès.`);
+                } else {
+                    throw new Error("Fichier non disponible");
+                }
+            } catch (error) {
+                console.warn(`[Grammatik] Échec chargement de data/${chapterId}.json (${error.message}). Fallback utilisé.`);
+                loadedData = fallbackData[chapterId];
+            }
+
+            if (!loadedData) {
+                container.innerHTML = `
+                    <div class="text-center py-12 bg-white dark:bg-slate-850 rounded-2xl border border-slate-100 dark:border-slate-800">
+                        <p class="text-sm text-slate-400 dark:text-slate-500 italic mb-2">Cette fiche n'est pas encore rédigée dans le dossier data/.</p>
+                        <p class="text-xs text-slate-400 dark:text-slate-500">Chemin attendu : <code class="mono-font bg-slate-100 dark:bg-slate-900 px-1 py-0.5 rounded text-[10px]">data/${chapterId}.json</code></p>
+                    </div>
+                `;
+                updateCompleteButtonState(chapterId);
+                return;
+            }
+
+            // Mettre à jour les titres si plus spécifiques dans le JSON
+            if (loadedData.title) document.getElementById("chapter-title").innerText = loadedData.title;
+            if (loadedData.level) document.getElementById("chapter-badge").innerText = loadedData.level;
+            if (loadedData.category) document.getElementById("chapter-category").innerText = loadedData.category;
+
+            // Construire le contenu HTML
+            let htmlContent = "";
+
+            // Astuce pédagogique
+            if (loadedData.pedagogicTip) {
+                htmlContent += `
+                    <div class="p-4 bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-100 dark:border-emerald-900/40 rounded-2xl text-xs text-emerald-800 dark:text-emerald-400 leading-relaxed shadow-sm">
+                        <span class="font-extrabold text-emerald-950 dark:text-emerald-350 block mb-1">💡 Conseil du Pédagogue :</span>
+                        ${loadedData.pedagogicTip}
+                    </div>
+                `;
+            }
+
+            // Render des sections de cours
+            if (loadedData.sections && Array.isArray(loadedData.sections)) {
+                loadedData.sections.forEach((section, sIdx) => {
+                    htmlContent += `
+                        <section class="space-y-4">
+                            <div class="flex items-center gap-2 border-b border-slate-100 dark:border-slate-800/80 pb-2">
+                                <span class="h-5 w-1.5 bg-indigo-600 dark:bg-indigo-400 rounded-full"></span>
+                                <h3 class="text-base font-extrabold text-slate-900 dark:text-white">${section.title}</h3>
+                            </div>
+                            
+                            ${section.explanation ? `<p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium">${section.explanation}</p>` : ""}
+                    `;
+
+                    // Rendu selon le type
+                    if ((section.type === "table" || section.type === "conjugation") && section.tableData) {
+                        const headers = section.tableData.headers || [];
+                        const rows = section.tableData.rows || [];
+                        
+                        htmlContent += `
+                            <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm bg-white dark:bg-slate-850">
+                                <table class="w-full text-left border-collapse text-xs">
+                                    <thead>
+                                        <tr class="bg-slate-50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider text-[10px]">
+                                            ${headers.map(h => `<th class="p-3 font-bold">${h}</th>`).join("")}
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-slate-100 dark:divide-slate-800/60 font-medium">
+                                        ${rows.map(row => `
+                                            <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-800/30 transition-colors">
+                                                ${row.map(cell => {
+                                                    // Traiter les exemples/traductions insérés dans le tableau
+                                                    const cellStr = String(cell);
+                                                    let cellHtml = cellStr;
+                                                    // Si cellule contient une parenthèse pour traduction française
+                                                    if (cellStr.includes("(") && cellStr.endsWith(")")) {
+                                                        const idx = cellStr.indexOf("(");
+                                                        const german = cellStr.substring(0, idx).trim();
+                                                        const french = cellStr.substring(idx + 1, cellStr.length - 1).trim();
+                                                        cellHtml = `<span class="font-semibold text-slate-900 dark:text-white">${german}</span> <span class="translation text-[10px] text-slate-400 dark:text-slate-500 italic block cursor-help" onclick="toggleSingleTranslation(this)">(${french})</span>`;
+                                                    }
+                                                    return `<td class="p-3 text-slate-700 dark:text-slate-300 leading-relaxed">${cellHtml}</td>`;
+                                                }).join("")}
+                                            </tr>
+                                        `).join("")}
+                                    </tbody>
+                                </table>
+                            </div>
+                        `;
+                    } else if (section.type === "grid" || !section.type) {
+                        // Liste de cartes d'exemples interactifs
+                        if (section.examples && Array.isArray(section.examples)) {
+                            htmlContent += `
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                                    ${section.examples.map(ex => {
+                                        // Mise en évidence dynamique du mot-clé
+                                        let germanStyled = ex.german;
+                                        if (ex.highlight) {
+                                            const highlights = ex.highlight.split(",").map(h => h.trim());
+                                            highlights.forEach(word => {
+                                                const regex = new RegExp(`\\b(${word})\\b`, "gi");
+                                                germanStyled = germanStyled.replace(regex, `<span class="text-indigo-600 dark:text-indigo-400 font-extrabold">$1</span>`);
+                                            });
+                                        }
+
+                                        return `
+                                            <div class="bg-white dark:bg-slate-850 p-3.5 rounded-xl border border-slate-100 dark:border-slate-800 hover:border-slate-200 dark:hover:border-slate-700 shadow-sm transition-all flex flex-col justify-between gap-2 group">
+                                                <p class="font-bold text-slate-900 dark:text-white leading-relaxed mono-font text-xs">${germanStyled}</p>
+                                                <div class="border-t border-slate-50 dark:border-slate-800 pt-1.5 mt-0.5 flex justify-between items-center">
+                                                    <span class="translation text-[10px] text-slate-500 dark:text-slate-400 italic font-medium leading-normal cursor-help block flex-1" onclick="toggleSingleTranslation(this)">
+                                                        ${ex.french}
+                                                    </span>
+                                                    <span class="text-[9px] text-slate-350 dark:text-slate-600 select-none cursor-pointer group-hover:text-indigo-400 transition-colors" title="Masquer/Afficher la traduction" onclick="toggleSingleTranslation(this.previousElementSibling, true)">👁</span>
+                                                </div>
+                                            </div>
+                                        `;
+                                    }).join("")}
+                                </div>
+                            `;
+                        }
+                    }
+
+                    htmlContent += `</section>`;
+                });
+            }
+
+            container.innerHTML = htmlContent;
+
+            // --- BRANCHER LE QUIZ INTERACTIF ---
+            if (loadedData.quiz && Array.isArray(loadedData.quiz) && loadedData.quiz.length > 0) {
+                currentQuizQuestions = loadedData.quiz;
+                initQuizModule();
+            }
+
+            // Appliquer l'état initial des boutons et des traductions
             updateCompleteButtonState(chapterId);
             applyTranslationState();
         }
 
-        // --- BOUTON D'ACQUISITION ---
+        // --- CARTES EXEMPLES : TOGGLE DE TRADUCTION INDIVIDUEL ---
+        function toggleSingleTranslation(el, forceToggle = false) {
+            // Si el est l'oeil de survol, réorienter
+            if (el.classList.contains("translation")) {
+                el.classList.toggle("opacity-0");
+                el.classList.toggle("blur-sm");
+                el.classList.toggle("opacity-100");
+            } else if (forceToggle) {
+                el.classList.toggle("opacity-0");
+                el.classList.toggle("blur-sm");
+                el.classList.toggle("opacity-100");
+            }
+        }
+
+        // --- BOUTON COMPLÉTION DU CHAPITRE ---
         function updateCompleteButtonState(chapterId) {
             const btn = document.getElementById("btn-complete");
             const isCompleted = state.completedChapters.includes(chapterId);
 
             if (isCompleted) {
-                btn.className = "w-full sm:w-auto px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-2 bg-emerald-100 text-emerald-800 border-emerald-200 hover:bg-emerald-200";
+                btn.className = "w-full sm:w-auto px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 flex items-center justify-center gap-2 bg-emerald-100 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-900/60 hover:bg-emerald-250 dark:hover:bg-emerald-900/80";
                 btn.innerHTML = `
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span>Chapitre acquis</span>
                 `;
             } else {
-                btn.className = "w-full sm:w-auto px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-2 bg-white text-slate-700 border-slate-200 hover:bg-slate-50";
+                btn.className = "w-full sm:w-auto px-4 py-2 rounded-xl text-xs font-semibold transition-all duration-200 flex items-center justify-center gap-2 bg-white dark:bg-slate-850 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-750/70 hover:bg-slate-50 dark:hover:bg-slate-800";
                 btn.innerHTML = `
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -432,15 +815,16 @@
         }
 
         function toggleChapterComplete() {
-            const cid = state.currentChapterId;
+            const currentBook = state.selectedBook;
+            const cid = state.currentChapterId[currentBook];
             const index = state.completedChapters.indexOf(cid);
 
             if (index > -1) {
                 state.completedChapters.splice(index, 1);
-                showNotification("Chapitre marqué comme non-acquis.");
+                showNotification("Chapitre retiré des acquis.");
             } else {
                 state.completedChapters.push(cid);
-                showNotification("Félicitations ! Chapitre validé.", true);
+                showNotification("Excellent ! Chapitre enregistré comme acquis.", true);
             }
 
             saveGlobalState();
@@ -448,18 +832,20 @@
             updateCompleteButtonState(cid);
         }
 
-        // --- CALCUL DE LA PROGRESSION GLOBALE ---
+        // --- PROGRESSION GLOBALE PAR LIVRE ---
         function updateGlobalProgress() {
-            const activeChapters = Object.values(chaptersMetadata).filter(c => !c.locked).length;
-            const completedCount = state.completedChapters.filter(cid => !chaptersMetadata[cid].locked).length;
+            const currentBook = state.selectedBook;
+            const chaptersObj = booksMetadata[currentBook].chapters;
+            const totalChapters = Object.keys(chaptersObj).length;
             
-            const percentage = activeChapters > 0 ? Math.round((completedCount / activeChapters) * 100) : 0;
+            const completedInCurrentBook = state.completedChapters.filter(cid => cid.startsWith(currentBook.toLowerCase() + "-")).length;
+            const percentage = totalChapters > 0 ? Math.round((completedInCurrentBook / totalChapters) * 100) : 0;
             
-            document.getElementById("global-progress-txt").innerText = `${percentage}% (${completedCount}/${activeChapters} acquis)`;
+            document.getElementById("global-progress-txt").innerText = `${percentage}% (${completedInCurrentBook}/${totalChapters})`;
             document.getElementById("global-progress-bar").style.width = `${percentage}%`;
         }
 
-        // --- MASQUER/AFFICHER LES TRADUCTIONS ---
+        // --- ACTIVE RECALL : MASQUER/AFFICHER LES TRADUCTIONS ---
         function toggleTranslations() {
             state.showTranslations = !state.showTranslations;
             saveGlobalState();
@@ -481,6 +867,185 @@
             });
 
             btnTxt.innerText = state.showTranslations ? "Masquer les traductions" : "Afficher les traductions";
+        }
+
+        // ==========================================
+        // --- MODULE DE QUIZ INTERACTIF ---
+        // ==========================================
+        let currentQuizQuestions = [];
+        let currentQuizIndex = 0;
+        let currentQuizScore = 0;
+
+        function initQuizModule() {
+            const quizContainer = document.getElementById("quiz-container");
+            quizContainer.classList.remove("hidden");
+            renderQuizQuestion();
+        }
+
+        function renderQuizQuestion() {
+            const container = document.getElementById("quiz-container");
+            const q = currentQuizQuestions[currentQuizIndex];
+            const isLast = currentQuizIndex === currentQuizQuestions.length - 1;
+            
+            container.innerHTML = `
+                <div class="flex items-center justify-between mb-4 border-b border-slate-100 dark:border-slate-800 pb-3">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">📝 Quiz d'Auto-Évaluation</h4>
+                    <span class="text-[10px] font-bold text-slate-400 bg-slate-50 dark:bg-slate-900 px-2.5 py-1 rounded-full">Question ${currentQuizIndex + 1} / ${currentQuizQuestions.length}</span>
+                </div>
+                
+                <p class="text-xs font-extrabold text-slate-900 dark:text-white leading-relaxed mb-4">${q.question}</p>
+                
+                <div class="space-y-2 mb-4" id="quiz-options">
+                    ${q.options.map((opt, oIdx) => `
+                        <button onclick="handleSelectAnswer(this, '${opt.replace(/'/g, "\\'")}', '${q.answer.replace(/'/g, "\\'")}')" class="w-full text-left p-3 text-xs font-medium rounded-xl border border-slate-200 dark:border-slate-700/60 hover:bg-slate-50 dark:hover:bg-slate-850 hover:border-slate-350 dark:hover:border-slate-650 transition-all flex items-center justify-between group">
+                            <span>${opt}</span>
+                            <span class="h-4 w-4 rounded-full border border-slate-300 dark:border-slate-600 group-hover:border-indigo-400 transition-all shrink-0"></span>
+                        </button>
+                    `).join("")}
+                </div>
+                
+                <div id="quiz-feedback" class="p-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-100 dark:border-slate-800 rounded-xl text-[11px] leading-relaxed hidden">
+                    <!-- Rempli par le feedback -->
+                </div>
+                
+                <div class="flex justify-end mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 hidden" id="quiz-actions">
+                    <button onclick="handleNextQuestion()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-1.5 px-4 rounded-xl text-xs transition-all active:scale-95 flex items-center gap-1.5">
+                        <span>${isLast ? "Voir les résultats" : "Suivant"}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            `;
+        }
+
+        function handleSelectAnswer(btn, opt, answer) {
+            const optionsDiv = document.getElementById("quiz-options");
+            const buttons = optionsDiv.querySelectorAll("button");
+            
+            // Désactiver tous les boutons pour empêcher de re-répondre
+            buttons.forEach(b => {
+                b.disabled = true;
+                // Supprimer les effets hover
+                b.className = b.className.replace("hover:bg-slate-50", "").replace("hover:border-slate-350", "");
+            });
+
+            const isCorrect = opt === answer;
+            const currentBook = state.selectedBook;
+            const chapterId = state.currentChapterId[currentBook];
+            const q = currentQuizQuestions[currentQuizIndex];
+
+            if (isCorrect) {
+                currentQuizScore++;
+                btn.className = "w-full text-left p-3 text-xs font-bold rounded-xl border border-emerald-250 dark:border-emerald-900/60 bg-emerald-50/70 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-400 flex items-center justify-between shrink-0";
+                btn.querySelector("span:last-child").className = "h-4 w-4 rounded-full bg-emerald-500 flex items-center justify-center text-[8px] text-white font-bold";
+                btn.querySelector("span:last-child").innerHTML = "✓";
+            } else {
+                btn.className = "w-full text-left p-3 text-xs font-bold rounded-xl border border-rose-250 dark:border-rose-900/60 bg-rose-50/70 dark:bg-rose-950/20 text-rose-800 dark:text-rose-400 flex items-center justify-between shrink-0";
+                btn.querySelector("span:last-child").className = "h-4 w-4 rounded-full bg-rose-500 flex items-center justify-center text-[8px] text-white font-bold";
+                btn.querySelector("span:last-child").innerHTML = "✗";
+
+                // Mettre en vert la bonne réponse
+                buttons.forEach(b => {
+                    const txt = b.querySelector("span:first-child").innerText.trim();
+                    if (txt === answer) {
+                        b.className = "w-full text-left p-3 text-xs font-bold rounded-xl border border-emerald-250 dark:border-emerald-900/60 bg-emerald-50/70 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-400 flex items-center justify-between shrink-0";
+                        b.querySelector("span:last-child").className = "h-4 w-4 rounded-full bg-emerald-500 flex items-center justify-center text-[8px] text-white font-bold";
+                        b.querySelector("span:last-child").innerHTML = "✓";
+                    }
+                });
+            }
+
+            // Afficher le feedback
+            const feedbackDiv = document.getElementById("quiz-feedback");
+            feedbackDiv.innerHTML = `
+                <p class="font-extrabold ${isCorrect ? 'text-emerald-800 dark:text-emerald-400' : 'text-rose-800 dark:text-rose-400'} mb-1">${isCorrect ? '✓ Réponse Correcte !' : '✗ Mauvaise Réponse.'}</p>
+                <p class="text-slate-600 dark:text-slate-400 font-medium">${q.explanation || ''}</p>
+            `;
+            feedbackDiv.classList.remove("hidden");
+
+            // Afficher les actions du quiz
+            document.getElementById("quiz-actions").classList.remove("hidden");
+        }
+
+        function handleNextQuestion() {
+            if (currentQuizIndex < currentQuizQuestions.length - 1) {
+                currentQuizIndex++;
+                renderQuizQuestion();
+            } else {
+                renderQuizResults();
+            }
+        }
+
+        function renderQuizResults() {
+            const container = document.getElementById("quiz-container");
+            const percentage = Math.round((currentQuizScore / currentQuizQuestions.length) * 100);
+            const currentBook = state.selectedBook;
+            const chapterId = state.currentChapterId[currentBook];
+
+            // Sauvegarder le score localement
+            if (!state.quizScores[chapterId] || state.quizScores[chapterId].score < currentQuizScore) {
+                state.quizScores[chapterId] = {
+                    score: currentQuizScore,
+                    answeredCount: currentQuizQuestions.length
+                };
+                saveGlobalState();
+                renderSidebar();
+            }
+
+            let resultClass = "";
+            let resultIcon = "";
+            let resultText = "";
+
+            if (percentage >= 85) {
+                resultClass = "bg-emerald-50/50 dark:bg-emerald-950/15 border-emerald-100 dark:border-emerald-900/35 text-emerald-900 dark:text-emerald-400";
+                resultIcon = "🏆";
+                resultText = "Félicitations ! Vous maîtrisez parfaitement ce chapitre de grammaire.";
+            } else if (percentage >= 50) {
+                resultClass = "bg-amber-50/50 dark:bg-amber-950/15 border-amber-100 dark:border-amber-900/35 text-amber-900 dark:text-amber-400";
+                resultIcon = "👍";
+                resultText = "Bon travail, mais quelques relectures vous aideront à consolider vos acquis.";
+            } else {
+                resultClass = "bg-rose-50/50 dark:bg-rose-950/15 border-rose-100 dark:border-rose-900/35 text-rose-900 dark:text-rose-450";
+                resultIcon = "📚";
+                resultText = "Nous vous conseillons de relire attentivement la fiche avant de retenter le quiz.";
+            }
+
+            container.innerHTML = `
+                <div class="text-center p-6 border rounded-2xl ${resultClass} transition-colors">
+                    <span class="text-4xl block mb-2">${resultIcon}</span>
+                    <h4 class="text-base font-extrabold mb-1">Score Final : ${currentQuizScore} / ${currentQuizQuestions.length} (${percentage}%)</h4>
+                    <p class="text-xs font-semibold mb-4 leading-relaxed">${resultText}</p>
+                    
+                    <div class="flex justify-center gap-3">
+                        <button onclick="restartQuiz()" class="bg-indigo-650 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-xl text-xs transition-all active:scale-95 shadow-sm">
+                            Recommencer le Quiz
+                        </button>
+                        <button onclick="markAcquiredFromQuiz()" class="bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 font-bold py-2 px-4 rounded-xl text-xs hover:bg-slate-50 dark:hover:bg-slate-750 transition-all active:scale-95 shadow-xs">
+                            Valider le chapitre
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function restartQuiz() {
+            currentQuizIndex = 0;
+            currentQuizScore = 0;
+            renderQuizQuestion();
+        }
+
+        function markAcquiredFromQuiz() {
+            const currentBook = state.selectedBook;
+            const cid = state.currentChapterId[currentBook];
+            if (!state.completedChapters.includes(cid)) {
+                state.completedChapters.push(cid);
+                saveGlobalState();
+                renderSidebar();
+                updateCompleteButtonState(cid);
+                showNotification("Chapitre marqué comme acquis !");
+            }
+            restartQuiz();
         }
     </script>
 </body>

@@ -1,0 +1,96 @@
+{
+  "id": "b-praepositionen-genitiv",
+  "title": "5. Prépositions au Génitif",
+  "category": "Präpositionen",
+  "level": "B1-B2",
+  "pedagogicTip": "Le Génitif exprime l'appartenance. À partir du B1, vous devez utiliser des prépositions formelles comme 'wegen' ou 'während' qui exigent le génitif. Notez qu'au masculin/neutre singulier, le nom prend un -s ou -es !",
+  "sections": [
+    {
+      "title": "1. Les Prépositions courantes au Génitif",
+      "type": "table",
+      "explanation": "Elles sont très utilisées dans les écrits professionnels et académiques.",
+      "tableData": {
+        "headers": [
+          "Préposition",
+          "Sens",
+          "Exemple",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "wegen",
+            "à cause de",
+            "wegen des Regens (Regen: der)",
+            "à cause de la pluie"
+          ],
+          [
+            "während",
+            "pendant / durant",
+            "während des Unterrichts (der)",
+            "pendant le cours"
+          ],
+          [
+            "trotz",
+            "malgré",
+            "trotz deines Rates (der)",
+            "malgré ton conseil"
+          ],
+          [
+            "anstatt / statt",
+            "au lieu de",
+            "statt eines Briefes (der)",
+            "au lieu d'une lettre"
+          ],
+          [
+            "aufgrund",
+            "en raison de",
+            "aufgrund des Unfalles (der)",
+            "en raison de l'accident"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Rappel des articles au Génitif",
+      "type": "table",
+      "explanation": "Les marques du génitif pour les articles et les noms.",
+      "tableData": {
+        "headers": [
+          "Marque / Cas",
+          "Masculin (der)",
+          "Féminin (die)",
+          "Neutre (das)",
+          "Pluriel (die)"
+        ],
+        "rows": [
+          [
+            "Défini",
+            "des Mannes (-es)",
+            "der Frau",
+            "des Kindes (-es)",
+            "der Kinder"
+          ],
+          [
+            "Indéfini",
+            "eines Mannes (-es)",
+            "einer Frau",
+            "eines Kindes (-es)",
+            "- Kinder"
+          ]
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Wegen ___ schlechten Wetters (das Wetter) bleiben wir hier.'",
+      "options": [
+        "dem",
+        "des",
+        "das"
+      ],
+      "answer": "des",
+      "explanation": "'wegen' exige le génitif. 'Wetter' est neutre (das), l'article devient 'des' et l'adjectif prend la terminaison faible '-en'."
+    }
+  ]
+}

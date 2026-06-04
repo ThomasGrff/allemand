@@ -1,0 +1,91 @@
+{
+  "id": "a-adverbien",
+  "title": "6. Adverbes & Particules",
+  "category": "Adverbien",
+  "level": "A2",
+  "pedagogicTip": "Les adverbes modifient un verbe ou une phrase entière et restent invariables. Les particules de discours (Redepartikeln) sont très courantes à l'oral en allemand pour marquer l'intonation ou les sentiments (surprise, insistance, doute) !",
+  "sections": [
+    {
+      "title": "1. Catégories d'Adverbes",
+      "type": "table",
+      "explanation": "Les adverbes apportent des informations de lieu, de temps ou de manière.",
+      "tableData": {
+        "headers": [
+          "Type d'adverbe",
+          "Exemples",
+          "Traduction",
+          "Exemple en phrase"
+        ],
+        "rows": [
+          [
+            "Adverbes de temps",
+            "heute, morgen, gestern, damals",
+            "aujourd'hui, demain, hier, autrefois",
+            "Heute lerne ich Deutsch."
+          ],
+          [
+            "Adverbes de lieu",
+            "hier, dort, links, oben, draußen",
+            "ici, là-bas, à gauche, en haut, dehors",
+            "Wir spielen draußen."
+          ],
+          [
+            "Adverbes de liaison",
+            "deshalb, sonst, trotzdem",
+            "c'est pourquoi, sinon, quand même",
+            "Ich war krank, deshalb kam ich nicht."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Les Particules de Discours (Redepartikeln)",
+      "type": "grid",
+      "explanation": "Elles n'ont pas de sens propre traduisible directement mais changent la couleur affective de la phrase.",
+      "examples": [
+        {
+          "german": "denn (curiosité, interrogation vive)",
+          "french": "Was ist denn passiert? (Mais qu'est-ce qui s'est passé ?)",
+          "highlight": "denn"
+        },
+        {
+          "german": "doch (insistance, contredire une négation)",
+          "french": "Komm doch mit! (Allez, viens avec nous !) | Du hast kein Auto, oder? - Doch! (Si !)",
+          "highlight": "doch"
+        },
+        {
+          "german": "ja (évidence, surprise)",
+          "french": "Das ist ja toll! (C'est vraiment génial !)",
+          "highlight": "ja"
+        },
+        {
+          "german": "mal (rendre une demande plus douce)",
+          "french": "Hör mal zu! (Écoute un peu !)",
+          "highlight": "mal"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle particule allemande utilise-t-on pour répondre affirmativement à une question négative (équivalent du 'Si' français) ?",
+      "options": [
+        "Ja",
+        "Doch",
+        "Denn"
+      ],
+      "answer": "Doch",
+      "explanation": "Pour contredire une question ou une affirmation négative, on utilise 'Doch' (ex: 'Hast du kein Brot?' - 'Doch!' = Si, j'en ai)."
+    },
+    {
+      "question": "Que rajoute la particule 'mal' à une demande ou un impératif ?",
+      "options": [
+        "Elle exprime de la colère",
+        "Elle rend la demande plus amicale / douce",
+        "Elle indique le futur"
+      ],
+      "answer": "Elle rend la demande plus amicale / douce",
+      "explanation": "'mal' (abréviation de einmal) adoucit l'impératif pour donner l'impression d'une demande informelle et amicale (ex: 'Schau mal!' = Regarde un peu !)."
+    }
+  ]
+}

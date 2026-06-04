@@ -1,0 +1,633 @@
+Book: A-Grammatik
+Total pages: 198
+
+Outline:
+  Inhaltsübersicht und Vorwort
+    ► E-Book Inhaltsübersicht und Vorwort
+  Kapitel 1 - Verben
+    ► E-Book Kapitel 1
+  Kapitel 2 - Nomen und Artikel
+    ► E-Book Kapitel 2
+  Kapitel 3 - Pronomen
+     ► E-Book Kapitel 3
+  Kapitel 4 - Adjektive
+     ► E-Book Kapitel 4
+  Kapitel 5 - Präpositionen
+    ► E-Book Kapitel 5
+  Kapitel 6 - Adverbien und Partikeln
+     ► E-Book Kapitel 6
+  Kapitel 7 - Einfache Sätze
+    ► E-Book Kapitel 7
+  Kapitel 8 - Zusammengesetzte Sätze
+    ► E-Book Kapitel 8
+  Anhang
+    ► E-Book Anhang 
+
+First 12 Pages Text:
+--- Page 1 ---
+Übungsgrammatik  
+Deutsch als Fremdsprache
+Sprachniveau A1 • A2
+A-Grammatik
+Anne Buscha ·  Szilvia Szita
+Mit Zeichnungen von Jean-Marc Deltorn
+
+--- Page 2 ---
+Das vorliegende Lehrwerk beinhaltet Hörtexte.
+2  Hörtext
+Die Hörmaterialien stehen in unserer App SCHUBERT-Audio
+und auf unserer Website unter schubert-verlag.de/medien
+zum Download zur Verfügung.
+Das Werk und seine Teile sind urheberrechtlich geschützt.
+Jede Nutzung in anderen als den gesetzlich zugelassenen Fällen
+bedarf der vorherigen schriftlichen Einwilligung des Verlages.
+Redaktion: Albrecht Klemm
+Layout und Satz: Diana Liebers; Jeanette Frieberg, Buchgestaltung | Mediendesign, Leipzig
+Coverlayout: Markus Drapatz
+Zeichnungen: Jean-Marc Deltorn
+Englische Übersetzung: Leslie Ocker, Szilvia Szita, Andrew Thean
+Die Hörtexte wurden gesprochen von:
+Patrick Becker, Beatrix Hermens, Greta Hermens, Philipp Oehme
+© SCHUBERT-Verlag, Leipzig
+2., vollständig überarbeitete Auflage 2023
+Alle Rechte vorbehalten
+Printed in Germany
+ISBN: 978-3-96915-057-3
+
+--- Page 3 ---
+3A-Grammatik
+Inhaltsübersicht
+Inhaltsübersicht
+Vorwort  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6
+Einführung: Buchstaben, Wörter, Wortgruppen und Sätze .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+1 Verben
+1.1 Tempora 
+1.1.1 Gebrauch der Tempora   . . . . . . . . . . . . . . . . . . .  wir fahren, wir fuhren, wir sind gefahren   . . . . . . .  9
+1.1.2 Präsens
+ ` Verben ohne Vokalwechsel  . . . . . . . . . . . . . . .  Ich koche gern, sie arbeitet viel.  . . . . . . . . . . . . . . . .  10
+ ` Verben mit Vokalwechsel  . . . . . . . . . . . . . . . .  Marcus schläft, Anton liest Fachbücher.   . . . . . . . .  14
+ ` Besondere Verben: haben, sein, werden   . . . . .  Franz ist krank. Er hat eine Erkältung.  . . . . . . . . .  16
+ ` Besondere Verben: Modalverben  . . . . . . . . . .  Katharina will später Lehrerin werden.  . . . . . . . .  18
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Inga nimmt nicht teil. Sie besucht einen Kunden.  . .  21
+1.1.3 Perfekt
+ ` Perfekt mit haben   . . . . . . . . . . . . . . . . . . . . . .  Michaela hat gekocht.  . . . . . . . . . . . . . . . . . . . . . . . . .  24
+ ` Perfekt mit sein   . . . . . . . . . . . . . . . . . . . . . . . .  Beate ist gewandert.  . . . . . . . . . . . . . . . . . . . . . . . . .  28
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Otto ist sehr früh aufgestanden.  . . . . . . . . . . . . . . .  31
+1.1.4 Präteritum
+ ` Besondere Verben: haben, sein, werden, wissen   Ich war beim Arzt. Ich hatte eine Erkältung.  . . . .  34
+ ` Besondere Verben: Modalverben  . . . . . . . . . .  Ich konnte nicht kommen.  . . . . . . . . . . . . . . . . . . . . . .  36
+ ` Regelmäßige und unregelmäßige Verben  . . .  Die Abgeordneten diskutierten, der Minister  
+ gab ein Interview.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  38
+ ` Verben mit Präfix  . . . . . . . . . . . . . . . . . . . . . . .  Ein Dieb brach ins Museum ein.  . . . . . . . . . . . . . . . . 43
+1.2 Reflexive Verben  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Eddi und Eva unterhalten sich.  . . . . . . . . . . . . . . . . . 45
+1.3 Imperativ   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Treiben Sie regelmäßig Sport!  . . . . . . . . . . . . . . . . . 48
+1.4 Konjunktiv II
+1.4.1 Höfliche Bitten und Fragen   . . . . . . . . . . . . . . . .  Wann hätten Sie Zeit?  . . . . . . . . . . . . . . . . . . . . . . . . . 51
+1.4.2 Irreale Wünsche und Bedingungen  . . . . . . . . . .  Fe li x  wäre gern wieder gesund.  . . . . . . . . . . . . . . . . 54
+1.5 Passiv    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Der Minister wird interviewt.   . . . . . . . . . . . . . . . . . 56
+1.6 Verben und ihre Ergänzungen
+1.6.1 Verben mit direktem Kasus   . . . . . . . . . . . . . . . .  Der Salat schmeckt meinem Bruder nicht.  . . . . . . 59
+1.6.2 Verben mit präpositionalem Kasus   . . . . . . . . . .  Philip denkt an die nächste Prüfung.   . . . . . . . . . . . 62
+1.6.3 Verben mit lokalen Ergänzungen  . . . . . . . . . . . .  Die Flasche steht im Kühlschrank.  . . . . . . . . . . . . . . 67
+2 Nomen und Artikel
+2.1 Genus    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  der Baum, das Herz, die Maus  . . . . . . . . . . . . . . . . . 69
+2.2 Numerus: Plural  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  eine Maus, viele Mäuse   . . . . . . . . . . . . . . . . . . . . . . .  74
+2.3 Kasus   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Die Mitarbeiterin erklärt dem Besucher  
+das Bild.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+2.4 Bestimmter, unbestimmter und negativer Artikel  . . . .  die Katze, eine Katze, keine Katze  . . . . . . . . . . . . . 82
+2.5 Possessivartikel   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Ist das mein Handy oder dein Handy?  . . . . . . . . . . . 86
+2.6 Demonstrativ- und Frageartikel  . . . . . . . . . . . . . . . . . .  Welcher Rucksack gefällt dir? Dieser Rucksack.  . 89
+
+--- Page 4 ---
+4 A-Grammatik
+Inhaltsübersicht
+3 Pronomen
+3.1 Personalpronomen  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Was kann ich für Sie tun?   . . . . . . . . . . . . . . . . . . . . .  91
+3.2 Reflexivpronomen    . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Otto zieht sich das Hemd an. .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  94
+3.3 Possessivpronomen   . . . . . . . . . . . . . . . . . . . . . . . . . . .  Gehört das Handy dir? Ja, es ist meins.  . . . . . . . . . 96
+3.4 Indefinitpronomen
+3.4.1 Einer, keiner …  . . . . . . . . . . . . . . . . . . . . . . . . . . .  Ich brauche noch einen Topf. Hier steht  
+noch einer.   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+3.4.2 Jemand, niemand, alle, etwas, nichts, alles   . . . . .  Hier ist niemand. Alle sind in der Kantine.  . . . . . . . 98
+3.5 Fragepronomen   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Was hat Herr Roth fotografiert?  . . . . . . . . . . . . . 100
+3.6 Relativpronomen    . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Das ist der Koch, dem das  
+ Restaurant „Lecker” gehört.   . . . . . . . . . . . . . . . . .  102
+3.7 Das Wort es  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Es ist heiß.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104
+4 Adjektive
+4.1 Deklination  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Ich kaufe frisches Obst auf dem Markt.  . . . . . . . .  105
+4.2 Komparation   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Martin ist der schnellste Läufer.  . . . . . . . . . . . . . .  110
+4.3 Zahlwörter    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Gustav isst den dritten Hamburger.   . . . . . . . . . . .  114
+5 Präpositionen
+5.1 Präpositionen mit dem Dativ  . . . . . . . . . . . . . . . . . . . .  Wir fahren mit dem F ahrrad.  . . . . . . . . . . . . . . . . .  117
+5.2 Präpositionen mit dem Akkusativ   . . . . . . . . . . . . . . . .  Martina kocht für ihre Gäste.  . . . . . . . . . . . . . . . .  120
+5.3 Präpositionen mit Dativ oder Akkusativ   . . . . . . . . . . .  Emil sitzt im Sessel. 
+  Emil hat sich in den Sessel gesetzt.  . . . . . . . . . . . .  121
+5.4 Semantische Zuordnung der Präpositionen  . . . . . . . .  Wir treffen uns um 8.00 Uhr.   . . . . . . . . . . . . . . . . .  124
+6 Adverbien und Partikeln
+6.1 Fragewörter
+6.1.1 Wann, warum, wie und wo?  . . . . . . . . . . . . . . . . .  Wann fährt Martina zu ihrer Tante?  . . . . . . . . . .  129
+6.1.2 Wo(r) + Präposition  . . . . . . . . . . . . . . . . . . . . . . .  Worüber reden Moritz und Martina?   . . . . . . . . .  132
+6.2 Adverbien   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Heute gibt es eine große Party.   . . . . . . . . . . . . . .  133
+6.3 Redepartikeln  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Was ist denn passiert, Sabine?  . . . . . . . . . . . . . . . .  136
+7 Einfache Sätze
+7.1 Position der Verben   . . . . . . . . . . . . . . . . . . . . . . . . . . .  Sandra spielt zweimal in der Woche Tennis.
+   Treiben Sie gern Sport?  . . . . . . . . . . . . . . . . . . . . . .  137
+7. 2 Position der anderen Satzglieder
+7. 2 .1 Wortstellung im Mittelfeld  . . . . . . . . . . . . . . . . .  Tina und Tim fahren am Wochenende  
+ mit dem Auto nach Berlin.  . . . . . . . . . . . . . . . . . . . .  140
+7 .2.2 Satzglieder im Nachfeld  . . . . . . . . . . . . . . . . . . .  Der Kuchen hat 20 Cent mehr gekostet  
+ als vor einem Jahr.  . . . . . . . . . . . . . . . . . . . . . . . . . . .  143
+7. 3 Negation
+7. 3.1 Satznegation   . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Der Kaffee hat Lisa nicht geschmeckt.  . . . . . . . . 144
+7. 3. 2 Teilnegation    . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Die Personalabteilung hat nicht Paul für die  
+ Stelle ausgewählt, sondern Maria.  . . . . . . . . . . . . .  146
+7 .3.3 Negative Frage  . . . . . . . . . . . . . . . . . . . . . . . . . .  Kannst du nicht schlafen?   . . . . . . . . . . . . . . . . . . . .  148
+
+--- Page 5 ---
+5A-Grammatik
+Inhaltsübersicht
+8 Zusammengesetzte Sätze
+8.1 Hauptsätze
+8.1.1 Satzverbindung: Konjunktionen   . . . . . . . . . . . .  Martin macht im Winter in den Alpen  
+ Urlaub, denn er fährt gern Ski.  . . . . . . . . . . . . . . . .  149
+8.1.2 Satzverbindung: Konjunktionaladverbien  . . . . .  Martin fährt gern Ski, deshalb macht er  
+ im Winter in den Alpen Urlaub.   . . . . . . . . . . . . . . .  151
+8.2 Adverbiale Nebensätze   . . . . . . . . . . . . . . . . . . . . . . . .  Martin macht im Winter in den Alpen  
+Urlaub, weil er gern Ski fährt.  . . . . . . . . . . . . . . . .  153
+8.3 Dass-Sätze  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Martin weiß, dass im Winter in den Alpen  
+Schnee liegt.   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  157
+8.4 Infinitiv mit zu  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Lena hat vor, im Urlaub in ein warmes Land 
+zu fahren.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  159
+8.5 Fragesätze als Nebensätze  . . . . . . . . . . . . . . . . . . . . . .  Lena weiß noch nicht, wann sie Urlaub 
+nehmen kann.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  162
+8.6 Relativsätze  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Lena nimmt die Bücher mit, die sie für  
+den Urlaub gekauft hat.  . . . . . . . . . . . . . . . . . . . . . .  165
+9 Anhang
+9.1 Sprechübungen für Gruppen und Tandemlernende  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  167
+9.2 Übersicht: Unregelmäßige Verben   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  176
+9.3 Übersicht: Verben mit direktem Kasus   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  180
+9.4 Übersicht: Verben mit präpositionalem Kasus   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  182
+9.5 Übersicht: Thematische Zuordnung der Übungen  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  184
+9.6 Index   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  185
+9.7 Lösungen   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  187
+
+--- Page 6 ---
+6 A-Grammatik
+Vorwort
+Vorwort
+Die A-Grammatik ist eine Übungsgrammatik für Ler -
+nende auf den Niveaustufen A1 und A2 des Gemeinsa -
+men Europäischen Refe renzrahmens für Sprachen. Sie 
+eignet sich sowohl als kurs  begleitendes Zusatzmaterial 
+als auch für die indi viduelle Arbeit.
+Um die deutsche Grammatik für beginnende Deutsch -
+lernende einfach, verständlich und motivierend darzu -
+stel len, enthält die A-Grammatik nur grammatische 
+Struk turen, die für die Niveaustufen A1 und A2 von Be -
+deu tung sind. Im Vordergrund steht nicht die Vollstän -
+digkeit, sondern die Relevanz grammatischer Erschei -
+nungen für den Sprachgebrauch.
+Jedes Grammatikthema ist übersichtlich gegliedert in:
+ ein illustriertes Beispiel zur Einführung in das Thema
+ eine Übersicht über die grammatischen Formen
+ Hinweise zu Strukturen und Gebrauch
+ besondere Hinweise zur Syntax
+ kommunikative Übungen zum Thema.
+Zum Erlernen und Einüben der grammatischen Struk -
+turen werden unterschiedliche Übungsformen angebo -
+ten. Dazu gehören unter anderem Zuordnungsübungen, 
+Lückentexte und das vorgabeorientierte Formulieren 
+von Sätzen oder Texten. Die Übungen sind in kommuni -
+kative Kontexte wie Dialoge, E-Mails oder Zeitungsinfor-
+mationen eingebunden. Die Situationen beziehen sich 
+auf das Alltags- und das Arbeitsleben und greifen Wort -
+schatz aus beiden Bereichen auf. 
+Der Anhang des Buches enthält als zusätzliches Angebot 
+Sprechübungen für Gruppen und Tandemlernende zum 
+gezielten Training grammatischer Strukturen. Er bein -
+haltet außerdem Verblisten, eine thematische Übersicht 
+der Übungen, die zur Wortschatzerweiterung dienen 
+und/oder als Sprechanlässe benutzt werden können, und 
+ einen Lösungsschlüssel.
+Ausgewählte Texte stehen zur Aussprachehilfe und Kon-
+trolle der Lösungen in der App SCHUBERT-Audio sowie im 
+MP3-Format auf unserer Website zur Verfügung. Außer -
+dem ist die Grammatik auch digital als interaktive Aus -
+gabe erhältlich, wozu sie unter schubert-verlag.de/  digital 
+weitere Informationen finden. Wir wünschen Ihnen viel 
+Freude beim Lernen.
+Anne Buscha und Szilvia Szita
+Preface
+A-Grammatik is a grammar workbook that focuses on 
+the requirements for the A1 and A2 levels of the Com -
+mon European Framework for Languages. The book can 
+be used in both group-lesson and self-study settings. 
+In order to present German grammar in a simple, under -
+standable and motivating manner for beginners, the 
+ A-Grammatik workbook only contains grammatical 
+struc tures that are important for levels A1 and A2. The 
+ focus is not on completeness, but on the relevance of 
+grammatical phenomena for linguistic usage. Each gram-
+mar section is clearly structured and includes
+ an illustrated example to introduce the topic,
+ an overview of the grammatical forms,
+ notes on structures and use,
+ special information on syntax and
+ communicative exercises on the respective topic.
+Various types of exercises are offered for learning and 
+practicing the grammatical structures: e. g. matching 
+exer cises, cloze exercises and the generation of senten -
+ces or texts based on certain specifications. The exercises 
+are integrated into communicative contexts, such as dia-
+logues, emails and newspaper reports. The texts cover 
+both everyday and work-related situations, providing 
+useful vocabulary for both areas.
+The appendix includes speaking exercises for practicing 
+specific grammatical structures in groups or with a part -
+ner, along with an answer key, verb lists and a thematic 
+overview of all exercises that can be used for expanding 
+the learner’s vocabulary and/or as an opportunity to 
+speak.
+Selected texts are available as MP3 audio files to help lear-
+ners train their pronunciation and check their answers. 
+These recordings can be accessed via both our website 
+and our free SCHUBERT  Audio app. An inter active digital 
+version of the A-Grammatik workbook is also available. 
+More information can be found at schubert-verlag.de/  
+digital. We hope you enjoy your learning journey!
+Anne Buscha and Szilvia Szita
+
+--- Page 7 ---
+7A-Grammatik
+Einführung
+Buchstaben – Wörter – Wortgruppen – Sätze Letters – Words – Word Groups – Sentences
+Buchstaben Letters
+H-a-l-l-o!
+   	 	
+Buchstabe: Konsonant
+Letter: Consonant
+H-a-l-l-o!
+  
+Buchstabe: Vokal
+Letter: Vowel
+Hal-lo!
+  
+Silbe
+Syllable
+Wörter und Wortarten Words and parts of speech
+Ich sitze oft auf dem sonnigen Balkon. I often sit on the sunny balcony.
+Ich sitze oft auf  dem sonnigen Balkon.
+I sit often on the sunny balcony.
+	 	  	 	  	 	  
+Personalpronomen Verb Adverb Präposition Artikel  Adjektiv Nomen
+Personal pronoun Verb Adverb Preposition Article Adjective Noun
+ich
+Personalpronomen 
+Personal pronoun
+Pronomen sind Stellvertreter der Nomen. Man kann sie deklinieren:  
+z. B. ich – mir – mich. (  Seite 91–93)
+Pronouns take the place of nouns. They can be declined: ich – mir – mich (I – me – me).
+sitze
+Verb 
+Verb
+ Verben sind Tätigkeitswörter. Sie bezeichnen eine Tätigkeit, ein Geschehen. Sie 
+stehen mit einem Subjekt und werden konjugiert: z. B. ich sitze – wir sitzen.
+ Verbs are action words. They denote an action or a state of being. They require a subject and are 
+conjugated: ich sitze – wir sitzen (I am sitting – we are sitting).
+ Verben drücken auch die Zeit des Geschehens aus:  
+z. B. ich sitze = Gegenwart • ich habe gesessen = Vergangenheit ( Seite 10–44)
+ The form of the verb indicates the tense of the action: ich sitze – ich habe gesessen (I am sitting –  
+I was sitting).
+ Manchmal hängen an Verben bestimmte Ergänzungen:  
+z. B. Ich baue ein Haus. (Akkusativergänzung) Ich danke dir. (Dativergänzung)  
+Wir reden über Politik. (präpositionale Ergänzung) ( Seite 59–68)
+ Verbs can have certain complements: Ich baue ein Haus. (I am building a house./accusative  
+complement) Ich danke dir. (I thank you./dative complement). Wir reden über Politik. (We talk 
+about politics./prepositional complement).
+ Verben können auch Höflichkeit ausdrücken:  
+z. B. Könnte ich bitte Herrn Müller sprechen? ( Seite 51–53)
+ The form of the verb can also indicate politeness, e.g.: Könnte ich bitte Herrn Müller sprechen? 
+(Could I please talk to Mr Müller?)
+oft
+Adverb 
+ 
+Adverb
+Adverbien geben z. B. eine Anzahl: oft, selten, einen Ort: oben oder eine Zeit: jetzt, 
+heute an. Adverbien werden nicht dekliniert, sie bleiben unverändert.  
+( Seite 133–135)
+Adverbs can indicate many things, such as frequency: oft (often), selten (seldom), location: oben 
+(above) and time: jetzt (now), heute (today). Adverbs cannot be declined. They are invariable.
+auf
+Präposition
+ 
+Preposition
+Präpositionen werden ebenfalls nicht dekliniert. Sie bestimmen den Kasus der nach-
+folgenden Nomen oder Pronomen. Man braucht sie z. B. zur Angabe von Ort: auf 
+dem Balkon oder Zeit: in den Ferien. ( Seite 1 17–128)
+Prepositions cannot be declined either. They determine the case of the noun or pronoun that 
+follows them. They can indicate place: auf dem Balkon (on the balcony), time: in den Ferien (during 
+the holiday) etc.
+dem
+bestimmter Artikel 
+Definite article
+Artikel sind Begleiter der Nomen. Sie kennzeichnen mit ihrer Endung Genus (Ge-
+schlecht), Numerus (Anzahl) und Kasus (Fall) des Nomens. ( Seite 82–85)
+Nouns are usually preceded by an article. The ending of the article indicates the gender, the 
+number and the case of the noun.
+
+--- Page 8 ---
+8 A-Grammatik
+Einführung
+sonnigen
+Adjektiv
+ 
+ 
+Adjective
+Adjektive beschreiben ein Nomen oder eine Tätigkeit näher. Vor einem Nomen wer-
+den Adjektive dekliniert: der sonnige Balkon, ein sonniger Balkon ( Seite 105–109)
+Adjektive können auch gesteigert werden:  
+Otto läuft schnell, Felix läuft schneller. ( S e i te  110 –113)
+Adjectives give more information about a noun or an action. Adjectives are declined if they 
+precede a noun: der sonnige Balkon (the sunny balcony), ein sonniger Balkon (a sunny balcony).
+They also have comparative forms: Otto läuft schnell, Felix läuft schneller. (Otto runs fast. Felix runs faster.)
+Balkon
+Nomen 
+ 
+ 
+Noun
+Nomen haben ein Genus: der Balkon, die Blume, das Haus und können im Singular 
+oder Plural auftreten: das Haus, die Häuser. ( Seite 69–76)
+Nomen werden dekliniert. Die Deklination hängt von ihrer Funktion im Satz ab:  
+Sie schenkt dem Kind einen Ball. ( Seite 77–81)
+Nouns have a gender: der Balkon (the balcony/masculine), die Blume (the flower/feminine), das Haus 
+(the house/neuter). They can be used in the singular or in the plural: das Haus, die Häuser. Nouns 
+are declined. The declension depends on the function of the noun in the sentence: Sie schenkt dem 
+Kind einen Ball. (She gives the child/dative a ball/accusative.)
+Wortgruppen Word groups
+ Leon zeigt seiner neuen Kollegin ihren Arbeitsplatz. Leon is showing his new colleague her workplace.
+Leon zeigt seiner neuen Kollegin ihren Arbeitsplatz.
+Leon is showing  his new colleague  her workplace.
+	 	 	 	 
+ Dativergänzung Akkusativergänzung  
+ Dativobjekt  Akkusativobjekt
+ Dative complement Accusative complement
+ Ich sitze am Nachmittag mit meiner Freundin auf dem Balkon. I sit with my (female) friend on the balcony in the afternoon.
+Ich sitze  am Nachmittag  mit meiner Freundin auf dem Balkon.
+I sit in the afternoon with my (female) friend on the balcony.
+	 	 	 	 	 	 
+ Temporalangabe (Zeit) Modalangabe (Art und Weise) Lokalangabe (Ort) 
+ Adverbial of time Adverbial of manner Adverbial of place
+ Ich tue das alles aus Liebe für dich. I do all this out of love for you.
+Ich tue das alles aus Liebe  für dich.
+I do all this out of love for you.
+	 	 	 	 
+ Kausalangabe (Grund) Finalangabe (Zweck)
+ Adverbial of cause Adverbial of reason
+Sätze Sentences
+ Wo bist du?  Fragesatz mit Fragewort: Das konjugierte Verb steht an 2. Stelle.
+Where are you?  Wh-question: The conjugated verb is in the second position.
+ Sitzt du gerade auf dem Balkon?   Fragesatz ohne Fragewort: Das konjugierte Verb steht an 1. Stelle.
+Are you sitting on the balcony right now?  Yes-no question: The conjugated verb is in the first position.
+ Ich sitze auf dem Balkon.   Aussagesatz: Das konjugierte Verb steht an 2. Stelle.
+I am sitting on the balcony.  Statement: The conjugated verb is in the second position.
+ Komm schnell ins Wohnzimmer!   Aufforderungssatz: Das konjugierte Verb steht an 1. Stelle.
+Come to the living room quickly.  Imperative sentence: The conjugated verb is in the first position.
+ Ich sitze auf dem Balkon,  weil die Sonne scheint. 
+I am sitting on the balcony because the sun is shining.
+	 	 
+Hauptsatz Main clause Nebensatz  Subordinate clause
+Das konjugierte Verb steht an 2. Stelle. Das konjugierte Verb steht an letzter Stelle.
+The conjugated verb is in the second position. The conjugated verb is at the end of the sentence.
+
+--- Page 9 ---
+9A-Grammatik
+Verben 
+Tempora: Gebrauch 1.1
+1.1 Tempora Verb tenses
+1.1.1 Gebrauch der Tempora The use of verb tenses
+Immer unterwegs:
+Heute fahren wir nach Köln. 
+Morgen fahren wir nach Hamburg.
+Gestern sind wir nach Berlin gefahren.  
+Die Ministerin fuhr gestern nach Paris.
+Im Deutschen benutzen wir hauptsächlich die Zeitformen Präsens, Perfekt und Präteritum, um gegenwärtiges, 
+zukünftiges oder vergangenes Geschehen auszudrücken. 
+In German, there are three main verb tenses that are used to talk about future, present or past events: the present, the perfect and the 
+preterite tenses. 
+ Gegenwärtiges Geschehen drücken wir mit der Tempusform Präsens aus.
+The present tense is used when talking about things that are happening in the present.
+ Wir fahren nach Köln. Wir besuchen den Kölner Dom.
+ Zukünftiges Geschehen drücken wir oft mit der Tempusform Präsens und einer Zeitangabe aus.
+The present tense together with an adverbial of time is often used to indicate that something will take place in the future. 
+Wir fahren morgen nach Hamburg. Übermorgen besuchen wir die Kunsthalle.
+ Vergangenes Geschehen können wir mit zwei Tempusformen ausdrücken: 
+Das Perfekt benutzen wir meist mündlich und in der schriftlichen Alltagskommunikation wie in E-Mails. 
+Das Präteritum verwenden wir in formellen Texten wie Zeitungsartikeln, Berichten oder in literarischen  Texten. 
+Außerdem wird es bei den Verben haben und sein, den Modalverben und bei bestimmten Wendungen als 
+ Vergangenheitsform bevorzugt. 
+When talking about events that happened in the past, we can use two different verb tenses: 
+We mostly use the perfect tense in speaking and in everyday written communication, such as emails.
+We use the preterite tense in formal texts, such as newspaper articles, reports and literary texts. In addition, the preterite tense is 
+preferred with the verbs haben and sein, with modal verbs and in certain phrases.
+Perfekt: Wir sind gestern nach Berlin gefahren.
+ Dort haben wir das Pergamonmuseum besucht.
+Präteritum: Die Ministerin fuhr gestern nach Paris.
+ Dort besuchte sie am Nachmittag den Louvre.
+Beispiele Examples Tempusform Verb tense
+Geschehen in der Gegenwart
+Events happening in the present
+ wir fahren
+ wir besuchen
+Präsens
+Present tense
+Geschehen in der Zukunft
+Future events
+ wir fahren
+ wir besuchen
+Präsens
+Present tense
+Geschehen in der Vergangenheit
+Events that happened in the past
+ wir sind gefahren 
+ wir haben besucht
+Perfekt (meist mündlich und in informellen  
+Texten)
+Perfect tense (mainly in speaking and in informal texts)
+ wir fuhren 
+ wir besuchten
+Präteritum (meist schriftlich in formellen Texten 
+und bei einigen Verben)
+Preterite (mainly in writing in formal texts and with some 
+verbs)
+1 Verben Verbs
+
+--- Page 10 ---
+10 A-Grammatik
+1.1 Verben 
+Tempora: Präsens
+1.1.2 Präsens Present tense
+	 Verben ohne Vokalwechsel im Präsens Verbs without vowel change in the present tense
+Ich koche gern.
+Otto kocht auch gern.
+Und du? Kochst du gern?
+ X Formen Forms
+Singular Plural
+1. Person ich koche 1. Person wir kochen
+2. Person du kochst 2. Person ihr kocht
+3. Person er (Otto)
+sie (Sarah)
+es (das Kind)
+man (allgemein)
+kocht
+3. Person sie kochen
+formelle Anrede 
+(Singular + Plural)
+Sie kochen
+ Es gibt drei Personen im Singular und im Plural.
+ There are three grammatical persons in both the singular and the plural.
+ Die formelle Form im Singular und Plural entspricht der 3. Person Plural: Sie kochen.
+ The formal singular and plural forms are the same as the third-person plural: Sie kochen. 
+ Fast alle Verben haben im Präsens die Endungen: Singular: -e/-st/-t; Plural: -en/-t/-en.
+ Almost all verbs have the following present tense endings: singular: -e/-st/-t; plural: -en/-t/-en.
+ X Satzbau Sentence structure
+Im Aussagesatz steht das konjugierte Verb an 2. Stelle.
+In indicative sentences (statements) the conjugated verb is in the second position.
+I. II. III.
+Ich koche gern.
+Im Fragesatz mit Fragewort steht das konjugierte Verb an 2. Stelle.
+In wh-questions the conjugated verb is in the second position.
+I. II. III.
+Was kocht Otto gern?
+Im Fragesatz ohne Fragewort steht das konjugierte Verb an 1. Stelle.
+ In yes-no questions the conjugated verb is in the first position.
+I. II. III.
+Kochst du gern?
+
+--- Page 11 ---
+11A-Grammatik
+Verben 
+Tempora: Präsens 1.1
+ Übungen
+ Welche Form passt? Markieren Sie die richtige Lösung.       2  
+Aussprachehilfe: Hören Sie die Lösungen und sprechen Sie die Sätze nach.
+Find the matching form. Mark the correct answer. Pronunciation help: Listen to the answers and repeat the sentences.
+ z Ich besuche einen Freund.   besuchen   besucht   besuche
+1. Er  Informatik.  studierst   studieren   studiert
+2.  du meinen Kaffee?   Bezahlt   Bezahlst   Bezahle
+3.  Sie Deutsch?   Lernt  Lerne  Lernen
+4.  ihr einen Sprachkurs?   Machst   Macht   Machen
+5. Wir  zwei Nächte in München.  bleiben   bleibt  bleibe
+6.  du noch eine Cola?   Trinkst   Trinkt   Trinken
+7. Wo  das Auto?  stehen  steht   stehst
+8. Der Künstler  in Frankfurt.   lebe   leben   lebt
+ Jeder macht etwas anderes. Ergänzen Sie die Sätze.
+Everyone is doing something different. Complete the sentences.
+eine E-Mail schreiben • ein Bild malen • telefonieren • Tennis spielen • Nachrichten hören • Deutsch lernen •  
+Bier trinken • eine Wanderung machen
+Tom  
+ 
+Niels  
+ 
+Frau Weber  Lena 
+David und Paul  Martha und Max der Künstler Anne  
+ Ergänzen Sie die Verben in der richtigen Form.
+Add the verbs in the correct form.
+1
+2
+3
+1. gehen  
+a) Ich gehe nach Hause. 
+b) Wohin  du? 
+c) Meine Freundin  ins Theater.
+2. machen 
+a) Was  ihr am Wochenende? 
+b)  du viele Fotos? 
+c)  Sie Ihre Hausaufgaben?
+3. reservieren  
+a)  ihr für heute Abend einen Tisch? 
+b) Ich  zwei Karten für das Konzert. 
+c) Paula  einen Sitzplatz im Zug.
+4. kommen  
+a) Woher  ihr? 
+b) Ich  aus Australien. 
+c) Mein Freund  aus Japan.
+5. bestellen  
+a) Ich  eine Suppe. 
+b) Die Gäste  Rotwein. 
+c) Wir  alles im Internet.
+6. schreiben 
+a)  du eine E-Mail an Vera? 
+b) Wann  Sie den Bericht? 
+c) Eva  gern Gedichte.
+1 2 3 4
+5 6 7 8
+
+--- Page 12 ---
+12 A-Grammatik
+1.1 Verben 
+Tempora: Präsens
+ Hobbys. Bilden Sie Sätze.                    3  
+Aussprachehilfe: Hören Sie die Lösungen und sprechen Sie die Sätze nach.
+Hobbies. Form sentences. Pronunciation help: Listen to the answers and repeat the sentences.
+1. ich: Gitarre spielen (gern) – Musik hören (gern) – ins Konzert gehen (oft) 
+ Ich spiele gern Gitarre, höre gern Musik und 
+2. du: im Internet surfen (oft) – Nachrichten an Freunde schreiben (oft) – Computerspiele spielen (gern) 
+ 
+3. Vera: Sprachen lernen (gern) – Sprachkurse besuchen (gern) – Online-Übungen machen (gern)  
+ 
+4. wir: fotografieren (gern) – ins Museum gehen (oft) – Ausstellungen besichtigen (gern) 
+ 
+5. ihr: Lebensmittel im Delikatessenladen kaufen (oft) – kochen (gern) – Partys organisieren (gern) 
+ 
+6. sie (Pl.): wandern (gern) – schwimmen (gern) – Fußball spielen (oft) 
+ 
+ Was passiert nächstes Wochenende? Ergänzen Sie die Verben in der richtigen Form.
+What will happen next weekend? Add the verbs in the correct form.
+4
+5
+1. Ich  zu Hause. (bleiben)
+2. Du  ins Kino. (gehen) 
+3. Otto  das Abendessen. (kochen) 
+4. Wir  Freunde. (besuchen) 
+5. Ihr  Musik. (hören) 
+6. Klaus und Eva  einen Flug. (buchen)
+Besonderheiten bei bestimmten Konsonanten Special rules for verb stems ending in certain consonants
+Die neue Kollegin heißt Hanna.
+Sie arbeitet seit gestern in  
+unserer Firma. 
+Sie öffnet gerade ein Dokument.
+ X Formen Forms
+Verben auf -t/-d/-n/-m
+arbeiten reden öffnen
+ich
+du
+er/sie/es 
+arbeite
+arbeitest 
+arbeitet 
+rede
+redest 
+redet 
+öffne
+öffnest 
+öffnet 
+wir 
+ihr
+sie/Sie
+arbeiten
+arbeitet 
+arbeiten
+reden
+redet 
+reden
+öffnen
+öffnet 
+öffnen
+ Bei Verben auf -t oder -d steht in der 2. und 3. Person Singular und der 2. Person Plural ein -e- vor der Endung: 
+du arbeitest • er arbeitet • ihr arbeitet. Das erleichtert die Aussprache.
+Verb stems ending in -t or -d receive a connecting -e for the second- and third-person singular, as well as for the second-person 
+plural, to facilitate pronunciation: du arbeitest • er arbeitet • ihr arbeitet. 
+ Das Gleiche gilt für Verben auf -m oder -n, wenn ein anderer Konsonant (aber nicht: r) davorsteht: du öffnest • 
+er öffnet • ihr öffnet.
+The same applies to verb stems ending in -m or -n if the -m or -n is preceded by another consonant (other than r): du öffnest • er öffnet • 
+ihr öffnet.

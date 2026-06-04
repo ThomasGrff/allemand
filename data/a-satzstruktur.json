@@ -1,0 +1,92 @@
+{
+  "id": "a-satzstruktur",
+  "title": "8. La Structure des Phrases",
+  "category": "Satzstruktur",
+  "level": "A1-A2",
+  "pedagogicTip": "Sachez distinguer les conjonctions de coordination (ADUSO), qui n'affectent pas la place du verbe conjugué (position 0), et les conjonctions de subordination (weil, dass, wenn...), qui renvoient le verbe conjugué à la toute fin de la proposition !",
+  "sections": [
+    {
+      "title": "1. Conjonctions de coordination (Position 0 - ADUSO)",
+      "type": "table",
+      "explanation": "Ces conjonctions relient deux propositions sans changer l'ordre des mots dans la seconde proposition.",
+      "tableData": {
+        "headers": [
+          "Conjonction",
+          "Signification",
+          "Structure / Exemple"
+        ],
+        "rows": [
+          [
+            "aber",
+            "mais",
+            "Ich habe Hunger, aber ich esse nichts. (Verbe en Pos 2)"
+          ],
+          [
+            "denn",
+            "car / parce que",
+            "Ich bleibe zu Hause, denn ich bin krank. (Verbe en Pos 2)"
+          ],
+          [
+            "und",
+            "et",
+            "Er lernt Deutsch und er arbeitet viel."
+          ],
+          [
+            "sondern",
+            "mais (au contraire)",
+            "Er trinkt keinen Wein, sondern er trinkt Bier."
+          ],
+          [
+            "oder",
+            "ou / ou bien",
+            "Wir gehen ins Kino oder wir bleiben hier."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Conjonctions de subordination (Verbe à la fin)",
+      "type": "grid",
+      "explanation": "Elles introduisent une proposition subordonnée où le verbe conjugué se trouve obligatoirement en fin de clause. Si la subordonnée commence la phrase, le verbe principal suit immédiatement la virgule (structure : Verbe, Verbe).",
+      "examples": [
+        {
+          "german": "weil (parce que - cause)",
+          "french": "Ich bleibe zu Hause, weil ich krank bin. (Le verbe conjugué 'bin' est à la fin)",
+          "highlight": "weil, bin"
+        },
+        {
+          "german": "dass (que - complétive)",
+          "french": "Ich weiß, dass du Deutsch lernst. (Le verbe 'lernst' est à la fin)",
+          "highlight": "dass, lernst"
+        },
+        {
+          "german": "wenn (si / quand - condition, habitude)",
+          "french": "Wenn das Wetter schön ist, gehen wir spazieren. (Verbe conjugué 'ist' à la fin, suivi du verbe principal 'gehen')",
+          "highlight": "Wenn, ist, gehen"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Quelle phrase est correcte avec 'weil' ?",
+      "options": [
+        "Ich bin müde, weil ich habe viel gearbeitet.",
+        "Ich bin müde, weil ich viel gearbeitet habe.",
+        "Ich bin müde, weil habe ich viel gearbeitet."
+      ],
+      "answer": "Ich bin müde, weil ich viel gearbeitet habe.",
+      "explanation": "'weil' est une conjonction de subordination. Le verbe conjugué (ici l'auxiliaire 'habe') doit être placé à la toute fin de la subordonnée, après le participe passé 'gearbeitet'."
+    },
+    {
+      "question": "Quel impact a la conjonction 'denn' sur l'ordre des mots ?",
+      "options": [
+        "Elle renvoie le verbe à la fin",
+        "Elle provoque une inversion sujet-verbe",
+        "Aucun impact (le verbe reste en position 2)"
+      ],
+      "answer": "Aucun impact (le verbe reste en position 2)",
+      "explanation": "'denn' fait partie des conjonctions ADUSO (position 0). L'ordre des mots de la phrase qui suit reste standard (sujet en 1, verbe en 2)."
+    }
+  ]
+}

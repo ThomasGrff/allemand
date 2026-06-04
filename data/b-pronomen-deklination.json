@@ -1,0 +1,71 @@
+{
+  "id": "b-pronomen-deklination",
+  "title": "3. Pronoms complexes",
+  "category": "Pronomen",
+  "level": "B1-B2",
+  "pedagogicTip": "À un niveau avancé, étudiez les pronoms démonstratifs déclinés (dieser, jener) et les possessifs indépendants (meiner, keines), utilisés pour remplacer complètement un nom déjà cité sans répéter son article !",
+  "sections": [
+    {
+      "title": "1. Pronoms possessifs indépendants",
+      "type": "table",
+      "explanation": "Ils remplacent un nom. Ils prennent la terminaison de l'article défini (ex: der ➔ -er, das ➔ -es).",
+      "tableData": {
+        "headers": [
+          "Cas",
+          "Masculin (der Stift)",
+          "Féminin (die Tasche)",
+          "Neutre (das Buch)"
+        ],
+        "rows": [
+          [
+            "Nominatif",
+            "meiner (le mien)",
+            "meine (la mienne)",
+            "meines / meins (le mien)"
+          ],
+          [
+            "Accusatif",
+            "meinen",
+            "meine",
+            "meines / meins"
+          ],
+          [
+            "Datif",
+            "meinem",
+            "meiner",
+            "meinem"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "2. Pronoms démonstratifs (dieser, jener)",
+      "type": "grid",
+      "explanation": "Ils désignent précisément un élément proche (dieser) ou éloigné (jener). Ils se déclinent comme les articles définis.",
+      "examples": [
+        {
+          "german": "Dieser Rucksack gefällt mir besser als jener.",
+          "french": "Ce sac à dos-ci me plaît plus que celui-là.",
+          "highlight": "Dieser, jener"
+        },
+        {
+          "german": "Mit diesem Auto bin ich sehr zufrieden.",
+          "french": "Je suis très satisfait de cette voiture.",
+          "highlight": "diesem"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Complétez : 'Wem gehört der Mantel? - Das ist ___.' (le mien - masculin Nominatif)",
+      "options": [
+        "mein",
+        "meiner",
+        "meinen"
+      ],
+      "answer": "meiner",
+      "explanation": "'Mantel' est masculin (der). Pour remplacer le groupe nominal au nominatif, on utilise le pronom possessif indépendant masculin 'meiner'."
+    }
+  ]
+}
